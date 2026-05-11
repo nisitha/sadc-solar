@@ -13,7 +13,7 @@ export default function ContactUsPage() {
       <section className="relative pt-48 pb-32 overflow-hidden bg-gray-900">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/uploads/2021/08/solarpower.jpg" 
+            src="/uploads/2021/08/solarpower.webp" 
             alt="Solar Projects Angola" 
             className="w-full h-full object-cover opacity-40 scale-110"
           />

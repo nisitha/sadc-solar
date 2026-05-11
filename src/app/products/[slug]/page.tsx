@@ -196,8 +196,8 @@ export default async function DynamicProductPage({ params }: { params: Promise<{
                   <div className="group relative bg-gray-50 rounded-[3rem] overflow-hidden border border-gray-100 shadow-2xl shadow-black/5 aspect-[4/3]">
                     <img 
                       src={product.slug === 'enlarged-led-module-solar-street-lightslz'
-                        ? '/uploads/40W-to-200W-LED-Solar-Street-Light.png'
-                        : (product.imageUrl || "/placeholder-product.jpg")
+                        ? '/uploads/40W-to-200W-LED-Solar-Street-Light.webp'
+                        : (product.imageUrl || "/placeholder-product.webp")
                             .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
                             .replace(/-\d+x\d+(?=\.[a-z0-9]+$)/gi, "")} 
                       alt={product.title}
@@ -323,7 +323,7 @@ export default async function DynamicProductPage({ params }: { params: Promise<{
                 <Link key={i} href={`/products/${p.slug}`} className="group bg-white rounded-3xl overflow-hidden border border-gray-100 hover:border-primary/20 transition-all duration-500 hover:shadow-2xl hover:shadow-brand-primary/20 flex flex-col h-full" prefetch={false}>
                   <div className="relative aspect-video overflow-hidden bg-gray-50">
                     <img 
-                      src={(p.imageUrl || "/placeholder-product.jpg")
+                      src={(p.imageUrl || "/placeholder-product.webp")
                         .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
                         .replace(/-\d+x\d+(?=\.[a-z0-9]+$)/gi, "")} 
                       alt={p.title}

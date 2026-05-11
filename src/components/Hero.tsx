@@ -8,25 +8,25 @@ import Link from "next/link";
 const SLIDES = [
   { 
     id: 1, 
-    image: "/slider/sl1.JPG",
+    image: "/slider/sl1.webp",
     topText: "ENERGIA RENOVÁVEL - ENERGIA PARA ESTA E",
     bottomText: "PRÓXIMAS GERAÇÕES"
   },
   { 
     id: 2, 
-    image: "/slider/sl2.jpg",
+    image: "/slider/sl2.webp",
     topText: "VITALIDADE RENOVÁVEL - AS MELHORES COISAS NA",
     bottomText: "VIDA SÃO GRATUITAS"
   },
   { 
     id: 3, 
-    image: "/slider/sl3.jpg",
+    image: "/slider/sl3.webp",
     topText: "ENERGIA RENOVÁVEL É IGUAL A",
     bottomText: "SEGURANÇA ENERGÉTICA"
   },
   { 
     id: 4, 
-    image: "/slider/sl4.jpg",
+    image: "/slider/sl4.webp",
     topText: "RENOVÁVEL É O FUTURO, É MAIS DO QUE APENAS ENERGIA,",
     bottomText: "É UM ESTILO DE VIDA"
   },

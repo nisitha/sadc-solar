@@ -55,7 +55,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
             
             <div className="relative rounded-[3rem] overflow-hidden aspect-video mb-16 shadow-2xl group">
               <img 
-                src={(solution.imageUrl || "/placeholder-solution.jpg")
+                src={(solution.imageUrl || "/placeholder-solution.webp")
                   .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
                   .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1")} 
                 alt={solution.title}
@@ -74,7 +74,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
                     prefetch={false}
                   >
                     <img 
-                      src={(item.imageUrl || "/placeholder-solution.jpg")
+                      src={(item.imageUrl || "/placeholder-solution.webp")
                         .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
                         .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1")} 
                       alt={item.title}

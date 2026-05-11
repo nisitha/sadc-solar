@@ -83,7 +83,7 @@ export default async function Home() {
               <div className="absolute inset-0 bg-primary rounded-[3rem] rotate-3 scale-95 opacity-10 group-hover:rotate-0 transition-transform duration-700" />
               <div className="relative aspect-square rounded-[3rem] overflow-hidden shadow-2xl">
                 <Image 
-                  src="/img/sadc (3).jpg" 
+                  src="/img/sadc (3).webp" 
                   alt="SADC Corporate Solar Leadership" 
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
@@ -101,7 +101,7 @@ export default async function Home() {
       {/* Cinematic Impact Billboard */}
       <section 
         className="relative min-h-[500px] flex items-center justify-center overflow-hidden rounded-[3rem] mx-4 my-12 shadow-2xl bg-cover bg-center group cursor-pointer"
-        style={{ backgroundImage: "url('/img/standardizing-bg.jpg')" }}
+        style={{ backgroundImage: "url('/img/standardizing-bg.webp')" }}
       >
         {/* Brand Fill Overlay */}
         <div className="absolute inset-0 bg-[#EA6003] opacity-0 group-hover:opacity-70 transition-opacity duration-700 ease-in-out z-0" />
@@ -166,7 +166,7 @@ export default async function Home() {
       <section className="py-32">
         <div className="max-w-7xl mx-auto px-6">
           <SectionReveal className="bg-primary rounded-[4rem] p-16 md:p-24 text-center relative overflow-hidden group shadow-[0_35px_60px_-15px_rgba(252,163,17,0.3)]">
-            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
+            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.webp')] opacity-10" />
             <div className="relative z-10">
               <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">Pronto para mudar para a energia solar?</h2>
               <p className="text-xl text-white/80 font-medium mb-12 max-w-2xl mx-auto leading-relaxed">

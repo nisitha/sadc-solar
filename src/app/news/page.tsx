@@ -10,28 +10,28 @@ const NEW_ARTICLES = [
     title: "Angola Energia 2025: The Solar Energy Vision",
     summary: "Discover Angola's strategic roadmap for integrating solar energy to meet the nation's growing energy demands by 2025.",
     link: "https://angolaenergia2025.gestoenergy.com/en/conteudo/solar-energy",
-    image: "/img/news-1.jpg",
+    image: "/img/news-1.webp",
     tag: "Strategic Vision"
   },
   {
     title: "The 10 Largest Solar Projects in Angola",
     summary: "A deep dive into the massive solar infrastructure projects driving Angola's transition towards sustainable and financed renewable energy.",
     link: "https://solarfinanced.africa/countries/solar-energy-in-angola/10-largest-solar-projects-in-angola",
-    image: "/img/news-2.jpg",
+    image: "/img/news-2.webp",
     tag: "Infrastructure"
   },
   {
     title: "CNN Business: Angola's Renewable Investment",
     summary: "CNN highlights Angola's major shift from oil dependency to investing heavily in hydropower and solar projects like Quilemba and PRODEL.",
     link: "https://www.cnn.com/2026/02/12/business/video/angola-renewable-energy-hydropower-solar-investment-business-oil-quilemba-prodel",
-    image: "/img/news-3.jpg",
+    image: "/img/news-3.webp",
     tag: "Global Media"
   },
   {
     title: "Sub-Saharan Africa's Largest Off-Grid Solar Plant",
     summary: "Angola makes history by opening the largest off-grid solar plant in Moxico Leste, bringing vital electricity to rural communities.",
     link: "https://clubofmozambique.com/news/angola-opens-sub-saharan-africas-largest-off-grid-solar-plant-in-moxico-leste",
-    image: "/img/news-4.jpg",
+    image: "/img/news-4.webp",
     tag: "Record Breaking"
   }
 ];

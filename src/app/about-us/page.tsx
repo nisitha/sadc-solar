@@ -95,7 +95,7 @@ export default function AboutUsPage() {
           className="relative h-[400px] md:h-[600px] w-full rounded-[3rem] overflow-hidden shadow-2xl group"
         >
           <img 
-            src="/img/sadc (3).jpg" 
+            src="/img/sadc (3).webp" 
             alt="SADC Solar Installation"
             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
           />
@@ -176,7 +176,7 @@ export default function AboutUsPage() {
             >
               <div className="absolute inset-0 bg-brand-primary/10 rounded-[3.5rem] rotate-3 translate-x-4 translate-y-4" />
               <img 
-                src="/img/sadc (1).jpeg" 
+                src="/img/sadc (1).webp" 
                 alt="Solar Technology"
                 className="relative z-10 w-full h-full object-cover rounded-[3.5rem] shadow-2xl hover:scale-[1.02] transition-transform duration-700"
               />
@@ -197,7 +197,7 @@ export default function AboutUsPage() {
             >
               <div className="absolute inset-0 bg-gray-100 rounded-[3.5rem] -rotate-3 -translate-x-4 translate-y-4" />
               <img 
-                src="/img/sadc (4).jpg" 
+                src="/img/sadc (4).webp" 
                 alt="Engineering Excellence"
                 className="relative z-10 w-full h-full object-cover rounded-[3.5rem] shadow-2xl hover:scale-[1.02] transition-transform duration-700"
               />
