@@ -209,8 +209,8 @@ export default function Header() {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
-            <NavLink href="/">Início</NavLink>
-            <NavLink href="/about-us">Sobre Nós</NavLink>
+            <NavLink href="/">{language === 'pt' ? 'Início' : 'Home'}</NavLink>
+            <NavLink href="/about-us">{language === 'pt' ? 'Sobre Nós' : 'About Us'}</NavLink>
             
             {/* Solutions Dropdown */}
             <div 
@@ -219,7 +219,7 @@ export default function Header() {
               onMouseLeave={() => setActiveMenu(null)}
             >
               <button className="flex items-center text-[15px] font-semibold text-gray-700 group-hover:text-primary transition-colors cursor-pointer">
-                Soluções <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
+                {language === 'pt' ? 'Soluções' : 'Solutions'} <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
               <AnimatePresence>
                 {activeMenu === 'solutions' && (
@@ -251,7 +251,7 @@ export default function Header() {
               onMouseLeave={() => setActiveMenu(null)}
             >
               <button className="flex items-center text-[15px] font-semibold text-gray-700 group-hover:text-primary transition-colors cursor-pointer">
-                Produtos <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
+                {language === 'pt' ? 'Produtos' : 'Products'} <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
               <AnimatePresence>
                 {activeMenu === 'products' && (
@@ -276,7 +276,7 @@ export default function Header() {
               </AnimatePresence>
             </div>
 
-            <NavLink href="/news">Últimas Notícias</NavLink>
+            <NavLink href="/news">{language === 'pt' ? 'Últimas Notícias' : 'Latest News'}</NavLink>
             
             {/* Language Switcher */}
             <div className="flex items-center bg-gray-50 rounded-full p-1 border border-gray-100">
@@ -305,7 +305,7 @@ export default function Header() {
               className="px-6 py-2.5 bg-primary text-white text-sm font-bold rounded-full hover:bg-primary-hover transform hover:-translate-y-0.5 transition-all shadow-lg shadow-primary/20"
               prefetch={false}
             >
-              Contate-nos
+              {language === 'pt' ? 'Contate-nos' : 'Contact Us'}
             </Link>
           </div>
 
@@ -401,8 +401,8 @@ export default function Header() {
                 {/* Separator Line */}
                 <div className="h-px w-full bg-gray-100/50 mb-4" />
 
-                <MobileNavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>Início</MobileNavLink>
-                <MobileNavLink href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>Sobre Nós</MobileNavLink>
+                <MobileNavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>{language === 'pt' ? 'Início' : 'Home'}</MobileNavLink>
+                <MobileNavLink href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>{language === 'pt' ? 'Sobre Nós' : 'About Us'}</MobileNavLink>
                 
                 <div className="space-y-6">
                   <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest px-2">Soluções</div>
@@ -447,7 +447,7 @@ export default function Header() {
                   </div>
                 </div>
 
-                <MobileNavLink href="/news" onClick={() => setIsMobileMenuOpen(false)}>Últimas Notícias</MobileNavLink>
+                <MobileNavLink href="/news" onClick={() => setIsMobileMenuOpen(false)}>{language === 'pt' ? 'Últimas Notícias' : 'Latest News'}</MobileNavLink>
                 
                 <Link 
                   href="/contact-us" 
@@ -455,7 +455,7 @@ export default function Header() {
                   className="w-full py-6 bg-primary text-white text-center font-black rounded-[2.5rem] shadow-2xl shadow-primary/30 uppercase tracking-[0.3em] text-sm min-h-[64px] flex items-center justify-center hover:scale-[1.02] active:scale-95 transition-all"
                   prefetch={false}
                 >
-                  Obter um Orçamento Gratuito
+                  {language === 'pt' ? 'Obter um Orçamento Gratuito' : 'Get a Free Quote'}
                 </Link>
               </div>
             </div>
