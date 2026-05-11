@@ -149,7 +149,7 @@ export default function Hero() {
             </div>
           </div>
           <p className="text-sm text-white/70 font-medium leading-relaxed">
-            Liderando a revolução da energia renovável em Luanda e além com experiência certificada.
+            Liderando a revolução das energias renováveis em Angola.
           </p>
         </motion.div>
       </div>

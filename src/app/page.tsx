@@ -168,7 +168,7 @@ export default async function Home() {
           <SectionReveal className="bg-primary rounded-[4rem] p-16 md:p-24 text-center relative overflow-hidden group shadow-[0_35px_60px_-15px_rgba(252,163,17,0.3)]">
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
             <div className="relative z-10">
-              <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">Pronto para mudar para o Solar?</h2>
+              <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">Pronto para mudar para a energia solar?</h2>
               <p className="text-xl text-white/80 font-medium mb-12 max-w-2xl mx-auto leading-relaxed">
                 Entre em contato com nossos especialistas hoje para uma avaliação gratuita do local e uma proposta de energia personalizada em Angola.
               </p>
