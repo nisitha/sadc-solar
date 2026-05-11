@@ -99,7 +99,7 @@ export default function Hero() {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-white/90 text-lg md:text-xl mt-8 mb-10 max-w-2xl leading-relaxed font-medium drop-shadow-md"
             >
-              Fornecendo soluções solares chave na mão premium e componentes de alto desempenho adaptados às necessidades industriais e residenciais em Angola.
+              Soluções solares de alta eficiência projetadas para os ambientes mais exigentes. Tecnologia de precisão para um futuro sustentável.
             </motion.p>
 
             <motion.div 
