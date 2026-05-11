@@ -44,7 +44,7 @@ export default function Header() {
     if (!(window as any).googleTranslateElementInit) {
       (window as any).googleTranslateElementInit = () => {
         new (window as any).google.translate.TranslateElement({
-          pageLanguage: 'pt',
+          pageLanguage: 'en',
           includedLanguages: 'en,pt',
           autoDisplay: false,
         }, 'google_translate_element');
@@ -103,7 +103,7 @@ export default function Header() {
               )}
             </AnimatePresence>
           </div>
-
+          <div className="flex items-center text-[10px] font-black text-white/50 tracking-widest uppercase">
             <MapPin className="w-3.5 h-3.5 mr-2 text-primary" />
             Luanda, Angola
           </div>
