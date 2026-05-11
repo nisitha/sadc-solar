@@ -35,7 +35,7 @@
 .lang-en .text-primary, 
 .lang-en .text-brand-primary,
 .lang-en .hover\:text-primary:hover,
-.lang-en .group-hover\:text-primary:group-hover {
+.lang-en .group:hover .group-hover\:text-primary {
   color: #E9B784 !important;
 }
 
@@ -57,7 +57,7 @@
   color: #1A1A1A !important;
 }
 
-.lang-en .group-hover\:border-brand-accent-2:group-hover {
+.lang-en .group:hover .group-hover\:border-brand-accent-2 {
   border-color: #E9B784 !important; /* Use Grown Young for hover borders too */
   border-width: 4px !important;
 }
