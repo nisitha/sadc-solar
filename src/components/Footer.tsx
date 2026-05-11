@@ -39,7 +39,7 @@ export default function Footer() {
                 className="h-16 w-auto brightness-0 invert" 
               />
             </Link>
-            <p className="text-white/80 leading-relaxed font-light">
+            <p className="text-[#2D241E] leading-relaxed font-medium">
               Soluções de energia solar premium para Angola. Somos especialistas em projetos chave na mão e componentes solares de alta qualidade para um amanhã mais verde.
             </p>
             <div className="flex items-center space-x-5">
@@ -47,7 +47,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/wilson-tavares-690790123" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 hover:text-white transition-all duration-300"
+                className="w-10 h-10 rounded-full bg-[#1A140F]/10 flex items-center justify-center hover:bg-[#1A140F]/20 text-[#1A140F] transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <LinkedInIcon />
@@ -56,7 +56,7 @@ export default function Footer() {
                 href="https://www.instagram.com/sadc_solar_energy" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 hover:text-white transition-all duration-300"
+                className="w-10 h-10 rounded-full bg-[#1A140F]/10 flex items-center justify-center hover:bg-[#1A140F]/20 text-[#1A140F] transition-all duration-300"
                 aria-label="Instagram"
               >
                 <InstagramIcon />
@@ -75,7 +75,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Navegação</h3>
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-[#1A140F]">Navegação</h3>
             <ul className="space-y-4">
               {[
                 { name: "Sobre Nós", href: "/about-us" },
@@ -85,8 +85,8 @@ export default function Footer() {
                 { name: "Contate-nos", href: "/contact-us" }
               ].map((item) => (
                 <li key={item.name}>
-                  <Link href={item.href} className="text-white/80 hover:text-white transition-colors flex items-center group" prefetch={false}>
-                    <span className="font-semibold">{item.name}</span>
+                  <Link href={item.href} className="text-[#2D241E] hover:text-[#1A140F] transition-colors flex items-center group" prefetch={false}>
+                    <span className="font-bold">{item.name}</span>
                     <ArrowUpRight className="ml-1 w-3 h-3 opacity-0 group-hover:opacity-100 transition-all transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </Link>
                 </li>
@@ -96,33 +96,33 @@ export default function Footer() {
 
           {/* Contact Details */}
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Informações de Contato</h3>
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-[#1A140F]">Informações de Contato</h3>
             <ul className="space-y-6">
               <li className="flex items-start">
-                <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mr-4 shrink-0">
+                <div className="w-10 h-10 rounded-xl bg-[#1A140F]/10 flex items-center justify-center mr-4 shrink-0 text-[#1A140F]">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase tracking-widest text-white/60 font-bold mb-1">Localização</div>
-                  <span className="font-semibold">Luanda, Angola</span>
+                  <div className="text-[10px] uppercase tracking-widest text-[#1A140F]/60 font-bold mb-1">Localização</div>
+                  <span className="font-bold text-[#2D241E]">Luanda, Angola</span>
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mr-4 shrink-0">
+                <div className="w-10 h-10 rounded-xl bg-[#1A140F]/10 flex items-center justify-center mr-4 shrink-0 text-[#1A140F]">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase tracking-widest text-white/60 font-bold mb-1">Telefone</div>
-                  <span className="font-semibold">+244 923 512 645</span>
+                  <div className="text-[10px] uppercase tracking-widest text-[#1A140F]/60 font-bold mb-1">Telefone</div>
+                  <span className="font-bold text-[#2D241E]">+244 923 512 645</span>
                 </div>
               </li>
               <li className="flex items-start">
-                <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mr-4 shrink-0">
+                <div className="w-10 h-10 rounded-xl bg-[#1A140F]/10 flex items-center justify-center mr-4 shrink-0 text-[#1A140F]">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase tracking-widest text-white/60 font-bold mb-1">Email</div>
-                  <span className="font-semibold">solutions@sadcsolar.com</span>
+                  <div className="text-[10px] uppercase tracking-widest text-[#1A140F]/60 font-bold mb-1">Email</div>
+                  <span className="font-bold text-[#2D241E]">solutions@sadcsolar.com</span>
                 </div>
               </li>
             </ul>
@@ -130,8 +130,8 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Boletim Informativo</h3>
-            <p className="text-white/70 mb-8 font-light leading-relaxed">
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-[#1A140F]">Boletim Informativo</h3>
+            <p className="text-[#2D241E] mb-8 font-medium leading-relaxed">
               Fique atualizado com as últimas tendências em tecnologia solar e energia sustentável.
             </p>
             <form className="space-y-4">
@@ -139,31 +139,31 @@ export default function Footer() {
                 <input 
                   type="email" 
                   placeholder="Endereço de E-mail" 
-                  className="w-full bg-white/10 border border-white/20 rounded-xl px-6 py-4 text-sm focus:ring-2 focus:ring-white/30 transition-all outline-none placeholder:text-white/40 font-medium"
+                  className="w-full bg-[#FEF9F3] border border-brand-primary/40 rounded-xl px-6 py-4 text-sm focus:ring-2 focus:ring-brand-primary/30 transition-all outline-none placeholder:text-[#2D241E]/50 text-[#1A140F] font-bold"
                 />
               </div>
-              <button className="w-full py-4 bg-white text-brand-primary rounded-xl hover:bg-white/90 transition-all font-black text-xs uppercase tracking-[0.2em] shadow-xl">
+              <button className="w-full py-4 bg-[#1A140F] text-white rounded-xl hover:bg-[#1A140F]/90 transition-all font-black text-xs uppercase tracking-[0.2em] shadow-xl">
                 Inscrever-se Agora
               </button>
             </form>
           </div>
         </div>
 
-        <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-xs text-white/60 font-bold tracking-wider gap-6 text-center md:text-left">
+        <div className="pt-12 border-t border-[#1A140F]/10 flex flex-col md:flex-row justify-between items-center text-xs text-[#2D241E]/60 font-bold tracking-wider gap-6 text-center md:text-left">
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
             <p>© {currentYear} SADC Solar. Construído com Energia.</p>
             <a 
               href="https://wa.me/94787676576" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:text-white transition-all duration-300"
+              className="hover:text-[#1A140F] transition-all duration-300"
             >
               Website Desenvolvido por <span className="notranslate">Pixel Craft Studios</span> | +94 78 767 6576
             </a>
           </div>
           <div className="flex space-x-8">
-             <Link href="/privacy" className="hover:text-white transition-colors" prefetch={false}>Política de Privacidade</Link>
-             <Link href="/terms" className="hover:text-white transition-colors" prefetch={false}>Termos de Serviço</Link>
+             <Link href="/privacy" className="hover:text-[#1A140F] transition-colors" prefetch={false}>Política de Privacidade</Link>
+             <Link href="/terms" className="hover:text-[#1A140F] transition-colors" prefetch={false}>Termos de Serviço</Link>
           </div>
         </div>
       </div>
