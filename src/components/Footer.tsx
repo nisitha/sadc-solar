@@ -37,7 +37,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-white/90 leading-relaxed font-medium">
-              Premium solar energy solutions for Angola. We specialize in turnkey projects and high-quality solar components for a greener tomorrow.
+              Soluções de energia solar premium para Angola. Somos especialistas em projetos chave na mão e componentes solares de alta qualidade para um amanhã mais verde.
             </p>
             <div className="flex items-center space-x-5">
               <a 
@@ -72,12 +72,18 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Navigation</h3>
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Navegação</h3>
             <ul className="space-y-4">
-              {["About Us", "Solutions", "Products", "Latest News", "Contact Us"].map((item) => (
-                <li key={item}>
-                  <Link href={`/${item.toLowerCase().replace(" ", "-")}`} className="text-white/80 hover:text-white transition-colors flex items-center group" prefetch={false}>
-                    <span className="font-semibold">{item}</span>
+              {[
+                { name: "Sobre Nós", href: "/about-us" },
+                { name: "Soluções", href: "/solutions" },
+                { name: "Produtos", href: "/products" },
+                { name: "Últimas Notícias", href: "/news" },
+                { name: "Contate-nos", href: "/contact-us" }
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link href={item.href} className="text-white/80 hover:text-white transition-colors flex items-center group" prefetch={false}>
+                    <span className="font-semibold">{item.name}</span>
                     <ArrowUpRight className="ml-1 w-3 h-3 opacity-0 group-hover:opacity-100 transition-all transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </Link>
                 </li>
@@ -87,14 +93,14 @@ export default function Footer() {
 
           {/* Contact Details */}
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Contact Info</h3>
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Informações de Contato</h3>
             <ul className="space-y-6">
               <li className="flex items-start">
                 <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mr-4 shrink-0">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase tracking-widest text-white/60 font-bold mb-1">Location</div>
+                  <div className="text-[10px] uppercase tracking-widest text-white/60 font-bold mb-1">Localização</div>
                   <span className="font-semibold">Luanda, Angola</span>
                 </div>
               </li>
@@ -103,7 +109,7 @@ export default function Footer() {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase tracking-widest text-white/60 font-bold mb-1">Phone</div>
+                  <div className="text-[10px] uppercase tracking-widest text-white/60 font-bold mb-1">Telefone</div>
                   <span className="font-semibold">+244 923 512 645</span>
                 </div>
               </li>
@@ -121,20 +127,20 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Newsletter</h3>
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Boletim Informativo</h3>
             <p className="text-white/80 mb-8 font-medium leading-relaxed">
-              Stay updated with the latest in solar technology and sustainable energy trends.
+              Fique atualizado com as últimas tendências em tecnologia solar e energia sustentável.
             </p>
             <form className="space-y-4">
               <div className="relative group">
                 <input 
                   type="email" 
-                  placeholder="Email Address" 
+                  placeholder="Endereço de E-mail" 
                   className="w-full bg-white/10 border border-white/20 rounded-xl px-6 py-4 text-sm focus:ring-2 focus:ring-white/30 transition-all outline-none placeholder:text-white/40 font-medium"
                 />
               </div>
-              <button className="w-full py-4 bg-white text-brand-hover rounded-xl hover:bg-white/90 transition-all font-black text-xs uppercase tracking-[0.2em] shadow-xl">
-                Subscribe Now
+              <button className="w-full py-4 bg-white text-brand-primary rounded-xl hover:bg-white/90 transition-all font-black text-xs uppercase tracking-[0.2em] shadow-xl">
+                Inscrever-se Agora
               </button>
             </form>
           </div>
@@ -142,19 +148,19 @@ export default function Footer() {
 
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-xs text-white/60 font-bold tracking-wider gap-6 text-center md:text-left">
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
-            <p>© {currentYear} SADC Solar. Built with Energy.</p>
+            <p>© {currentYear} SADC Solar. Construído com Energia.</p>
             <a 
               href="https://wa.me/94787676576" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-white transition-all duration-300"
             >
-              Website Developed by <span className="notranslate">Pixel Craft Studios</span> | +94 78 767 6576
+              Website Desenvolvido por <span className="notranslate">Pixel Craft Studios</span> | +94 78 767 6576
             </a>
           </div>
           <div className="flex space-x-8">
-             <Link href="/privacy" className="hover:text-white transition-colors" prefetch={false}>Privacy Policy</Link>
-             <Link href="/terms" className="hover:text-white transition-colors" prefetch={false}>Terms of Service</Link>
+             <Link href="/privacy" className="hover:text-white transition-colors" prefetch={false}>Política de Privacidade</Link>
+             <Link href="/terms" className="hover:text-white transition-colors" prefetch={false}>Termos de Serviço</Link>
           </div>
         </div>
       </div>

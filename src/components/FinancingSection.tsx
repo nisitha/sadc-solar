@@ -125,7 +125,7 @@ export default function FinancingSection() {
   return (
     <section className="py-48 relative overflow-hidden bg-[#0a0a0a]">
       {/* Cinematic Background Elements */}
-      <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_-20%,#EA600315,transparent_50%)]" />
+      <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_-20%,var(--brand-primary),transparent_50%)] opacity-[0.15]" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-brand-primary/5 rounded-full blur-[150px] pointer-events-none" />
       
       {/* Decorative Grid Lines */}
@@ -183,7 +183,7 @@ export default function FinancingSection() {
                         <Icon className="w-8 h-8" />
                       </div>
                       <div className="text-[10px] font-black text-white/20 uppercase tracking-[0.3em] vertical-rl rotate-180">
-                        {bank.name === "Standard Bank" ? "Case Study" : "Financial"}
+                        {bank.name === "Standard Bank" ? (language === 'pt' ? "Estudo de Caso" : "Case Study") : (language === 'pt' ? "Financeiro" : "Financial")}
                       </div>
                     </div>
 
@@ -201,7 +201,7 @@ export default function FinancingSection() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center text-xs font-black text-white uppercase tracking-[0.2em] group/btn bg-brand-primary/10 px-6 py-3 rounded-xl hover:bg-brand-primary transition-all duration-500"
                       >
-                        Apply Now
+                        {language === 'pt' ? "Solicitar Agora" : "Apply Now"}
                         <ArrowRight className="ml-3 w-4 h-4 text-brand-primary group-hover:text-white transition-transform group-hover/btn:translate-x-2" />
                       </a>
                     </div>

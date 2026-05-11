@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import Counter from "./Counter";
 
 const STATS = [
-  { label: "Established", value: 2013, suffix: "" },
-  { label: "Projects Done", value: 57, suffix: "+" },
-  { label: "Happy Clients", value: 54, suffix: "" },
-  { label: "Business Partners", value: 102, suffix: "" },
+  { label: "Fundada em", value: 2013, suffix: "" },
+  { label: "Projetos Realizados", value: 57, suffix: "+" },
+  { label: "Clientes Satisfeitos", value: 54, suffix: "" },
+  { label: "Parceiros de Negócios", value: 102, suffix: "" },
 ];
 
 export default function Stats() {

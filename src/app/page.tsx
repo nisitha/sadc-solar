@@ -52,26 +52,26 @@ export default async function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <SectionReveal>
-              <div className="inline-flex items-center space-x-2 bg-primary/10 px-4 py-2 rounded-full mb-8">
-                <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                <span className="text-[10px] font-bold text-primary uppercase tracking-widest">Industry Leaders</span>
+              <div className="inline-flex items-center space-x-2 bg-brand-accent-2/10 px-4 py-2 rounded-full mb-8">
+                <div className="w-2 h-2 rounded-full bg-brand-accent-2 animate-pulse" />
+                <span className="text-[10px] font-bold text-brand-accent-2 uppercase tracking-widest">Líderes da Indústria</span>
               </div>
               <h2 className="text-5xl font-black text-gray-900 tracking-tight leading-tight mb-8">
-                Angola's Pioneer in <br />Solar Energy Standards.
+                Pioneira de Angola em <br />Padrões de Energia Solar.
               </h2>
               <p className="text-lg text-gray-500 font-medium leading-relaxed mb-10">
-                SADC Solar is dedicated to establishing Renewable Energy Standards that will help to change the way we think about energy. Our presence in Luanda ensures local support for all Angolan provinces.
+                A SADC Solar dedica-se a estabelecer Padrões de Energia Renovável que ajudarão a mudar a forma como pensamos sobre a energia. Nossa presença em Luanda garante suporte local para todas as províncias angolanas.
               </p>
               <div className="grid grid-cols-2 gap-6 mb-12">
                 {[
-                  "Certified Quality Standards",
-                  "Long-term Technical Support",
-                  "Peak Performance Guarantees",
-                  "Sustainable Energy Technology",
+                  "Padrões de Qualidade Certificados",
+                  "Suporte Técnico de Longo Prazo",
+                  "Garantias de Desempenho Máximo",
+                  "Tecnologia de Energia Sustentável",
                 ].map((text, i) => (
                   <div key={i} className="group flex items-center space-x-4 text-sm font-bold text-gray-900">
-                    <div className="w-10 h-10 rounded-xl bg-brand-primary/5 flex items-center justify-center shrink-0 group-hover:bg-brand-primary group-hover:text-white transition-all duration-300">
-                      <CheckCircle2 className="w-5 h-5 text-brand-primary group-hover:text-white transition-colors" />
+                    <div className="w-10 h-10 rounded-xl bg-brand-accent-2/5 flex items-center justify-center shrink-0 group-hover:bg-brand-accent-2 group-hover:text-white transition-all duration-300">
+                      <CheckCircle2 className="w-5 h-5 text-brand-accent-2 group-hover:text-white transition-colors" />
                     </div>
                     <span className="leading-tight">{text}</span>
                   </div>
@@ -108,7 +108,7 @@ export default async function Home() {
 
         <SectionReveal className="relative z-10 text-center px-6 max-w-4xl pointer-events-none">
           <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tighter leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-            Standardizing Renewable Energy <br className="hidden md:block" /> across the SADC Region.
+            Padronizando Energias Renováveis <br className="hidden md:block" /> na Região da SADC.
           </h2>
           <div className="w-24 h-1.5 bg-white mt-8 mx-auto rounded-full transition-all duration-500 group-hover:w-48 group-hover:bg-[#EA6003] shadow-[0_0_20px_rgba(255,255,255,0.5)]" />
         </SectionReveal>
@@ -118,10 +118,10 @@ export default async function Home() {
       <section className="py-32 bg-gray-900">
         <div className="max-w-7xl mx-auto px-6">
           <SectionReveal className="text-center max-w-3xl mx-auto mb-20">
-            <div className="text-primary font-bold text-xs uppercase tracking-[0.3em] mb-4">Project Gallery</div>
-            <h2 className="text-5xl font-black text-white tracking-tight mb-6">Our Impact in Angola.</h2>
+            <div className="text-brand-accent-2 font-bold text-xs uppercase tracking-[0.3em] mb-4">Galeria de Projetos</div>
+            <h2 className="text-5xl font-black text-white tracking-tight mb-6">Nosso Impacto em Angola.</h2>
             <p className="text-lg text-white/50 font-medium leading-relaxed">
-              A glimpse into the scale and complexity of solar infrastructure projects we've successfully delivered.
+              Um vislumbre da escala e complexidade dos projetos de infraestrutura solar que entregamos com sucesso.
             </p>
           </SectionReveal>
 
@@ -168,16 +168,16 @@ export default async function Home() {
           <SectionReveal className="bg-primary rounded-[4rem] p-16 md:p-24 text-center relative overflow-hidden group shadow-[0_35px_60px_-15px_rgba(252,163,17,0.3)]">
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
             <div className="relative z-10">
-              <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">Ready to switch to Solar?</h2>
+              <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">Pronto para mudar para o Solar?</h2>
               <p className="text-xl text-white/80 font-medium mb-12 max-w-2xl mx-auto leading-relaxed">
-                Contact our experts today for a free site assessment and customized energy proposal in Angola.
+                Entre em contato com nossos especialistas hoje para uma avaliação gratuita do local e uma proposta de energia personalizada em Angola.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
                 <Link href="/contact-us" className="px-12 py-6 bg-white text-primary font-bold rounded-2xl hover:bg-gray-50 transition-all shadow-2xl shadow-black/10 text-lg uppercase tracking-widest" prefetch={false}>
-                  Get a Free Quote
+                  Obter um Orçamento Gratuito
                 </Link>
                 <Link href="/about-us" className="px-12 py-6 border-2 border-white/30 text-white font-bold rounded-2xl hover:bg-white/10 transition-all text-lg uppercase tracking-widest" prefetch={false}>
-                  Learn More
+                  Saber Mais
                 </Link>
               </div>
             </div>

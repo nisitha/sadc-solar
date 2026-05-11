@@ -8,20 +8,20 @@ import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 const SOLUTIONS = [
-  { name: "Turnkey Solutions", href: "/solutions/turnkey-solutions" },
-  { name: "Other Turnkey Solutions", href: "/solutions/other-turnkey-solutions" },
+  { name: "Soluções Chave na Mão", href: "/solutions/turnkey-solutions" },
+  { name: "Outras Soluções Chave na Mão", href: "/solutions/other-turnkey-solutions" },
 ];
 
 const PRODUCTS_LIST = [
-  { name: "OFF-GRID SOLAR INVERTERS", href: "/products/off-grid-solar-inverters" },
-  { name: "ON-GRID SOLAR INVERTERS", href: "/products/on-grid-solar-inverters" },
-  { name: "SOLAR CHARGE CONTROLLERS", href: "/products/solar-charge-controllers" },
-  { name: "SOLAR PANELS", href: "/products/solar-panels" },
-  { name: "SOLAR BATTERIES", href: "/products/solar-batteries" },
-  { name: "SOLAR WATER PUMPS", href: "/products/solar-water-pumps" },
-  { name: "SOLAR STREET LIGHTS", href: "/products/solar-street-lights" },
-  { name: "RACK AND BATTERY CABINETS", href: "/products/rack-and-battery-cabinets" },
-  { name: "WIRING AND CABLES", href: "/products/wiring-and-cables" },
+  { name: "INVERSORES SOLARES OFF-GRID", href: "/products/off-grid-solar-inverters" },
+  { name: "INVERSORES SOLARES ON-GRID", href: "/products/on-grid-solar-inverters" },
+  { name: "CONTROLADORES DE CARGA SOLAR", href: "/products/solar-charge-controllers" },
+  { name: "PAINÉIS SOLARES", href: "/products/solar-panels" },
+  { name: "BATERIAS SOLARES", href: "/products/solar-batteries" },
+  { name: "BOMBAS DE ÁGUA SOLARES", href: "/products/solar-water-pumps" },
+  { name: "LUMINÁRIAS SOLARES", href: "/products/solar-street-lights" },
+  { name: "ARMÁRIOS DE RACK E BATERIAS", href: "/products/rack-and-battery-cabinets" },
+  { name: "FIAÇÃO E CABOS", href: "/products/wiring-and-cables" },
 ];
 
 export default function Header() {
@@ -44,7 +44,7 @@ export default function Header() {
     if (!(window as any).googleTranslateElementInit) {
       (window as any).googleTranslateElementInit = () => {
         new (window as any).google.translate.TranslateElement({
-          pageLanguage: 'en',
+          pageLanguage: 'pt',
           includedLanguages: 'en,pt',
           autoDisplay: false,
         }, 'google_translate_element');
@@ -104,7 +104,6 @@ export default function Header() {
             </AnimatePresence>
           </div>
 
-          <div className="flex items-center text-[10px] font-black text-white/50 tracking-widest uppercase">
             <MapPin className="w-3.5 h-3.5 mr-2 text-primary" />
             Luanda, Angola
           </div>
@@ -132,7 +131,7 @@ export default function Header() {
                 {/* Solutions Row - Compact */}
                 <div className="mb-10">
                   <div className="flex items-center space-x-4 mb-6">
-                    <span className="text-[9px] font-black text-white/30 uppercase tracking-[0.4em]">Solutions</span>
+                    <span className="text-[9px] font-black text-white/30 uppercase tracking-[0.4em]">Soluções</span>
                     <div className="h-[1px] flex-1 bg-white/5" />
                   </div>
                   <div className="flex space-x-4 overflow-x-auto pb-4 no-scrollbar">
@@ -156,7 +155,7 @@ export default function Header() {
                 {/* Products Row - Compact Grid-like Flow */}
                 <div>
                   <div className="flex items-center space-x-4 mb-6">
-                    <span className="text-[9px] font-black text-white/30 uppercase tracking-[0.4em]">Product Categories</span>
+                    <span className="text-[9px] font-black text-white/30 uppercase tracking-[0.4em]">Categorias de Produtos</span>
                     <div className="h-[1px] flex-1 bg-white/5" />
                   </div>
                   <div className="grid grid-cols-3 gap-4">
@@ -180,7 +179,7 @@ export default function Header() {
                 {/* Footer Explorer Action */}
                 <div className="mt-8 pt-6 border-t border-white/5 flex justify-center">
                    <Link href="/products" className="text-[10px] font-black text-primary uppercase tracking-[0.3em] hover:text-white transition-colors" prefetch={false}>
-                      View Full Technology Catalog →
+                      Ver Catálogo Completo de Tecnologia →
                    </Link>
                 </div>
               </motion.div>
@@ -210,8 +209,8 @@ export default function Header() {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/about-us">About Us</NavLink>
+            <NavLink href="/">Início</NavLink>
+            <NavLink href="/about-us">Sobre Nós</NavLink>
             
             {/* Solutions Dropdown */}
             <div 
@@ -220,7 +219,7 @@ export default function Header() {
               onMouseLeave={() => setActiveMenu(null)}
             >
               <button className="flex items-center text-[15px] font-semibold text-gray-700 group-hover:text-primary transition-colors cursor-pointer">
-                Solutions <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
+                Soluções <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
               <AnimatePresence>
                 {activeMenu === 'solutions' && (
@@ -252,7 +251,7 @@ export default function Header() {
               onMouseLeave={() => setActiveMenu(null)}
             >
               <button className="flex items-center text-[15px] font-semibold text-gray-700 group-hover:text-primary transition-colors cursor-pointer">
-                Products <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
+                Produtos <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
               <AnimatePresence>
                 {activeMenu === 'products' && (
@@ -277,7 +276,7 @@ export default function Header() {
               </AnimatePresence>
             </div>
 
-            <NavLink href="/news">Latest News</NavLink>
+            <NavLink href="/news">Últimas Notícias</NavLink>
             
             {/* Language Switcher */}
             <div className="flex items-center bg-gray-50 rounded-full p-1 border border-gray-100">
@@ -306,7 +305,7 @@ export default function Header() {
               className="px-6 py-2.5 bg-primary text-white text-sm font-bold rounded-full hover:bg-primary-hover transform hover:-translate-y-0.5 transition-all shadow-lg shadow-primary/20"
               prefetch={false}
             >
-              Contact Us
+              Contate-nos
             </Link>
           </div>
 
@@ -352,10 +351,10 @@ export default function Header() {
                 <div className="p-6 bg-[#0B111D] rounded-[2.5rem] shadow-2xl shadow-black/40 border border-white/5 mb-4">
                   <div className="flex items-center space-x-4 mb-10">
                     <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
-                      <Globe className="w-6 h-6 text-[#EA6003]" />
+                      <Globe className="w-6 h-6 text-brand-primary" />
                     </div>
                     <div>
-                      <div className="text-[10px] font-black text-gray-500 uppercase tracking-[0.2em] mb-1">Region Setting</div>
+                      <div className="text-[10px] font-black text-gray-500 uppercase tracking-[0.2em] mb-1">Configuração de Região</div>
                       <div className="text-sm font-bold text-white uppercase tracking-wider">Selecione o Idioma</div>
                     </div>
                   </div>
@@ -374,7 +373,7 @@ export default function Header() {
                           damping: 35,
                           mass: 1 
                         }}
-                        className="w-1/2 h-full bg-[#EA6003] rounded-full shadow-lg shadow-orange-600/30"
+                        className="w-1/2 h-full bg-brand-primary rounded-full shadow-lg shadow-brand-primary/30"
                       />
                     </div>
 
@@ -402,11 +401,11 @@ export default function Header() {
                 {/* Separator Line */}
                 <div className="h-px w-full bg-gray-100/50 mb-4" />
 
-                <MobileNavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>Home</MobileNavLink>
-                <MobileNavLink href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>About Us</MobileNavLink>
+                <MobileNavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>Início</MobileNavLink>
+                <MobileNavLink href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>Sobre Nós</MobileNavLink>
                 
                 <div className="space-y-6">
-                  <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest px-2">Turnkey Solutions</div>
+                  <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest px-2">Soluções</div>
                   <div className="grid grid-cols-1 gap-3">
                     {SOLUTIONS.map(s => (
                       <Link 
@@ -426,7 +425,7 @@ export default function Header() {
                 </div>
 
                 <div className="space-y-6">
-                  <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest px-2">Technology Catalog</div>
+                  <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest px-2">Catálogo de Tecnologia</div>
                   <div className="grid grid-cols-1 gap-3">
                     {PRODUCTS_LIST.slice(0, 4).map(item => (
                       <Link 
@@ -443,12 +442,12 @@ export default function Header() {
                       </Link>
                     ))}
                     <Link href="/products" onClick={() => setIsMobileMenuOpen(false)} className="text-center py-4 text-xs font-black text-primary uppercase tracking-[0.3em] hover:opacity-70 transition-opacity">
-                      EXPLORE ALL PRODUCTS →
+                      EXPLORAR TODOS OS PRODUTOS →
                     </Link>
                   </div>
                 </div>
 
-                <MobileNavLink href="/news" onClick={() => setIsMobileMenuOpen(false)}>Latest News</MobileNavLink>
+                <MobileNavLink href="/news" onClick={() => setIsMobileMenuOpen(false)}>Últimas Notícias</MobileNavLink>
                 
                 <Link 
                   href="/contact-us" 
@@ -456,7 +455,7 @@ export default function Header() {
                   className="w-full py-6 bg-primary text-white text-center font-black rounded-[2.5rem] shadow-2xl shadow-primary/30 uppercase tracking-[0.3em] text-sm min-h-[64px] flex items-center justify-center hover:scale-[1.02] active:scale-95 transition-all"
                   prefetch={false}
                 >
-                  Get a Free Quote
+                  Obter um Orçamento Gratuito
                 </Link>
               </div>
             </div>

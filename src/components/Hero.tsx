@@ -9,26 +9,26 @@ const SLIDES = [
   { 
     id: 1, 
     image: "/slider/sl1.JPG",
-    topText: "RENEWABLE ENERGY - ENERGY FOR THIS AND",
-    bottomText: "FUTURE GENERATIONS"
+    topText: "ENERGIA RENOVÁVEL - ENERGIA PARA ESTA E",
+    bottomText: "PRÓXIMAS GERAÇÕES"
   },
   { 
     id: 2, 
     image: "/slider/sl2.jpg",
-    topText: "RENEWABLE VITALITY - THE BEST THINGS IN",
-    bottomText: "LIFE ARE FREE"
+    topText: "VITALIDADE RENOVÁVEL - AS MELHORES COISAS NA",
+    bottomText: "VIDA SÃO GRATUITAS"
   },
   { 
     id: 3, 
     image: "/slider/sl3.jpg",
-    topText: "RENEWABLE ENERGY EQUAL TO",
-    bottomText: "ENERGY SECURITY"
+    topText: "ENERGIA RENOVÁVEL É IGUAL A",
+    bottomText: "SEGURANÇA ENERGÉTICA"
   },
   { 
     id: 4, 
     image: "/slider/sl4.jpg",
-    topText: "RENEWABLE IS THE FUTURE, IT'S MORE THAN JUST ENERGY,",
-    bottomText: "IT'S WAY OF LIFE"
+    topText: "RENOVÁVEL É O FUTURO, É MAIS DO QUE APENAS ENERGIA,",
+    bottomText: "É UM ESTILO DE VIDA"
   },
 ];
 
@@ -99,7 +99,7 @@ export default function Hero() {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-white/90 text-lg md:text-xl mt-8 mb-10 max-w-2xl leading-relaxed font-medium drop-shadow-md"
             >
-              Providing premium turnkey solar solutions and high-performance components tailored for industrial and residential needs in Angola.
+              Fornecendo soluções solares chave na mão premium e componentes de alto desempenho adaptados às necessidades industriais e residenciais em Angola.
             </motion.p>
 
             <motion.div 
@@ -113,7 +113,7 @@ export default function Hero() {
                 className="w-full sm:w-auto px-10 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary/90 transition-all flex items-center justify-center group shadow-xl shadow-primary/20"
                 prefetch={false}
               >
-                View Our Products
+                Ver Nossos Produtos
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
@@ -121,10 +121,10 @@ export default function Hero() {
                 className="w-full sm:w-auto flex items-center justify-center space-x-3 text-white font-bold hover:text-primary transition-colors py-4 px-6 group"
                 prefetch={false}
               >
-                <div className="w-12 h-12 rounded-full border-2 border-white/30 flex items-center justify-center group-hover:border-primary transition-colors bg-black/20 backdrop-blur-sm">
-                  <Play className="w-4 h-4 fill-current ml-0.5" />
+                <div className="w-12 h-12 rounded-full border-2 border-white/30 flex items-center justify-center group-hover:border-brand-accent-2 transition-colors bg-black/20 backdrop-blur-sm">
+                  <Play className="w-4 h-4 fill-current ml-0.5 group-hover:text-brand-accent-2 transition-colors" />
                 </div>
-                <span>Learn More</span>
+                <span>Saber Mais</span>
               </Link>
             </motion.div>
           </motion.div>
@@ -140,8 +140,8 @@ export default function Hero() {
           className="bg-black/40 backdrop-blur-xl p-8 rounded-[2rem] shadow-2xl border border-white/10 max-w-xs"
         >
           <div className="flex items-center space-x-4 mb-4">
-            <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center">
-              <Sun className="text-primary w-6 h-6" />
+            <div className="w-12 h-12 bg-brand-accent-2/20 rounded-xl flex items-center justify-center">
+              <Sun className="text-brand-accent-2 w-6 h-6" />
             </div>
             <div>
               <div className="text-2xl font-black text-white drop-shadow-sm">500+</div>
@@ -149,7 +149,7 @@ export default function Hero() {
             </div>
           </div>
           <p className="text-sm text-white/70 font-medium leading-relaxed">
-            Leading the renewable energy revolution across Luanda and beyond with certified expertise.
+            Liderando a revolução da energia renovável em Luanda e além com experiência certificada.
           </p>
         </motion.div>
       </div>
