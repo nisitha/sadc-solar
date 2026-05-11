@@ -24,8 +24,11 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-brand-primary text-white pt-24 pb-12">
-      <div className="max-w-7xl mx-auto px-6">
+    <footer className="relative bg-brand-primary/80 backdrop-blur-2xl text-white py-32 border-t border-white/20 overflow-hidden">
+      {/* Premium Gradient Glow Overlay */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(255,255,255,0.15),transparent_70%)] pointer-events-none" />
+      
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Info */}
           <div className="space-y-8">
@@ -36,7 +39,7 @@ export default function Footer() {
                 className="h-16 w-auto brightness-0 invert" 
               />
             </Link>
-            <p className="text-white/90 leading-relaxed font-medium">
+            <p className="text-white/80 leading-relaxed font-light">
               Soluções de energia solar premium para Angola. Somos especialistas em projetos chave na mão e componentes solares de alta qualidade para um amanhã mais verde.
             </p>
             <div className="flex items-center space-x-5">
@@ -128,7 +131,7 @@ export default function Footer() {
           {/* Newsletter */}
           <div>
             <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Boletim Informativo</h3>
-            <p className="text-white/80 mb-8 font-medium leading-relaxed">
+            <p className="text-white/70 mb-8 font-light leading-relaxed">
               Fique atualizado com as últimas tendências em tecnologia solar e energia sustentável.
             </p>
             <form className="space-y-4">
