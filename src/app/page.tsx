@@ -60,7 +60,7 @@ export default async function Home() {
                 Pioneira de Angola em <br />Padrões de Energia Solar.
               </h2>
               <p className="text-lg text-gray-500 font-medium leading-relaxed mb-10">
-                A SADC Solar dedica-se a estabelecer Padrões de Energia Renovável que ajudarão a mudar a forma como pensamos sobre a energia. Nossa presença em Luanda garante suporte local para todas as províncias angolanas.
+                A SADC Solar está comprometida na promoção e divulgação das energias renováveis em Angola ao mesmo tempo estabelecendo padrões que ajudarão a mudar a forma como pensamos sobre a energia renovável em Angola. Prontos para a instalação sistemas solar em qualquer parte do país.
               </p>
               <div className="grid grid-cols-2 gap-6 mb-12">
                 {[
