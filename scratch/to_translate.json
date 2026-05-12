@@ -1,0 +1,1104 @@
+[
+  {
+    "id": "225",
+    "slug": "sunny-tripower-25000tl-jp",
+    "title_en": "SM Sunny Tripower 25000TL-JP",
+    "excerpt_en": "",
+    "content_en": "<p>The new Sunny Tripower 25000TL-JP is the high-performance solution for use in larger, decentralized medium-voltage systems on the Japanese market. This newly developed product is based on the technologically mature Sunny Tripower platform. Users benefit from years of experience and the professional support that SM as a market leader provides. Its peak efficiency of 98.7 percent ensures high yields, thereby guaranteeing system operators rapid amortization. The multistring concept and wide input voltage range allows for high design flexibility and compatibility with many PV modules on the market.</p>\n<p>In addition to professional and efficient system monitoring, the optional SM Cluster Controller also enables personalized system parameterization using Modbus.</p>\n",
+    "features": [
+      {
+        "title_en": "Efficient",
+        "items_en": [
+          "Efficiency of 98.0 % (as per JIS C 8961)",
+          "Peak efficiency of 98.7 %"
+        ]
+      },
+      {
+        "title_en": "Flexible",
+        "items_en": [
+          "DC input voltage of up to 1000 V",
+          "Optimum system design thanks to multistring concept and step-up converter",
+          "Operating temperature range from -25 AC to +60 AC through active OptiCool temperature management"
+        ]
+      },
+      {
+        "title_en": "Convenient",
+        "items_en": [
+          "Straightforward system visualization and monitoring thanks to Webconnect and Sunny Portal",
+          "Integrated graphic display showing yield values and daily trends"
+        ]
+      },
+      {
+        "title_en": "Innovative",
+        "items_en": [
+          "Efficient parameterization and remote monitoring via SM Cluster Controller and Sunny Portal for medium-sized and large-scale systems"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "228",
+    "slug": "sunny-central-2200-2475-2500-ev-2750-ev-3000-ev",
+    "title_en": "SM Sunny Central 2200 / 2475 / 2500-EV / 2750-EV / 3000-EV",
+    "excerpt_en": "",
+    "content_en": "<p>The Sunny Central inverter, with 1,850 kV or 2,200 kV for 1,000 VDC and 2,500 kVA, 2,750 kV or 3,000 kV for 1,500 VDC (at 35AC), enables even more efficient PV power plant designs. The flexibility of this inverter allows for implementation with a variety of modules. The integrated power supply transformer and installation area provide an ideal environment for integration of needed customer equipment. Suitable for any outdoor climate around the globe, this new Sunny Central is equipped with OptiCool, a proven air-cooling technology that ensures smooth operation under extreme environmental conditions.</p>\n",
+    "features": [
+      {
+        "title_en": "Efficient",
+        "items_en": [
+          "Up to 4 inverters can be transported in one standard shipping container",
+          "Overdimensioning up to 225% is possible",
+          "Full power at ambient temperatures of up to 35AC"
+        ]
+      },
+      {
+        "title_en": "Robust",
+        "items_en": [
+          "Intelligent air cooling system OptiCool for efficient cooling",
+          "Suitable for outdoor use in all climatic ambient conditions worldwide"
+        ]
+      },
+      {
+        "title_en": "Flexible",
+        "items_en": [
+          "Conforms to all known grid requirements worldwide",
+          "Q on demand",
+          "Available as a single device or turnkey solution, including medium-voltage block"
+        ]
+      },
+      {
+        "title_en": "Easy to Use",
+        "items_en": [
+          "Improved DC connection area",
+          "Connection area for customer equipment",
+          "Integrated voltage support for internal and external loads"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "231",
+    "slug": "blueplanet-87-0-tl3-125-tl3",
+    "title_en": "KACO Blueplanet 87.0 TL3 - 125 TL3",
+    "excerpt_en": "",
+    "content_en": "<h4>Start saving costs</h4>\n<p>The blueplanet 92.0 TL3 should meet most of your requirements. One reason for this: the line voltage of 400 V. It allows you to connect the inverter to the transformer on site - and combine it with the blueplanet 20.0 TL3 for additional MPP trackers.</p>\n<p>You can implement grid and plant protection also without the usual costs: the necessary section switches are integrated in the blueplanet 92.0 TL3 and can be activated directly by the Powador-protect control unit. In addition, the inverter is suitable for both 1500 V and 1000 V PV modules.</p>\n<p>The inverter has SPD type 1+2 arresters on the DC side to protect against overvoltage; the arresters for the AC side as well as the RS485 and Ethernet interfaces can be easily retrofitted.</p>\n<h4>Efficient</h4>\n<p>The blueplanet 92.0 TL3 owes its high DC:AC design ratio of 1.5:1 to innovative silicon carbide power transistors. Their extreme thermal load capacity also makes it a \"desert inverter\" with late power derating. In the blueplanet 105 TL3 the thermal reserve is instead invested in 15 percent more power. You\"˜ve got the choice!</p>\n<p>Simple maintenance also required? Check.</p>\n",
+    "features": [
+      {
+        "title_en": "Your benefits at a glance",
+        "items_en": [
+          "Cost-saving due to 380 V / 400 V / 480 V line voltage and integrated section switches",
+          "Optimised for PV modules with 1000 V and 1500 V",
+          "Highest efficiency and overload capacity through silicon carbide technology",
+          "High power density for easy handling and logistics",
+          "Special properties for extreme environmental conditions",
+          "Lean commissioning and updates via remote services",
+          "Decentralised design or 'Virtual Central' concept possible"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "234",
+    "slug": "string-inverter-sg110cx",
+    "title_en": "Sungrow String Inverter SG110CX",
+    "excerpt_en": "",
+    "content_en": "<p>The Sungrow SG110CX is a high-power three-phase string inverter ideal for large-scale commercial and industrial applications. With multiple MPPT channels, it ensures maximum power extraction even on roofs with varying orientations or partial shading. Its robust design with IP66 protection and C5 level corrosion resistance makes it perfect for demanding outdoor environments. It includes advanced monitoring and safety features like Arc Fault Circuit Interrupter (AFCI) and PID recovery, ensuring the longevity and continuous performance of your solar system.</p>",
+    "features": [
+      {
+        "title_en": "HIGH YIELD",
+        "items_en": [
+          "9 MPPTs with max. efficiency 98.7%",
+          "Compatible with bifacial module",
+          "Built-in PID recovery function"
+        ]
+      },
+      {
+        "title_en": "SMART O&M",
+        "items_en": [
+          "Touch free commissioning and remote firmware upgrade",
+          "Online IV curve scan and diagnosis*",
+          "Fuse free design with smart string current monitoring"
+        ]
+      },
+      {
+        "title_en": "LOW COST",
+        "items_en": [
+          "Compatible with Al and Cu AC cables",
+          "DC 2 in 1 connection enabled",
+          "Q at night function"
+        ]
+      },
+      {
+        "title_en": "PROVEN SAFETY",
+        "items_en": [
+          "IP66 and C5 protection",
+          "Type II SPD for both DC and AC",
+          "Compliant with global safety and grid code"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "237",
+    "slug": "string-inverters-pvi-10-0-12-5-tl",
+    "title_en": "ABB STRING INVERTERS PVI-10.0/12.5-TL",
+    "excerpt_en": "",
+    "content_en": "<p>Designed for commercial usage, this three-phase inverter is highly unique in its ability to control the performance of the PV panels, especially during periods of variable weather conditions.</p>\n<p>This transformerless device has two independent MPPTs and efficiency ratings of up to 97.7%. The wide input voltage range makes the inverter suitable to low power installations with reduced string size. It is available with an optional fully-integrated DC switch, fuse and remote controlled DC disconnect function.</p>\n",
+    "features": [
+      {
+        "title_en": "Highlights",
+        "items_en": [
+          "True three-phase bridge topology for DC/AC output converter",
+          "Transformerless topology",
+          "Each inverter is set on specific grid codes which can be selected in the field",
+          "Wide input range",
+          "Dual input section with independent MPPT allows optimal energy harvesting from two sub-arrays oriented in different directions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "248",
+    "slug": "inversor-string-sg75-110cx",
+    "title_en": "SCHNEIDER'S CL-60E String Inverter",
+    "excerpt_en": "",
+    "content_en": "<strong>The ideal solution for decentralized power plants and large commercial buildings</strong>\n<p class=\"lead\">Turn a rooftop or unused land into a profitable source of green, renewable energy, with CL-60 String Inverter.</p>\n<p>Along with Schneider Electric's rigorous reliability procedures, CL-60 is durable and designed for long-term reliability. With an industry-leading maximum efficiency of 98.9%, it reduces your operating costs and your Levelized Cost of Energy (LCOE). For commercial properties or decentralized utilities seeking a solar solution that generates the maximum power, easy and quick services, while promoting grid stability\"” CL-60 is the smart business choice.</p>\n<p>CL-60 is also compatible with <a href=\"https://solar.schneider-electric.com/product/insight/\">Insight Energy Management</a> for easier remote asset management and troubleshooting.</p>\nWe're honored to announce that Schneider Electric's CL-60 is named as a Top Performer in PV Evolution Labs' (PVEL) PV Inverter Reliability Scorecard. The PVEL PV Inverter Reliability Scorecard is designed to provide with insight into long-term reliability of inverters.  CL-60 has been identified as a top performer in multiple tests including MPPT efficiency, conversion efficiency, energy harvest,\n<p>and power thermal cycling.</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody>\n<tr><th class=\"spec-key\">[embed]https</th><th class=\"spec-value\">//www.youtube.com/watch?v=Kgwd9LRmTVw[/embed]</th></tr>\n</tbody></table></div>",
+    "features": []
+  },
+  {
+    "id": "251",
+    "slug": "flexmax-60-80",
+    "title_en": "OUTBACK SOLAR CHARGE CONTROLLER FLEXmax 60 / 80",
+    "excerpt_en": "",
+    "content_en": "<ul class=\"pos-infobar\">\n<li class=\"element element-select first\"><strong>Product Line: </strong>Charger</li>\n<li class=\"element element-text last\"><strong>Part Number: </strong>Model: FLEXmax 60/80</li>\n\n\n<h4>Description</h4>\n<strong>The FLEXmax family of charge controllers is the latest innovation in Maximum Power Point Tracking (MPPT) charge controllers from OutBack Power.</strong> The innovative FLEXmax MPPT software algorithm is both continuous and active, increasing your photovoltaic array power yield up to 30% compared to non-MPPT controllers. Thanks to active cooling and intelligent thermal management cooling, both FLEXmax charge controllers can operate at their full maximum current rating, 60 Amps or 80 Amps respectively, in ambient temperatures as high as 104AF (40AC).\n<p>Included in all of the FLEXmax Charge Controllers are the revolutionary features first developed by OutBack Power, including support for a wide range of nominal battery voltages and the ability to step-down a higher voltage solar array to recharge a lower voltage battery bank.  built-in, backlit 80 character display shows the current status and logged system performance data for the last 128 days at the touch of a button. The integrated OutBack network communications allows FLEXmax series Charge Controllers to be remotely programmed and monitored via a MATE system display and provides unrivaled complete system integration.</p>\n<p>FLEXmax MPPT Charge Controllers are the only choice when you demand a high performance, efficient and versatile charge controller for your advanced power system.</p>",
+    "features": [
+      {
+        "title_en": "Product Highlights",
+        "items_en": [
+          "Maximum Power Point Tracking (MPPT)",
+          "Active cooling and intelligent thermal management cooling",
+          "Ambient temperatures as high as 104AF (40AC)",
+          "Built-in, backlit 80 character display",
+          "Integrated OutBack network communications"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "254",
+    "slug": "classic-150",
+    "title_en": "MIDNITE SOLAR CHARGE CONTROLLER CLASSIC 150",
+    "excerpt_en": "",
+    "content_en": "\n<div>To ensure proper start up and MPPT operation, the minimum initial PV input voltage should be at least 30% higher than the highest expected battery voltage.</div>\n<p>Ships with MidNite Battery Temperature Sensor (MNBTS) and printed Manual.</p>\n<div>MidNite Solar offers an industry first, an extended warranty for all the Classic MPPT charge controllers. Six months prior to the end of the warranty period customers can ship their Classic back to MidNite Solar with a check for $147 dollars plus shipping and we will replace any wearable parts and do a general tune-up. This will extend the warranty by 2 additional years, another good reason to purchase a Classic.</div>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Warranty - 5 yrs.</li>\n<li>Listed by ETL for US & Canada</li>\n<li>CE Certified Listed</li>\n<li>FCC Class B Listed</li>\n<li>Made in the USA</li>\n\n\n<h4><b>Description</b></h4>\n<p>The Classic 150 MPPT Charge Controller is MidNite Solar's most popular model. It has Arc Fault, Ground Fault, free web monitoring, a graphics panel and Solar, Hydro and Wind Modes. The Classic 150 has a maximum output current of 96 amps, an operating voltage of 150 volts and works with 12 to 72 volt battery systems. The FREE MidNite Solar Local Application enables you to monitor your Classics over your local network or the Internet. As with the whole Classic Line, the Classic 150 has MidNite's exclusive HyperVOC which extends VOC limits when needed.</p>",
+    "features": [
+      {
+        "title_en": "FEATURES:",
+        "items_en": [
+          "150 operating voltage",
+          "Max current out: 96 amps",
+          "ETL listed to UL1741 and CSA",
+          "Type 1 environmental rating",
+          "Terminals are rated for 75 C",
+          "Exclusive HyperVOC extends VOC limits",
+          "12-72V battery",
+          "Built in DC-GFP and Arc Fault",
+          "Detector",
+          "Solar, wind and hydro MPPT modes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "260",
+    "slug": "conext-mppt-80-600-solar-pv-charge-controller",
+    "title_en": "SCHNEIDERS SOLAR CHARGE CONTROLLER Conext MPPT 80 600 Solar PV Charge Controller",
+    "excerpt_en": "",
+    "content_en": "<h4><strong>Install for less, harvest more energy</strong></h4>\n<p class=\"lead\">The Conext™ MPPT 80 600 solar charge controller offers an industry-first set of integration features and top performance that allows for large PV array systems to be easily installed and connected to the battery bank at the lowest overall cost. Installing one MPPT 80 600 is faster than installing multiple smaller charge controllers and lowers overall costs further by utilizing fewer PV strings, smaller wiring and conduit, and by eliminating the need for PV combiner boxes and DC circuit breakers.</p>\n",
+    "features": [
+      {
+        "title_en": "Part number",
+        "items_en": [
+          "Conext™ MPPT 80 600 - 865-1032"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "263",
+    "slug": "smartsolar-mppt-150-45-up-to-250-100",
+    "title_en": "VICTRON SOLAR CHARGE CONTROLLER SmartSolar MPPT 150/45 up to 250/100",
+    "excerpt_en": "",
+    "content_en": "<div class=\"productDetail__content-desc\">\n<p> solar charger gathers energy from your solar panels, and stores it in your batteries. Using the latest, fastest technology, SmartSolar maximises this energy-harvest, driving it intelligently to achieve full charge in the shortest possible time. SmartSolar maintains battery health, extending its life.</p>\n<p>The SmartSolar charge controller will even recharge a severely depleted battery. It can operate with a battery voltage as low as 0 Volts, provided the cells are not permanently sulphated or otherwise damaged.</p>\n</div>\n<h4 class=\"productDetail__content-models\"><b>Models : </b>12/24/36/48 Volt</h4>",
+    "features": []
+  },
+  {
+    "id": "266",
+    "slug": "smartsolar-mppt-rs-450-100-tr-450-200-tr",
+    "title_en": "VICTRON SOLAR CHARGE CONTROLLER SmartSolar MPPT RS 450/100-Tr & 450/200-Tr",
+    "excerpt_en": "",
+    "content_en": "<p>The SmartSolar MPPT RS solar charge controllers are Victron's solution for systems with large series connected PV arrays charging 48 V DC battery banks. This product is perfect for large off-grid, and grid connected battery systems.</p>\n<p>Available in a 5.76kW and 11.52kW model, features include a wide 80-450 VDC operating solar voltage input, independent tracking inputs, full connectivity, isolated PV connections, display screen, fully programmable battery charging parameters and active cooling. The new metal case design and fully covered electrical connections improve the safety and modernise the presentation in line with the latest suite of Victron products.</p>\n<h4>Models: 48 Volt</h4>",
+    "features": []
+  },
+  {
+    "id": "273",
+    "slug": "lg435n2t-e6",
+    "title_en": "LG435N2T-E6",
+    "excerpt_en": "",
+    "content_en": "\n<h4>25-Year Warranty</h4>\n<p class=\"\">The NeON® H BiFacial series offers a 25-year limited warranty for performance and labor. At 25 years, the modules are guaranteed to produce at least 96.4% of their labeled power output.</p>\n<h4>Bifacial Energy Yield</h4>\n<p>LG NeON® H BiFacial modules use highly efficient bifacial solar cell, \"NeON\" applied Cello technology. Through the Cello technology, the NeON® H BiFacial solar panel can achieve up to 30% more energy than standard PV module.</p>\n<h4>Better Performance on a Sunny Day</h4>\n<p>LG NeON® H BiFacial now performs better on sunny days thanks to its improved temperature coefficient.</p>\n<h4>More Generation on a Cloudy Day</h4>\n<p>LG NeON® H BiFacial has good performance even on a cloudy day; weak sunlight conditions case a low energy reduction.</p>\n<h4>BOS (Balance Of System) Saving</h4>\n<p>LG NeON® H BiFacial can reduce the total number of strings due to its high module efficiency resulting in a more cost effective and efficient solar power system.</p>\n<h4>Near Zero LID (Light Induced Degradation)</h4>\n<p class=\"\">The n-type cells used in LG NeON® H BiFacial have almost no boron, which may cause the initial efficiency to drop, leading to less LID.</p>\n<h4>Specifications</h4>\n\n<li class=\"dt_box\">Cell Maker - LG</li>\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Cell Configuration - 144 Cells (6 x 24)</li>\n<li>Number of Busbars - 9EA</li>\n<li>Module Dimensions (L x W x H) - 2,130mm x 1,042mm x 40mm</li>\n<li>Weight - 22kg</li>\n<li>Glass (Thickness/Material) - 2.8mm/Tempered Glass with AR Coating</li>\n<li>Backsheet (Color) - Transparent</li>\n<li>Frame (Material) - Anodized Aluminium</li>\n<li>Junction Box (Protection Degree) - IP68 with 3 Bypass Diodes</li>\n<li>Cables (Length) - 1,400mm x 2EA</li>\n<li>Connector (Type/Maker) - MC 4/MC</li>\n\n\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Initial 107%, 1st year 105.4%, After 1st year : -0.35%/year, 96.4% at year 25 (Based on BiFi100)</li>\n\n<li class=\"dt_box\">Pmax [%/AC] - -0.33</li>\n<li class=\"dt_box\">Voc [%/AC] - -0.26</li>\n<li class=\"dt_box\">Isc [%/AC] - 0.04</li>\n\n<p>*NMOT (Nominal Module Operating Temperature): Irradiance 800 W/m2, Ambient temperature 20 AC, Wind speed 1 m/s, Spectrum AM 1.5</p>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>STC (Standard Test Condition): Irradiance 1000W/m2, Cell temperature 25OC, AM 1.5, Measure Tolerance: 3%</li>\n\n<p>** The electrical properties of BiFi100 and BiFi200 measure under the front side irradiance 1000W/m2 + (100W/m2 or 200W/m2) x BiFi. Use 100W/m2 for BiFi100 and 200W/m2 for BiFi200.</p>\n",
+    "features": [
+      {
+        "title_en": "KEY FEATURES",
+        "items_en": [
+          "25 Year Limited Warranty",
+          "Bi-facial energy yield",
+          "Allows for more generation on a cloudy day",
+          "Absorbs up to 30% more light than conventional models",
+          "Streamlined, Uniform Roof Aesthetic",
+          "Durable design"
+        ]
+      },
+      {
+        "title_en": "GENERAL DATA",
+        "items_en": [
+          "Cell Properties (Material/Type) - Monocrystalline/N-type"
+        ]
+      },
+      {
+        "title_en": "CERTIFICATIONS AND WARRANTY",
+        "items_en": [
+          "Certifications - IEC 61215-1/-1-1/2:2016, IEC 61730-1/2:2016, UL 61730, ISO 9001, ISO 14001, ISO 50001, OHSAS 18001",
+          "Salt Mist Corrosion Test - IEC 61701:2012 Severity 6",
+          "Ammonia Corrosion Test - IEC 62716:2013",
+          "Module Fire Performance - Type 1",
+          "Fire Rating - Class C (UL 790, ULC/ORD C 1703)",
+          "Solar Module Product Warranty - 25 Years",
+          "Solar Module Output Warranty - Linear Warranty*"
+        ]
+      },
+      {
+        "title_en": "TEMPERATURE CHARACTERISTICS",
+        "items_en": [
+          "NMOT* [AC] - 42 ± 3"
+        ]
+      },
+      {
+        "title_en": "ELECTRICAL PROPERTIES (NMOT)",
+        "items_en": [
+          "Model -TBD",
+          "Maximum Power (Pmax) [W] - STC -327",
+          "Maximum Power (Pmax) [W] - BiFi100 -349",
+          "Maximum Power (Pmax) [W] - BiFi200 -372",
+          "MPP Voltage (Vmpp) [V] - STC -38.2",
+          "MPP Voltage (Vmpp) [V] - BiFi100 -38.2",
+          "MPP Voltage (Vmpp) [V] - BiFi200 -38.2",
+          "MPP Current (Impp) [A] - STC -8.55",
+          "MPP Current (Impp) [A] - BiFi100 -9.14",
+          "MPP Current (Impp) [A] - BiFi200 -9.73",
+          "Open Circuit Voltage (Voc) [V] - STC -45.9",
+          "Open Circuit Voltage (Voc) [V] - BiFi100 -45.9",
+          "Open Circuit Voltage (Voc) [V] - BiFi200 -45.9",
+          "Short Circuit Current (Isc) [A] - STC -8.98",
+          "Short Circuit Current (Isc) [A] - BiFi100 - 9.60",
+          "Short Circuit Current (Isc) [A] - BiFi200 -10.22"
+        ]
+      },
+      {
+        "title_en": "ELECTRICAL PROPERTIES",
+        "items_en": [
+          "Model - TBD",
+          "Maximum Power (Pmax) [W] - STC* - 435",
+          "Maximum Power (Pmax) [W] - BiFi100** - 465",
+          "Maximum Power (Pmax) [W] - BiFi200** - 495",
+          "MPP Voltage (Vmpp) [V] - STC* - 40.7",
+          "MPP Voltage (Vmpp) [V] - BiFi100** - 40.7",
+          "MPP Voltage (Vmpp) [V] - BiFi200** - 40.7",
+          "MPP Current (Impp) [A] - STC* - 10.70",
+          "MPP Current (Impp) [A] - BiFi100** - 11.44",
+          "MPP Current (Impp) [A] - BiFi200** - 12.17",
+          "Open Circuit Voltage (Voc) [V] - STC*  - 48.7",
+          "Open Circuit Voltage (Voc) [V] - BiFi100** - 48.7",
+          "Open Circuit Voltage (Voc) [V] - BiFi200** - 48.7",
+          "Short Circuit Current (Isc) [A] - STC* - 11.15",
+          "Short Circuit Current (Isc) [A] - BiFi100** - 11.92",
+          "Short Circuit Current (Isc) [A] - BiFi200** - 12.68",
+          "Module Efficiency [%] - STC* - 19.6",
+          "Module Efficiency [%] - BiFi100** - 21.0",
+          "Module Efficiency [%] - BiFi200** - 22.3",
+          "Pmax Bifaciality Coefficient [%] - 75 ± 5",
+          "Power Tolerance [%] - 0 ~ +3"
+        ]
+      },
+      {
+        "title_en": "OPERATING CONDITIONS",
+        "items_en": [
+          "Operating Temperature [AC] -  -40 ~+85",
+          "Maximum System Voltage [V]- 1,000(IEC)/1500(UL)",
+          "Maximum Series Fuse Rating [A] - 20",
+          "Mechanical Test Load (Front) [Pa/psf] - 5,400/113",
+          "Mechanical Test Load (Rear) [Pa/psf] - 3,000/63",
+          "Test Load = Design load x Safety Factor (1.5)"
+        ]
+      },
+      {
+        "title_en": "PACKAGING CONFIGURATION",
+        "items_en": [
+          "Number of Modules per Pallet [EA] - 25",
+          "Number of Modules per 40ft HQ Container [EA] - 550",
+          "Number of Modules per 53' HQ Container [EA] - 750",
+          "Packaging Box Dimensions (L x W x H) [mm] - 2,160 x 1,120 x 1,213",
+          "Packaging Box Dimensions (L x W x H) [in] - TBD",
+          "Packaging Box Gross Weight [kg] - 610",
+          "Packaging Box Gross Weight [lb] - TBD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "282",
+    "slug": "lg375n1k-a6",
+    "title_en": "LG375N1K-A6",
+    "excerpt_en": "",
+    "content_en": "\n<h4>Enhanced Performance Warranty</h4>\n<p>LG NeON® 2 Black has an enhanced performance warranty. After 25 years, LG NeON® 2 Black is guaranteed at least 90.6% of initial performance.</p>\n<h4>25-Year Limited Product Warranty</h4>\n<p>The NeON® 2 Black is covered by a 25-year limited product warranty. In addition, up to $450 of labor costs will be covered in the rare case that a module needs to be repaired or replaced.</p>\n<h4>Solid Performance on Hot Days</h4>\n<p>LG NeON® 2 Black performs well on hot days due to its low temperature coefficient</p>\n<h4>Roof Aesthetics</h4>\n<p>LG NeON® 2 Black has been designed with aesthetics in mind using thinner wires that appear all black at a distance.</p>\n<h4>Double-Sided Cell Structure</h4>\n<p>The rear of the cell used in the LG NeON® 2 Black contributes to generation, just like the front; the light beam reflected from the rear of the module is reabsorbed to generate additional power.</p>\n\n<li class=\"dt_box\">Number of Busbars - 12EA</li>\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Weight - 18.6kg</li>\n<li>Backsheet (Color) - Black</li>\n<li>Junction Box (Protection Degree)- IP 68 with 3 Bypass Diodes</li>\n<li>Connector (Type/Maker) - MC 4/MC</li>\n\n\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Improved: 1st year 98.5%, from 2-24th year: 0.33%/year down, 90.6% at year 25</li>\n\n*  NMOT (Nominal Module Operating Temperature):Irradiance 800W/m², Ambient temperature 20AC, Wind speed 1m/s, Spectrum AM 1.5\n\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody>\n<tr><th class=\"spec-key\">*STC (Standard Test Condition)</th><th class=\"spec-value\">Irradiance 1000W/m², cell temperature 25AC, AM 1.5.</th></tr>\n</tbody></table></div>\n\n<p>*Based on IEC 61215-2 : 2016 (Test Load = Design Load x Safety Factor(1.5)), Mechanical Test Loads 6,000 Pa/5,400 Pa based on IEC 61215 : 2005</p>\n",
+    "features": [
+      {
+        "title_en": "KEY FEATURES",
+        "items_en": [
+          "60 Cell (6 x 10) Solar Panel for Home",
+          "25-Year Limited Warranty",
+          "Solid Performance on a Sunny Day",
+          "20.1% Module Efficiency",
+          "Award-Winning Cello Technology™",
+          "Attractive Roof Aesthetic"
+        ]
+      },
+      {
+        "title_en": "GENERAL DATA",
+        "items_en": [
+          "Cell Properties (Material/Type) - Monocrystalline/N-type",
+          "Cell Configuration - 60 Cells (6 x 10)",
+          "Module Dimensions (L x W x H) - 1,740mm x 1,042mm x 40mm",
+          "Glass (Material) - Tempered Glass with AR Coating",
+          "Frame (Material) - Anodized Aluminium",
+          "Cables (Length) - 1,100mm x 2EA",
+          "Cell Maker - LG"
+        ]
+      },
+      {
+        "title_en": "CERTIFICATIONS & WARRANTY",
+        "items_en": [
+          "Certifications - IEC 61215-1/-1-1/2:2016, IEC 61730-1/2:2016, ISO 9001, ISO 14001, ISO 50001, OHSAS 18001, UL 61730-1 2017, UL61730-2 2017, IEC 61701 (Salt Mist Corrosion Test), IEC 62716 (Ammonia Corrosion Test)",
+          "Ammonia Corrosion Test - TBD",
+          "Fire Rating - Class C (UL 790, ULC/ORD C 1703)",
+          "Output Warranty of Pmax - Linear warranty*",
+          "Solar Module Product Warranty - TBD",
+          "Module Fire Performance - Type 2",
+          "Product Warranty - 25 Year Limited"
+        ]
+      },
+      {
+        "title_en": "TEMPERATURE CHARACTERISTICS",
+        "items_en": [
+          "NMOT - 42 ± 3",
+          "Pmax - -0.35",
+          "Voc - -0.26",
+          "Isc - 0.03%/AC"
+        ]
+      },
+      {
+        "title_en": "ELECTRICAL PROPERTIES (NMOT)",
+        "items_en": [
+          "Model  -  TBD",
+          "Maximum Power (Pmax) - 281",
+          "MPP Voltage (Vmpp) - 33.7",
+          "MPP Current (Impp) - 8.33",
+          "Open Circuit Voltage (Voc) - 39.5",
+          "Short Circuit Current (Isc) - 8.84"
+        ]
+      },
+      {
+        "title_en": "ELECTRICAL PROPERTIES (STC*)",
+        "items_en": [
+          "Model - TBD",
+          "Maximum Power (Pmax) - 375",
+          "MPP Voltage (Vmpp) - 35.9",
+          "MPP Current (Impp) - 10.45",
+          "Open Circuit Voltage (Voc) - 42.0",
+          "Short Circuit Current (Isc) - 11.00",
+          "Module Efficiency (%) - 20.07",
+          "Operating Temperature (AC) - -40 ~+85",
+          "Maximum System Voltage (V) - 1000(IEC/UL)",
+          "Maximum Series Fuse Rating (A) - 20",
+          "Power Tolerance (%) - 0 ~ +3"
+        ]
+      },
+      {
+        "title_en": "OPERATING CONDITIONS",
+        "items_en": [
+          "Operating Temperature [AC] - TBD",
+          "Maximum System Voltage [V] - TBD",
+          "Maximum Series Fuse Rating [A] - TBD",
+          "Mechanical Test Load (Front) [Pa/psf] - TBD",
+          "Mechanical Test Load (Rear) [Pa/psf] - TBD"
+        ]
+      },
+      {
+        "title_en": "PACKAGING CONFIGURATION",
+        "items_en": [
+          "Number of Modules per Pallet [EA] - 25",
+          "Number of Modules per 40ft HQ Container [EA] - 650",
+          "Number of Modules per 53' Container [EA] - 850",
+          "Packaging Box Dimensions (L x W x H) [mm] - 1,790 x 1,120 x 1,213",
+          "Packaging Box Dimensions (L x W x H) [in] - TBD",
+          "Packaging Box Gross Weight [kg]- TBD",
+          "Packaging Box Gross Weight [lb]- TBD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "288",
+    "slug": "72-cell-mbb-half-cell-module",
+    "title_en": "72-cell MBB Half-cell Module",
+    "excerpt_en": "",
+    "content_en": "<p>Product Model : <strong>JAM72S10/MR</strong></p>\n<h4>Product description</h4>\n<p class=\"miaoshu\">Assembled with multi-busbar PERC cells, the half-cell configuration of the modules offers the advantages of higher power output, better temperature-dependent performance, reduced shading effect on the energy generation, lower risk of hot spot, as well as enhanced tolerance for mechanical loading.</p>\n",
+    "features": [
+      {
+        "title_en": "Product introduction",
+        "items_en": [
+          "Cell - Mono",
+          "No. of cells - 144ï¼ˆ6x24ï¼‰",
+          "Rated Maximum Power(Pmax) - 410W",
+          "Maximum Efficiency - 20.4%",
+          "Junction Box - IP68",
+          "Maximum System Voltage - 1000V/1500V DC",
+          "Operating Temperature - -40ACï½ž+85AC",
+          "Connectors - QC4, MC4, EVO2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "291",
+    "slug": "hiku7",
+    "title_en": "HiKu7",
+    "excerpt_en": "",
+    "content_en": "\n<h4 class=\"fl-heading\"><span class=\"fl-heading-text\">LORENTZ Solar Water Pumping systems</span></h4>\n<p>LORENTZ have a 100% focus on designing and building solar water pumps and have been doing so for over 20 years. Their products are almost always installed in the most remote and harshest off-grid environments.</p>\n<h4>The systems must work first time</h4>\n<p>Every single LORENTZ pump system is tested for around 90 minutes before it is packed. They do a mixture of in-process automated testing combined with real testing of every pump system. Every motor and pump is run in water and measured before delivery.</p>\n<h4>Products must be reliable and have a long life</h4>\n<p>Reliability comes from designing the system components to run in real world conditions. Their experience of having pump systems installed in over 150 countries over the past 20 years has taught them what is needed to design realiable products.</p>\n<img class=\"alignnone size-full wp-image-348\" src=\"/uploads/2021/08/pv-direct-system.webp\" alt=\"\" width=\"1000\" height=\"541\" />\n<h4>Drinking Water</h4>\n<p>LORENTZ solar water pumping systems have a proven track record of delivering drinking water to homes, communities and livestock all around for over 20 years.</p>\n<h4>Irrigation</h4>\n<p>Solar water pumping systems are a perfect match for irrigation - a solution for remote locations where more sun increases the demand for water.</p>\n<img class=\"alignnone size-large wp-image-349\" src=\"/uploads/2021/08/lorentz-smartsolution-with-text-1024x598.webp\" alt=\"\" width=\"1024\" height=\"598\" />\n",
+    "features": [
+      {
+        "title_en": "High Power Dual Cell PERC Module",
+        "items_en": [
+          "210 mm wafer + 132 / 120 dual cell + PERC technology",
+          "Module power up to 670 W",
+          "0.4% more energy yield in module lifetime"
+        ]
+      },
+      {
+        "title_en": "Lower BOS cost & LCOE cost",
+        "items_en": [
+          "Reduce 5.7% BOS cost",
+          "3.5% lower LCOE",
+          "Compatible with mainstream inverters"
+        ]
+      },
+      {
+        "title_en": "Enhanced reliability",
+        "items_en": [
+          "Comprehensive LID / LeTID mitigation technology, up to 50% lower degradation",
+          "Excellent hot spot performance",
+          "Better shading tolerance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "294",
+    "slug": "vertex-550w-module",
+    "title_en": "Vertex 550W+ Module",
+    "excerpt_en": "",
+    "content_en": "<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Monocrystalline</th><th class=\"spec-value\">110 Cell</th></tr><tr><td class=\"spec-key\">Power Outage Range</td><td class=\"spec-value\">530 -550W</td></tr><tr><td class=\"spec-key\">Maximum Efficiency</td><td class=\"spec-value\">21%</td></tr><tr><td class=\"spec-key\">Positive Power Tolerance</td><td class=\"spec-value\">0~+5W</td></tr></tbody></table></div>\n\n<h4 class=\"title-primary\">Ultra-high power meets 21.6% efficiency</h4>\n<img class=\"alignnone wp-image-296 size-medium\" src=\"/uploads/2021/08/1-8-300x188.webp\" alt=\"\" width=\"300\" height=\"188\" />\n<p>Based on the 210mm large-size silicon wafer and monocrystalline PERC cell, the innovative Vertex allows high power output up to 550W. An excellent temperature coefficient and superior irradiation performance combine to facilitate greater power. Additionally, innovative square mono cells and high-density encapsulation technology enable efficiency of up to 21.6%.</p>\n<h4 class=\"title-primary\">Seamless integration of cutting-edge technologies.</h4>\n<img class=\"alignnone size-medium wp-image-297\" src=\"/uploads/2021/08/2-1-300x188.webp\" alt=\"\" width=\"300\" height=\"188\" />\n<p>With Vertex, Trina Solar's research and development team has integrated non-destructive cutting and high-density encapsulation technologies. Multi-busbar technology, which allows for greater light absorption, is a perfect fit for the large-area cell design. These seamless technology integrations enable the Vertex to achieve higher power and power generation capacity per watt.</p>\n<h4 class=\"title-primary\">Optimize Vertex with our smart solar solution.</h4>\n<img class=\"alignnone size-medium wp-image-298\" src=\"/uploads/2021/08/4-300x188.webp\" alt=\"\" width=\"300\" height=\"188\" />\n<p>While the Vertex module is fully compatible with mainstream inverters and tracking systems, the TrinaPro solution integrates bifacial Vertex modules and our customized TrinaTracker to optimize Vertex module performance and ensure system safety and reliability. TrinaPro's R&D team has developed an adaptive tracking algorithm specific to the 210mm cell structure of Vertex, creating an extra performance gain of 3-8% compared to traditional astronomical tracking algorithms.</p>",
+    "features": []
+  },
+  {
+    "id": "300",
+    "slug": "enlarged-led-module-solar-street-lightslz",
+    "title_en": "40 W to 200 W LED Solar Street Light",
+    "excerpt_en": "",
+    "content_en": "<p>AN-SLZ solar street lights is a patented product developed by Anern in 2021. This series of products is made with the goal of creating a most cost-effective solar street light for engineering projects.</p>\n\n<img class=\"alignnone wp-image-301 size-full\" src=\"/uploads/2021/08/slz.webp\" alt=\"\" width=\"1410\" height=\"400\" />\n<p>AN-SLZ adopts an integrated structural design, solar panels, batteries, controllers and LED light sources are all combined together, which is very convenient to install and use. In addition, in order to increase the brightness of the lamps as much as possible, we have enlarged the LED modules, and each LED module can place more LED lamp beads.</p>\n\n<h4 class=\"product-detail-title\">Die-cast aluminum bracket</h4>\n<img class=\"alignnone size-medium wp-image-305\" src=\"/uploads/2021/08/remote-control-300x161.webp\" alt=\"\" width=\"300\" height=\"161\" />\n<p>Three lighting modes to switch through remote control. Die-cast aluminum bracket and anti-wind resistance reaches Level 16.</p>\n<h4 class=\"product-detail-title\">LifePo4 Battery</h4>\n<img class=\"alignnone size-medium wp-image-303\" src=\"/uploads/2021/08/lifepo4-battery-300x161.webp\" alt=\"\" width=\"300\" height=\"161\" />\n<p>Brand new and big capacity lifepo4 batteries, refuse to second-hand batteries and products.</p>\n<h4 class=\"product-detail-title\">Mono Solar Panel</h4>\n<img class=\"alignnone size-medium wp-image-304\" src=\"/uploads/2021/08/mono-solar-panel-300x161.webp\" alt=\"\" width=\"300\" height=\"161\" />\n<p>Adopt monocrystalline solar panel, 22% photoelectric conversion efficiency.</p>\n<h4 class=\"product-detail-title\">Bridgelux 3030 high brightness LED chip</h4>\n<img class=\"alignnone size-medium wp-image-302\" src=\"/uploads/2021/08/bridgelux-3030-high-brightness-led-chip-300x161.webp\" alt=\"\" width=\"300\" height=\"161\" />\n<p>Enlarged capacity LED module design, equiped with high-brightness Bridgelux LED chips, improving the brightness by 30%.</p>\n<h4 class=\"product-section-title\">Specification</h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr>\n<th><strong><b>Power</b></strong></th>\n<th>40W</th>\n<th>50W</th>\n<th>60W</th>\n<th>80W</th>\n<th>100W</th>\n<th>120W</th>\n</tr>\n<tr>\n<td><strong><b>LED</b></strong></td>\n<td>96pcs</td>\n<td>192pcs</td>\n<td>192pcs</td>\n<td>240pcs</td>\n<td>336pcs</td>\n<td>336pcs</td>\n</tr>\n<tr>\n<td><strong><b>Luminous </b></strong><strong><b>flux</b></strong></td>\n<td>10000lm</td>\n<td>13000lm</td>\n<td>16700lm</td>\n<td>20000lm</td>\n<td>25000lm</td>\n<td>33000lm</td>\n</tr>\n<tr>\n<td><strong><b>LiFePO4 b</b></strong><strong><b>attery</b></strong></td>\n<td>12.8V/28AH</td>\n<td>12.8V/36AH</td>\n<td>12.8V/42AH</td>\n<td>12.8V/57AH</td>\n<td>12.8V/63AH</td>\n<td>25.6V/72AH</td>\n</tr>\n<tr>\n<td><strong><b>Mono solar </b></strong><strong><b>panel</b></strong></td>\n<td>18V65W</td>\n<td>18V70W</td>\n<td>18V80W</td>\n<td>18V100W</td>\n<td>18V130W</td>\n<td>36V140W</td>\n</tr>\n<tr>\n<td><strong><b>Solar charging time</b></strong></td>\n<td colspan=\"6\">6-8 hours by bright sunlight</td>\n</tr>\n<tr>\n<td><strong><b>Lighting time in rainy day</b></strong></td>\n<td colspan=\"6\">7-10 days</td>\n</tr>\n<tr>\n<td><strong><b>Lighting </b></strong><strong><b>mode</b></strong></td>\n<td colspan=\"6\">12hrs motion sensor control (Bright lighting 30secs when people move through the light)+Remote controller</td>\n</tr>\n<tr>\n<td><strong><b>PIR</b></strong></td>\n<td colspan=\"6\">120A, &gt;8m</td>\n</tr>\n<tr>\n<td><strong><b>Material</b></strong></td>\n<td colspan=\"6\">Aluminium alloy + PMMA</td>\n</tr>\n<tr>\n<td><strong><b>IP / IK class</b></strong></td>\n<td colspan=\"6\">IP 66 / IK 10</td>\n</tr>\n<tr>\n<td><strong><b>Work temperature</b></strong></td>\n<td colspan=\"6\">-25AC to 65AC</td>\n</tr>\n</tbody>\n</table></div>\n</div>",
+    "features": [
+      {
+        "title_en": "Quick Information",
+        "items_en": [
+          "Power : 40W-120W",
+          "Solar panel : &gt;210lm/w",
+          "Solar Panel : Monocrystalline",
+          "Battery : LiFePo4 Battery",
+          "Lighting mode : Light control + Motion sensor + Time control",
+          "Material : Aluminium alloy + PMMA"
+        ]
+      },
+      {
+        "title_en": "Our Advantages",
+        "items_en": [
+          "We have our own factory of the solar panel, and invested in a battery factory and a shell factory, which has a cost advantage.",
+          "Independent design and development team, with multiple patents products.",
+          "Focus on solar lighting engineering design, provide professional DIALux design solutions.",
+          "The quality of engineering, promise that the raw materials used do not contain defective or second-hand products."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "325",
+    "slug": "double-sided-solar-panel-solar-street-lightsl-x",
+    "title_en": "Double sided Solar Panel Solar Street Light(SL-X)",
+    "excerpt_en": "",
+    "content_en": "<p>AN-SL-X series solar street lights are patented products independently developed by ANERN, with anti-wind resistance of level-16 and 180 degree adjustable angle, specially designed for hi-end project.</p>\n\n<img class=\"alignnone size-large wp-image-327\" src=\"/uploads/2021/08/sl-x2-1024x290.webp\" alt=\"\" width=\"1024\" height=\"290\" />\n<p>This series is the first time to adopt double-sided solar panel with beautiful design, and the maximum power generation can be increased by 30%. The external solar panel design can flexibly adjust the solar panel power and solve the problem of insufficient power generation. With Bridgelux 3030 and 5050 high-brightness LED chips, built-in large-capacity lifePO4 lithium battery, meet the international standards of road lighting. It is the best choice for highway and main road lighting.</p>\n<h4>Advantages of Double-sided solar panel</h4>\n<img class=\"alignnone size-full wp-image-328\" src=\"/uploads/2021/08/double-sided-solar-panel-solar-street-light-01-1.webp\" alt=\"\" width=\"500\" height=\"300\" />\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Longer life cycle: The warranty for ordinary modules is 25 years, and the warranty for Double-sided modules is 30 years.</li>\n<li>Higher power generation efficiency: at least about 5% higher than ordinary ones.</li>\n<li>Low attenuation: the attenuation of the traditional module is about 0.7%, and the double-sided module is 0.5%.</li>\n<li>The double-sided solar panel has no aluminum frame, which is easier to clean, with less dust on the surface of the module, beneficial to increase the power generation.</li>\n<li>Double-sided solar panels have fewer organic materials, which are more environmentally friendly, easy to recycle, and more in line with the development of green energy.</li>\n\n\n\n<h4 class=\"product-detail-title\">Double-sided Solar Panel</h4>\n<img class=\"alignnone size-full wp-image-331\" src=\"/uploads/2021/08/double-sided-solar-panel.webp\" alt=\"\" width=\"632\" height=\"340\" />\n<p>Using double-sided solar panels, with higher power generation and power generation efficiency, it is suitable for rainy, snowy and plateau areas.</p>\n<h4 class=\"product-detail-title\">Smart Controller</h4>\n<img class=\"alignnone size-full wp-image-332\" src=\"/uploads/2021/08/solar-panel-3.webp\" alt=\"\" width=\"632\" height=\"340\" />\n<p>Intelligent dimming mode, adjusting the brightness according to the remaining battery capacity, effectively extending the lighting time.</p>\n<h4 class=\"product-detail-title\">Adjustable Angle Bracket</h4>\n<img class=\"alignnone size-full wp-image-330\" src=\"/uploads/2021/08/adjustable-bracket-angle-1.webp\" alt=\"\" width=\"632\" height=\"340\" />\n<p>The 180A adjustable angle bracket allows the lamp to have a more flexible irradiation angle and range.</p>\n<h4 class=\"product-detail-title\">LiFePo4 Battery</h4>\n<img class=\"alignnone size-full wp-image-329\" src=\"/uploads/2021/08/a-class-battery-1.webp\" alt=\"\" width=\"632\" height=\"340\" />\n<p>Brand new LiFePo4 Lithium batteries, no second-hand batteries, guaranteeing an 8-year life span.</p>\n<h4 class=\"product-section-title\">Specification</h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr>\n<th><strong><b>Power</b></strong></th>\n<th>60W</th>\n<th>80W</th>\n<th>100W</th>\n<th>120W</th>\n<th>150W</th>\n<th>200W</th>\n</tr>\n<tr>\n<td><strong><b>LED</b></strong></td>\n<td>80pcs 3030</td>\n<td>80pcs 3030</td>\n<td>120pcs 3030</td>\n<td>120pcs 3030</td>\n<td>120pcs 5050</td>\n<td>120pcs 5050</td>\n</tr>\n<tr>\n<td><strong><b>Luminous </b></strong><strong><b>flux</b></strong></td>\n<td>10000lm</td>\n<td>13000lm</td>\n<td>16700lm</td>\n<td>20000lm</td>\n<td>25000lm</td>\n<td>33000lm</td>\n</tr>\n<tr>\n<td><strong><b>LiFePO4 b</b></strong><strong><b>attery</b></strong></td>\n<td>12.8V/42AH</td>\n<td>12.8V/57AH</td>\n<td>12.8V/63AH</td>\n<td>12.8V/72AH</td>\n<td>12.8V/90AH</td>\n<td>25.6V/66AH</td>\n</tr>\n<tr>\n<td><strong><b>Mono solar </b></strong><strong><b>panel</b></strong></td>\n<td>18V120W</td>\n<td>18V140W</td>\n<td>18V160W</td>\n<td>18V180W</td>\n<td>18V220W</td>\n<td>36V260W</td>\n</tr>\n<tr>\n<td><strong><b>Solar charging time</b></strong></td>\n<td colspan=\"6\">6-8 hours by bright sunlight</td>\n</tr>\n<tr>\n<td><strong><b>Lighting time in rainy day</b></strong></td>\n<td colspan=\"6\">10 days</td>\n</tr>\n<tr>\n<td><strong><b>Lighting </b></strong><strong><b>mode</b></strong></td>\n<td colspan=\"6\">12hrs motion sensor control (Bright lighting 30secs when people move through the light)+Remote controller</td>\n</tr>\n<tr>\n<td><strong><b>PIR</b></strong></td>\n<td colspan=\"6\">120A, &gt;8m</td>\n</tr>\n<tr>\n<td><strong><b>Material</b></strong></td>\n<td colspan=\"6\">Aluminium alloy + PMMA</td>\n</tr>\n<tr>\n<td><strong><b>IP / IK class</b></strong></td>\n<td colspan=\"6\">IP 65 / IK 10</td>\n</tr>\n<tr>\n<td><strong><b>Work temperature</b></strong></td>\n<td colspan=\"6\">-25AC to 65AC</td>\n</tr>\n<tr>\n<td><strong><b>Install</b></strong></td>\n<td>5-8m</td>\n<td>6-9m</td>\n<td>7-10m</td>\n<td>7-10m</td>\n<td>8-12m</td>\n<td>8-12m</td>\n</tr>\n</tbody>\n</table></div>\n</div>",
+    "features": [
+      {
+        "title_en": "Quick Information",
+        "items_en": [
+          "Power : 60W-200W",
+          "Solar panel : &gt;210lm/w",
+          "Solar Panel : Monocrystalline",
+          "Battery : LiFePo4 Battery",
+          "Lighting mode : Light control + Motion sensor + Time control",
+          "Material : Aluminium alloy + PMMA"
+        ]
+      },
+      {
+        "title_en": "Our Advantages",
+        "items_en": [
+          "Own solar panel factory, self-invested battery factory and shell factory, cost advantage.",
+          "Independent design and development team, with multiple patents products.",
+          "Focus on solar lighting engineering design, provide professional DIALux design solutions.",
+          "Project high-quality, promise that all raw materials used without defective or second-hand products."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "346",
+    "slug": "lorentz-solar-water-pumps",
+    "title_en": "LORENTZ Solar Water Pumps",
+    "excerpt_en": "",
+    "content_en": "\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Designed for Solar Water Pumping</li>\n<li>Basic Components of a PV-Direct Water Pumping System</li>\n<li>Applications</li>\n<li>Solar Pump Types</li>\n<li>Efficiency</li>\n<li>Solar vs Diesel Calculator</li>\n<li>Solar Pump ROI Pool Calculator</li>\n<li>Water Pump Sizing Questionnaire</li>\n<li>SmartSolution Hybrid Power</li>\n\n\n<img class=\"alignnone size-full wp-image-347\" src=\"/uploads/2021/08/lor-hq-showroomboards-2017.10.04-1024x603-1.webp\" alt=\"\" width=\"1024\" height=\"603\" />\n<h4 class=\"fl-heading\"><span class=\"fl-heading-text\">Designed for Solar Water Pumping</span></h4>\n<h4>Designing for off grid</h4>\n<strong>LORENTZ</strong> have a 100% focus on designing and building solar water pumps and have been doing so for over 20 years. Their products are almost always installed in the most remote and harshest off-grid environments.\n<p>Designing products for off-grid use means that the engineering priorities are different from their competitors.</p>\n<h4>The systems must work first time</h4>\n<p>When you are installing a product 30 hours away from your workshop, in a desert, on a mountainside, in a jungle or \"just\" on the other side of a ranch then you need to know that it works out of the box.</p>\n<p>Every single <strong>LORENTZ</strong> pump system is tested for around 90 minutes before it is packed. They do a mixture of in-process automated testing combined with real testing of every pump system. Every motor and pump is run in water and measured before delivery.</p>\n<h4>Products must be reliable and have a long life</h4>\n<p>Reliability comes from designing the system components to run in real world conditions. Their experience of having pump systems installed in over 150 countries over the past 20 years has taught them what is needed to design realiable products.</p>\n<p>They choose the right materials and production techniques to give their products a long life, even in the most difficult dusty, hot, damp, cold, or dry conditions.</p>\n<h4>Be easy to service and repair</h4>\n<p>If something does go wrong then all <strong>LORENTZ</strong> systems are designed to be field serviceable. All systems are modular allowing electronic boards, motors, pump ends and other components to be easily replaced. Not only are they serviceable but component spare parts are priced proportionately to the whole system price.</p>\n<img class=\"alignnone size-full wp-image-348\" src=\"/uploads/2021/08/pv-direct-system.webp\" alt=\"\" width=\"1000\" height=\"541\" />\n<h4 class=\"fl-heading\"><span class=\"fl-heading-text\">Applications</span></h4>\n<h4>Drinking Water</h4>\nLORENTZ solar water pumping systems  have a proven track record of delivering drinking water to homes, communities and livestock all around for over 20 years. As an application, there is nothing more critical than drinking water. Therefore, choosing a system that you know will deliver the water you need, reliably and predictably is of the upmost importance.\n<h4>Irrigation</h4>\n<p>Solar water pumping systems are a perfect match for irrigation - a solution for remote locations where more sun increases the demand for water.</p>\n<h4>Industry</h4>\n<p>Industry in both developed and fast developing countries can suffer from unreliable grid power or very high peak rate power which has an adverse effect on productivity and competitiveness.</p>\n<h4>Responsible Leisure</h4>\n<p>Pools pumps are the second biggest energy consumer in many homes (air conditioning being the first). The LORENTZ PS2 solar pool pump will keep your swimming pools crystal clear without any electricity costs.</p>\n<h4 class=\"fl-heading\"><span class=\"fl-heading-text\">Efficiency</span></h4>\n<p>Efficiency is very important for a solar water pumping system. Efficiency ultimately defines how much water the system will pump with the available power. With solar power (PV modules) then you are making a capital investment in your power source. With an efficient system you either spend less for the same amount of water or get more water from the same power source.</p>\n<h4>Simply more water</h4>\n<p>Efficient systems will start pumping earlier in the day, pump more water throughout the day and will stop pumping later in the day.</p>\n<h4>Why are <strong>LORENTZ</strong> systems more efficient?</h4>\n<p>Efficiency is in the company DNA, you even see the ET Î· efficiency symbol in their logo.</p>\n<p>As the energy from the sun is not constant, either seasonally or daily due to changing weather, a solar pumping system must adapt to the changing conditions and deliver the maximum water possible with the amount of power available. Software in the pump controller looks at the available power and changes how the pump is powered to maximise the water output.</p>\n<p>Choosing the right materials and designs for products allows for precise tolerances, this assists with mechanical efficiency.</p>\n<p>The <strong>LORENTZ</strong> ECDRIVE uses DC brushless motor technology, this technology provide almost twice the real world efficiency of equivalent sized AC motors.</p>\n<h4 class=\"fl-heading\"><span class=\"fl-heading-text\">SmartSolution Hybrid Power</span></h4>\n<div class=\"fl-col-group fl-node-5a317927795d6\" data-node=\"5a317927795d6\">\n<div class=\"fl-col fl-node-5a3179277971a\" data-node=\"5a3179277971a\">\n<div class=\"fl-col-content fl-node-content\">\n<div class=\"fl-module fl-module-rich-text fl-node-5a3172e2b5edc\" data-node=\"5a3172e2b5edc\">\n<div class=\"fl-module-content fl-node-content\">\n<div class=\"fl-rich-text\">\n<strong>When only hybrid power makes sense</strong>\n<p>There are applications and times when solar power alone is not the most practical or economical solution. Think of applications where there are times in the day or times in the year where sizing a solar system for the peaks means that the solar system is oversized for most of the year and so not the best investment.</p>\n<p>Let us think about a simple example: If we have fruit tree irrigation, we can size a system that delivers all the water for 10 months of the year, but we need 30% extra for the 2 months before harvest. Using a hybrid system, we can meet 95% of our annual demand with solar and the 5% annual extra (30% for 2 months) with generator power.</p>\n<p>Installing expensive and inefficient battery systems are not a good answer as the capital investment and relatively short life would make the project very expensive. Installing hybrid power is a much more sensible way to manage these short-term needs.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"fl-col-group fl-node-5a314a8438bf4\" data-node=\"5a314a8438bf4\">\n<div class=\"fl-col fl-node-5a314a8438c85 fl-col-has-cols\" data-node=\"5a314a8438c85\">\n<div class=\"fl-col-content fl-node-content\">\n<div class=\"fl-module fl-module-rich-text fl-node-5a3147bc879dc\" data-node=\"5a3147bc879dc\">\n<div class=\"fl-module-content fl-node-content\">\n<div class=\"fl-rich-text\">\n<strong>The LORENTZ SmartSolution</strong>\n<p>In this example the <strong>LORENTZ</strong> PSk2 system has SmartSolution hybrid power:</p>\n<img class=\"alignnone size-large wp-image-349\" src=\"/uploads/2021/08/lorentz-smartsolution-with-text-1024x598.webp\" alt=\"\" width=\"1024\" height=\"598\" />\n<strong>Blending power</strong>\n<p>The <strong>LORENTZ</strong> SmartSolution Hybrid Power automatically blends power from solar and external sources, only using the external source where your demand for water requires it. This is not a switching system that switches between sources but effectively blends power so that only the power that is needed is demanded from the non-solar source. For a hybrid generator solution, this means running at partial load, for a hybrid grid solution this means using kWh from the grid as a top up.</p>\n<strong>Any water need is met automatically</strong>\n<p>Where there is a flow or pressure critical water pumping application, anything from an industrial process to a commercial swimming pool, the <strong>LORENTZ</strong> SmartSolution can solve the problem. PSk2 manages the start and end of day transition from solar to grid or from solar to generator power seamlessly and without the need for any operator intervention.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+    "features": []
+  },
+  {
+    "id": "369",
+    "slug": "crn-h",
+    "title_en": "grundfo Horizontal multistage end-suction water pumps CRN-H",
+    "excerpt_en": "",
+    "content_en": "<p>Horizontal multistage end-suction pumps</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">456 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">935 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">32 .. 248 AF</td></tr></tbody></table></div>\n",
+    "features": []
+  },
+  {
+    "id": "372",
+    "slug": "cr-cre-cri-crie-crn-crne-crt-crte-crne-hs-crn-sf",
+    "title_en": "MULTISTAGE SURFACE WATER PUMPS 1HP to 10 HP",
+    "excerpt_en": "",
+    "content_en": "<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>HVAC: Air Conditioning</li>\n<li>Commercial fire protection</li>\n<li>HVAC: Heating</li>\n<li>Plumbing: Pressure Boosting</li>\n<li>District cooling</li>\n<li>District heating</li>\n<li>Machining</li>\n<li>Wash and clean</li>\n<li>Cooling</li>\n<li>Industrial heating</li>\n<li>Desalination</li>\n<li>Industrial process water treatment</li>\n<li>Industrial water supply & transfer</li>\n<li>Industrial wastewater treatment & reuse</li>\n<li>Drinking water treatment</li>\n<li>Irrigation</li>\n<li>Municipal solar solutions</li>\n<li>Municipal surface water</li>\n<li>Municipal water transportation</li>\n<li>Drip irrigation & micro spray</li>\n<li>Frost protection</li>\n<li>Pivot</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Vertical, multistage centrifugal pump with suction and discharge ports on the same level.</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">1280 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">1597 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">328 .. 2192 AF</td></tr></tbody></table></div>\n\n<h4 class=\"cmp-catalogue-hero__heading\">CR, North America</h4>\n<img class=\"alignnone size-medium wp-image-374\" src=\"/uploads/2021/08/productgroup-2-1-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>HVAC: Air Conditioning</li>\n<li>Commercial fire protection</li>\n<li>HVAC: Heating</li>\n<li>Plumbing: Pressure Boosting</li>\n<li>District cooling</li>\n<li>District heating</li>\n<li>Machining</li>\n<li>Wash and clean</li>\n<li>Cooling</li>\n<li>Industrial heating</li>\n<li>Desalination</li>\n<li>Industrial process water treatment</li>\n<li>Industrial water supply & transfer</li>\n<li>Industrial wastewater treatment & reuse</li>\n<li>Drinking water treatment</li>\n<li>Irrigation</li>\n<li>Municipal solar solutions</li>\n<li>Municipal surface water</li>\n<li>Municipal water transportation</li>\n<li>Drip irrigation & micro spray</li>\n<li>Frost protection</li>\n<li>Pivot</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Vertical, multistage centrifugal pump with suction and discharge ports on the same level. The pump head and base are in cast iron. All other wetted parts are in stainless steel (AISI 304).</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">1280 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">1283 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">22 .. 248 AF</td></tr></tbody></table></div>\n\n<h4 class=\"cmp-catalogue-hero__heading\">CRE</h4>\n<img class=\"alignnone size-medium wp-image-375\" src=\"/uploads/2021/08/productgroup-3-1-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>HVAC: Air Conditioning</li>\n<li>Commercial fire protection</li>\n<li>HVAC: Heating</li>\n<li>Plumbing: Pressure Boosting</li>\n<li>District cooling</li>\n<li>District heating</li>\n<li>Machining</li>\n<li>Wash and clean</li>\n<li>Cooling</li>\n<li>Industrial heating</li>\n<li>Desalination</li>\n<li>Industrial process water treatment</li>\n<li>Industrial water supply & transfer</li>\n<li>Industrial wastewater treatment & reuse</li>\n<li>Drinking water treatment</li>\n<li>Irrigation</li>\n<li>Municipal solar solutions</li>\n<li>Municipal surface water</li>\n<li>Municipal water transportation</li>\n<li>Drip irrigation & micro spray</li>\n<li>Frost protection</li>\n<li>Pivot</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Vertical, multistage centrifugal pump with integrated frequency converter. The pump head and base are in cast iron - all other wetted parts are in stainless steel (AISI 304).</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">1060 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">991 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">328 .. 2192 AF</td></tr></tbody></table></div>\n\n<h4 class=\"cmp-catalogue-hero__heading\">CRI, North America</h4>\n<img class=\"alignnone size-medium wp-image-376\" src=\"/uploads/2021/08/productgroup-6-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>HVAC: Air Conditioning</li>\n<li>Commercial fire protection</li>\n<li>HVAC: Heating</li>\n<li>Plumbing: Pressure Boosting</li>\n<li>District cooling</li>\n<li>District heating</li>\n<li>Machining</li>\n<li>Wash and clean</li>\n<li>Cooling</li>\n<li>Industrial heating</li>\n<li>Desalination</li>\n<li>Industrial process water treatment</li>\n<li>Industrial water supply & transfer</li>\n<li>Industrial wastewater treatment & reuse</li>\n<li>Drinking water treatment</li>\n<li>Irrigation</li>\n<li>Municipal solar solutions</li>\n<li>Municipal surface water</li>\n<li>Municipal water transportation</li>\n<li>Drip irrigation & micro spray</li>\n<li>Frost protection</li>\n<li>Pivot</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Vertical, multistage centrifugal pump with suction and discharge ports on the same level. Pump materials in contact with the liquid are in stainless steel (AISI 304).</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">157 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">838 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">4 .. 248 AF</td></tr></tbody></table></div>\n\n<h4 class=\"cmp-catalogue-hero__heading\">CRIE</h4>\n<img class=\"alignnone size-medium wp-image-377\" src=\"/uploads/2021/08/productgroup-1-2-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>HVAC: Air Conditioning</li>\n<li>Commercial fire protection</li>\n<li>HVAC: Heating</li>\n<li>Plumbing: Pressure Boosting</li>\n<li>District cooling</li>\n<li>District heating</li>\n<li>Machining</li>\n<li>Wash and clean</li>\n<li>Cooling</li>\n<li>Industrial heating</li>\n<li>Desalination</li>\n<li>Industrial process water treatment</li>\n<li>Industrial water supply & transfer</li>\n<li>Industrial wastewater treatment & reuse</li>\n<li>Drinking water treatment</li>\n<li>Irrigation</li>\n<li>Municipal solar solutions</li>\n<li>Municipal surface water</li>\n<li>Municipal water transportation</li>\n<li>Drip irrigation & micro spray</li>\n<li>Frost protection</li>\n<li>Pivot</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Vertical, multistage centrifugal pump with integrated frequency converter. Pump materials in contact with the liquid are in stainless steel (AISI 304).</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">156 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">827 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">4 .. 248 AF</td></tr></tbody></table></div>\n\n<h4 class=\"cmp-catalogue-hero__heading\">CRN, North America</h4>\n<img class=\"alignnone size-medium wp-image-379\" src=\"/uploads/2021/08/productgroup-2-2-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>HVAC: Air Conditioning</li>\n<li>Commercial fire protection</li>\n<li>HVAC: Heating</li>\n<li>Plumbing: Pressure Boosting</li>\n<li>District cooling</li>\n<li>District heating</li>\n<li>Machining</li>\n<li>Wash and clean</li>\n<li>Cooling</li>\n<li>Industrial heating</li>\n<li>Desalination</li>\n<li>Industrial process water treatment</li>\n<li>Industrial water supply & transfer</li>\n<li>Industrial wastewater treatment & reuse</li>\n<li>Drinking water treatment</li>\n<li>Irrigation</li>\n<li>Municipal solar solutions</li>\n<li>Municipal surface water</li>\n<li>Municipal water transportation</li>\n<li>Drip irrigation & micro spray</li>\n<li>Frost protection</li>\n<li>Pivot</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Vertical, multistage centrifugal pump with suction and discharge ports on the same level. Pump materials in contact with the liquid are in high-grade stainless steel (AISI 316).</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">1280 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">1283 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">40 .. 248 AF</td></tr></tbody></table></div>\n\n<h4 class=\"cmp-catalogue-hero__heading\">CRNE</h4>\n<img class=\"alignnone size-medium wp-image-377\" src=\"/uploads/2021/08/productgroup-1-2-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>HVAC: Air Conditioning</li>\n<li>Commercial fire protection</li>\n<li>HVAC: Heating</li>\n<li>Plumbing: Pressure Boosting</li>\n<li>District cooling</li>\n<li>District heating</li>\n<li>Machining</li>\n<li>Wash and clean</li>\n<li>Cooling</li>\n<li>Industrial heating</li>\n<li>Desalination</li>\n<li>Industrial process water treatment</li>\n<li>Industrial water supply & transfer</li>\n<li>Industrial wastewater treatment & reuse</li>\n<li>Drinking water treatment</li>\n<li>Irrigation</li>\n<li>Municipal solar solutions</li>\n<li>Municipal surface water</li>\n<li>Municipal water transportation</li>\n<li>Drip irrigation & micro spray</li>\n<li>Frost protection</li>\n<li>Pivot</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Vertical, multistage centrifugal pump with integrated frequency converter. Pump materials in contact with the liquid are in stainless steel (AISI 316).</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">1060 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">827 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">40 .. 248 AF</td></tr></tbody></table></div>\n\n<h4 class=\"cmp-catalogue-hero__heading\">CRNE-HS, CRN-SF</h4>\n<img class=\"alignnone size-medium wp-image-380\" src=\"/uploads/2021/08/productgroup-3-2-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>HVAC: Air Conditioning</li>\n<li>Commercial fire protection</li>\n<li>HVAC: Heating</li>\n<li>Plumbing: Pressure Boosting</li>\n<li>District cooling</li>\n<li>District heating</li>\n<li>Machining</li>\n<li>Wash and clean</li>\n<li>Cooling</li>\n<li>Industrial heating</li>\n<li>Desalination</li>\n<li>Industrial process water treatment</li>\n<li>Industrial water supply & transfer</li>\n<li>Industrial wastewater treatment & reuse</li>\n<li>Drinking water treatment</li>\n<li>Irrigation</li>\n<li>Municipal solar solutions</li>\n<li>Municipal surface water</li>\n<li>Municipal water transportation</li>\n<li>Drip irrigation & micro spray</li>\n<li>Frost protection</li>\n<li>Pivot</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Vertical, multistage centrifugal pump with suction and discharge ports on the same level. The pump head and base are in cast iron. All other wetted parts are in stainless steel (EN 1.4301)</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">157 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">1597 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">22 .. 248 AF</td></tr></tbody></table></div>\n\n<h4 class=\"cmp-catalogue-hero__heading\">CRT, North America</h4>\n<img class=\"alignnone size-medium wp-image-381\" src=\"/uploads/2021/08/productgroup-5-1-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>HVAC: Air Conditioning</li>\n<li>Commercial fire protection</li>\n<li>HVAC: Heating</li>\n<li>Plumbing: Pressure Boosting</li>\n<li>District cooling</li>\n<li>District heating</li>\n<li>Machining</li>\n<li>Wash and clean</li>\n<li>Cooling</li>\n<li>Industrial heating</li>\n<li>Desalination</li>\n<li>Industrial process water treatment</li>\n<li>Industrial water supply & transfer</li>\n<li>Industrial wastewater treatment & reuse</li>\n<li>Drinking water treatment</li>\n<li>Irrigation</li>\n<li>Municipal solar solutions</li>\n<li>Municipal surface water</li>\n<li>Municipal water transportation</li>\n<li>Drip irrigation & micro spray</li>\n<li>Frost protection</li>\n<li>Pivot</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Vertical, multistage centrifugal pump. Materials in contact with the liquid are in Titanium. Titanium has an exceptional resistance to a wide range of acids, alkalis, seawater and industrial chemicals</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Max flow</th><th class=\"spec-value\">115 US gpm</th></tr><tr><td class=\"spec-key\">Head max</td><td class=\"spec-value\">821 ft</td></tr><tr><td class=\"spec-key\">Liquid Temperature</td><td class=\"spec-value\">4 .. 248 AF</td></tr></tbody></table></div>\n",
+    "features": []
+  },
+  {
+    "id": "383",
+    "slug": "smarttap-water-dispenser-solution",
+    "title_en": "PAY-AS-YOU-GO smartTAP Water Dispenser Solution",
+    "excerpt_en": "",
+    "content_en": "<strong>smartTAP Water Dispenser</strong>\n<strong>Solution for Sustainable Water</strong>\n<p>LORENTZ smartTAP is an off-grid water dispensing and management system which enables revenue collection, water entitlement and sustainable water provision.</p>\n<p>LORENTZ smartTAP combines hardware, software and predefined business models to allow for water infrastructure to be delivered in an economically sustainable way using the latest technology.</p>\n<img class=\"alignnone wp-image-385 size-full\" src=\"/uploads/2021/08/lor-smarttap-drawattention-2019.02.26.webp\" alt=\"\" width=\"1553\" height=\"840\" />\n<h4>smartTAP Water Dispensers provide:</h4>\n<h4>Improved access and waste reduction</h4>\n<p>Giving water a value reduces waste and provides a mechanism to include vulnerable community members.</p>\n<h4>An affordable solution that is fit for scale</h4>\n<p>The SmartTAP dispenser is a truly scalable solution as it uses the highest security technology and designs that keep costs to a minimum</p>\n<h4>Cost recovery for maintenance and expansion</h4>\n<p>Auditable, accountable and secure revenue collection allows for water scheme maintenance and expansion</p>\n<h4>Locally maintainable solution</h4>\n<p>LORENTZ smartTAP water dispensers are designed for simple servicing by local technicians</p>\n<h4>Fast user adoption</h4>\n<img class=\"alignnone size-medium wp-image-386\" src=\"/uploads/2021/08/img-4422-colours-adjusted-600x600-1-300x300.webp\" alt=\"\" width=\"300\" height=\"300\" />\n<p>smartTAP Water Dispensers are very simple to use resulting in near instant user adoption. The graphical display uses symbols rather than words and keeps the user informed of the status.</p>\n<p>Users simply hold their tag next to the dispenser, available credit is checked and water is dispensed.</p>\n<p>Credits can be added to the tags by visiting a local water seller who will add credit to the tag. Credits can also be added via mobile money and are sent to the water dispensers.</p>\n<h4>Simple, robust infrastructure</h4>\n<img class=\"alignnone size-medium wp-image-387\" src=\"/uploads/2021/08/img-5941-pole-removed-reduced-600x600-1-300x300.webp\" alt=\"\" width=\"300\" height=\"300\" />\n<p>Local water sellers add credit to the tag using a standard smartphone, there is no need for specialized terminals keeping the costs of initial implementation and the costs of scaling low.</p>\nThe water dispenser unit is built from very strong materials, resisting daily wear and providing a long operational life.  The system is secure from tag duplication, hacking or from physical attacks.\n<p>Being solar powered the smartTAP water dispenser can be installed anywhere that piped water is available, the dispenser also contains a battery for 24 hour use.</p>\n<h4>Sustainable commercially, socially and environmentally</h4>\n<img class=\"alignnone size-medium wp-image-388\" src=\"/uploads/2021/08/lorentz-smarttap-in-village-600x600-1-300x300.webp\" alt=\"\" width=\"300\" height=\"300\" />\n<p>Paying for water is universally accepted to reduce waste, manage natural resources and to extend improved water access.</p>\n<p>LORENTZ smartTAP solutions allow for new innovative business models to be supported, from local water entrepreneurs to reduction of non-revenue water for utilities. The hardware are and software is flexible and adaptable to fit any social or business model using standard components.</p>\n<p>The LORENTZ smartTAP components allow for not only a single dispenser deployment, but also for a fully scalable multi community solution. The modular design means the system is cost effective at any size.</p>",
+    "features": []
+  },
+  {
+    "id": "390",
+    "slug": "lorentz-surface-solar-water-pumps",
+    "title_en": "LORENTZ Surface Solar Water Pumps",
+    "excerpt_en": "",
+    "content_en": "<p>Lorentz solar pumps are the largest range of various models on the world market.</p>\n<p>Their quality ranks at a top level with the best of materials & workmanship.</p>\n<p>Flow rates from 500 L/Hr to 500,000 L/Hr</p>\n<p>Lifts up to 90m</p>\n<p>Centrifugal & Positive Displacement type pumps.</p>\n<p>Many accessories to compliment the pumps.</p>\n<p>With such a huge range we have opted to only make a few data sheets available on the most commonly requested pumps. Calculating which pump is best suited to any individual application is quite complex, we therefore recommend contacting us with your specific requirement to allow us to advise which is the best pump choice.</p>",
+    "features": []
+  },
+  {
+    "id": "393",
+    "slug": "sqe-engine-model-b-pump-b",
+    "title_en": "SOLAR Water PUMP Made In GERMANY",
+    "excerpt_en": "",
+    "content_en": "<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Domestic groundwater abstraction</li>\n<li>Domestic water pressure increase</li>\n<li>Groundwater abstraction</li>\n\n\n<p class=\"cmp-catalogue-hero__description\">Grundfos SQE pumps are compact submersible pumps intended for constant pressure applications in domestic groundwater supply for private homes, small hydraulic systems and small irrigation systems.</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Maximum flow</th><th class=\"spec-value\">9 m³/h</th></tr><tr><td class=\"spec-key\">Temp. liquid</td><td class=\"spec-value\">0 .. 35 AC</td></tr><tr><td class=\"spec-key\">Maximum head height</td><td class=\"spec-value\">230 m</td></tr></tbody></table></div>\n\n<h4 class=\"cmp-catalogue-hero__heading\">SQE 1</h4>\n<img class=\"alignnone size-medium wp-image-394\" src=\"/uploads/2021/08/productgroup-8-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Domestic groundwater abstraction</li>\n<li>Domestic water pressure increase</li>\n<li>Groundwater abstraction</li>\n\n\n<p>Submersible pumps with variable speed motor</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Maximum flow</th><th class=\"spec-value\">2 m³/h</th></tr><tr><td class=\"spec-key\">Temp. liquid</td><td class=\"spec-value\">0 .. 35 AC</td></tr><tr><td class=\"spec-key\">Maximum head height</td><td class=\"spec-value\">230 m</td></tr></tbody></table></div>\n\n<h4>SQE 2</h4>\n<img class=\"alignnone size-medium wp-image-394\" src=\"/uploads/2021/08/productgroup-8-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Domestic groundwater abstraction</li>\n<li>Domestic water pressure increase</li>\n<li>Groundwater abstraction</li>\n\n\n<p>Submersible pumps with variable speed motor</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Maximum flow</th><th class=\"spec-value\">3 m³/h</th></tr><tr><td class=\"spec-key\">Temp. liquid</td><td class=\"spec-value\">0 .. 35 AC</td></tr><tr><td class=\"spec-key\">Maximum head height</td><td class=\"spec-value\">153 m</td></tr></tbody></table></div>\n\n<h4>SQE 3</h4>\n<img class=\"alignnone size-medium wp-image-394\" src=\"/uploads/2021/08/productgroup-8-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Domestic groundwater abstraction</li>\n<li>Domestic water pressure increase</li>\n<li>Groundwater abstraction</li>\n\n\n<p>Submersible pumps with variable speed motor</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Maximum flow</th><th class=\"spec-value\">4 m³/h</th></tr><tr><td class=\"spec-key\">Temp. liquid</td><td class=\"spec-value\">0 .. 35 AC</td></tr><tr><td class=\"spec-key\">Maximum head height</td><td class=\"spec-value\">145 m</td></tr></tbody></table></div>\n\n<h4>SQE 5</h4>\n<img class=\"alignnone size-medium wp-image-394\" src=\"/uploads/2021/08/productgroup-8-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Domestic groundwater abstraction</li>\n<li>Domestic water pressure increase</li>\n<li>Groundwater abstraction</li>\n\n\n<p>Submersible pumps with variable speed motor</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Maximum flow</th><th class=\"spec-value\">8 m³/h</th></tr><tr><td class=\"spec-key\">Temp. liquid</td><td class=\"spec-value\">0 .. 35 AC</td></tr><tr><td class=\"spec-key\">Maximum head height</td><td class=\"spec-value\">100 m</td></tr></tbody></table></div>\n\n<h4>SQE 7</h4>\n<img class=\"alignnone size-medium wp-image-394\" src=\"/uploads/2021/08/productgroup-8-300x225.webp\" alt=\"\" width=\"300\" height=\"225\" />\n<strong>Suitable for:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Domestic groundwater abstraction</li>\n<li>Domestic water pressure increase</li>\n<li>Groundwater abstraction</li>\n\n\n<p>Submersible pumps with variable speed motor</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Maximum flow</th><th class=\"spec-value\">9 m³/h</th></tr><tr><td class=\"spec-key\">Temp. liquid</td><td class=\"spec-value\">0 .. 35 AC</td></tr><tr><td class=\"spec-key\">Maximum head height</td><td class=\"spec-value\">60 m</td></tr></tbody></table></div>\n",
+    "features": []
+  },
+  {
+    "id": "405",
+    "slug": "scs-50-110-240-bl",
+    "title_en": "Solar WATER Pump MADE IN USA",
+    "excerpt_en": "",
+    "content_en": "<strong>Solar Submersible Pump, 50GPM, 110FT Head, 240VDC, Brushless Motor</strong>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody>\n<tr><th class=\"spec-key\">Shipping Weight</th><th class=\"spec-value\">39.00 lbs</th></tr>\n</tbody></table></div>\n\n<h4>Product Details</h4>\n<p>Sun Pumps SCS series submersibles are high quality, maintenance-free, DC powered pumps specifically made for water delivery in remote locations. The 240 volt SCS pump systems operate between 1200 to 3000 watts of DC power with voltage choices ranging from 180 to 240.</p>\n<p>The submersible motors incorporate the latest in high efficiency, permanent magnet, sensorless brushless DC technology and there are no electronics inside the motor. They are constructed of corrosion resistant, stainless steel.</p>\n<p>The pump ends are multi-stage centrifugals constructed of stainless steel. The impellers are wear resistant glass filled, engineered composite and are resistant to mineral and algae deposits. The bowls are constructed of stainless steel for strength and abrasive resistance.</p>\n<p>Sun Pumps SCS series pumps can be installed below the water level in a water well, lake, river, or cistern. They can be used to fill an open tank or used to pressurize water systems.</p>\n<p>Sun Pumps PCC Sensorless Brushless DC Controllers incorporate the latest state of art technology. The controllers are micro-processor based and have MPPT, Maximum Power Point Tracking to keep the solar array operating at peak efficiency at all times. The control box is powder coated, die-cast aluminum with an extra large heat sink and rated for outdoor use.</p>",
+    "features": [
+      {
+        "title_en": "Specifications",
+        "items_en": [
+          "Flow Range: 30-65 GPM (114-245 LPM)",
+          "Depth Range: 65-150 Ft. (20-46 Mt.)",
+          "DC Voltage Range: 180-240",
+          "Controller: PCC 240-BLS-M2S",
+          "Minimum Well Diameter: 4\" (100mm)",
+          "Discharge Size: 2\" NPT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "412",
+    "slug": "12-awg-600-volt-solar-wire",
+    "title_en": "12 AWG 600 Volt Solar Wire",
+    "excerpt_en": "",
+    "content_en": "<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Temperature Range</th><th class=\"spec-value\">20AC to +90AC</th></tr><tr><td class=\"spec-key\">Nominal Voltage</td><td class=\"spec-value\">0.6/1KV</td></tr><tr><td class=\"spec-key\">Test Voltage</td><td class=\"spec-value\">3.5 KV</td></tr></tbody></table></div>\n\n<h4>The Characteristics of 600 Volt Wire</h4>\n<h4>Application:</h4>\n<p>12 AWG 600 Volt Solar Wire is appropriate for use in solar power applications that require 600 volt rating. For use in grounded interconnection and ungrounded Photovoltaic power systems.</p>\n<strong>12 AWG 600 Volt Solar Wire Standard:</strong>\n<p>Adapted to PV systems, 2 Pfg 1169 / 08.2007 and UL.</p>\n<strong>12 AWG 600 Volt Solar Wire Electrical Parameters:</strong>\n<p>Voltage Rating : AC 0.6 / 1.0 kV Max. PV - System Voltage : DC up to 2.0 kV possible Max. Permissible Operating Voltage in AC Systems : 0.7 / 1.2 kV Max. Permissible Operating Voltage in DC Systems : 0.9 / 1.8 kV Test Voltage : AC 6 kV / DC 10 kV (15 min.)</p>\n<strong>12 AWG 600 Volt Solar Wire Construction:</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Conductor : Fine Wire Tinned Copper Conductor according to BS EN 60228:2005 cl. 5.</li>\n<li>Insulation : UV resistant, cross linkable, halogen free, flame retardant compound for core insulation.</li>\n<li>Core Identification : Red, black or natural</li>\n<li>Sheath : UV resistant, cross linkable, halogen free, flame retardant compound for Sheath over insulation.</li>\n\n\n<strong>600 Volt Wire Advantage:</strong>\n<p>600 Volt Solar Wire modules operate at high temperatures and are exposed to a variety of environmental conditions.</p>\n<p>600 Volt Wire is manufactured for use in photovoltaic applications, while USE-2 cable types are typically manufactured for underground service entrance applications.</p>\n<p>Both cable types commonly contain XLPE insulation and can be sunlight resistant and/or rated for direct burial.</p>",
+    "features": [
+      {
+        "title_en": "SPECIFICATION",
+        "items_en": [
+          "Conductor : Plain Annealed Copper Class 5",
+          "Insulation : XLPO",
+          "Sheath : XLPO",
+          "Min Operating Temperature : -40AC",
+          "Max Operating Temperature : 90AC",
+          "Core Colours : Red or Black",
+          "Sheath Colours : Red or Black"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "415",
+    "slug": "solar-cablepv-wire",
+    "title_en": "Solar Cable(PV Wire)",
+    "excerpt_en": "",
+    "content_en": "\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>PV Solar Cable</li>\n<li>Conductor : Tinned Copper Conductor</li>\n<li>Size : 2.5mm2 4mm2 6mm2 10mm2 16mm2</li>\n<li>Core : Single or Twin Cores</li>\n<li>Insulation Color : Customization</li>\n\n\n<h4><strong>Application:</strong></h4>\n<p>Especially for the connection between Solar power generation device connector and connection of inverter, Under the condition of different climate outdoor installation, and can adapt to the dry and wet indoor working environment.</p>\n<h4><strong>Construction:</strong></h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\"><colgroup> <col  /> <col  /></colgroup>\n<tbody>\n<tr>\n<th class=\"et2\"  >Core Conductor</th>\n<th class=\"et2\"  >  Tinned annealed copper (stranded core)</th>\n</tr>\n<tr>\n<td class=\"et2\"  >Popular Sizes</td>\n<td class=\"et2\"  >  1 core x2.5/4.0/6.0/10.0/16.0/25.0/35.0mm2</td>\n</tr>\n<tr>\n<td class=\"et2\"  >Cable Conductor</td>\n<td class=\"et2\"  >  Stranded tinned annealed copper</td>\n</tr>\n<tr>\n<td class=\"et2\"  >Insulation</td>\n<td class=\"et2\"  >  Electron-beam cross-linked Polyolefin(XLPO)</td>\n</tr>\n<tr>\n<td class=\"et2\"  >Jacket</td>\n<td class=\"et2\"  >  XLPO/ PE (black, red)</td>\n</tr>\n<tr>\n<td class=\"et2\" rowspan=\"5\"  >Other Specs</td>\n<td class=\"et2\">  a) Temperature rating: -40C up to +120C</td>\n</tr>\n<tr>\n<td class=\"et2\"  >  b) Fire performance: IEC 60332-1, UL1581 VW-1</td>\n</tr>\n<tr>\n<td class=\"et2\" >  c) Approval: TUV Rheinland 2PfG 1169 1.5mm2 to 50mm2</td>\n</tr>\n<tr>\n<td class=\"et2\" >  d) High resistance against hear, cold, abrasion, UV, Ozone and hydrolyes. Halogen free, flame ratardant</td>\n</tr>\n<tr>\n<td class=\"et2\" >  e) Voltage suitable: 600-1000V</td>\n</tr>\n</tbody>\n</table></div>\n</div>\n<h4><strong>Characteristic:</strong></h4>\n<div>High heat-resistant flame retardant</div>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>halogen-free</li>\n<li>climate resistance</li>\nminimum bending radius: Î¦ â‰¦ 12mm:3XD  ,Î¦ &gt; 12mm:4XD\n<li>halogen-free:</li>\n\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody><tr><th class=\"spec-key\">Not contain hydrochloric acid</th><th class=\"spec-value\">comply with EN50627-2-1</th></tr><tr><td class=\"spec-key\">Not contain fluorinecomply with</td><td class=\"spec-value\">EN60684-2</td></tr></tbody></table></div>\n\n</li>\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Flame retardant from extinguish compy with IEC60332-1- 2+EN60332-1-2</li>\n\n",
+    "features": []
+  },
+  {
+    "id": "418",
+    "slug": "4-gauge-4-awg-5-feet-black-5-feet-red-welding-battery-pure-copper-flexible-cable-wire-car-inverter-rv-solar",
+    "title_en": "4 Gauge 4 AWG 5 Feet Black + 5 Feet Red Welding Battery Pure Copper Flexible Cable Wire - Car, Inverter, RV, Solar",
+    "excerpt_en": "",
+    "content_en": "\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr>\n<th>Part Number</th>\n<th>4-AWG-5B-5R</th>\n</tr>\n<tr>\n<td>Item Weight</td>\n<td>1.5 pounds</td>\n</tr>\n<tr>\n<td>Package Dimensions</td>\n<td>5.7 x 5.3 x 1.4 inches</td>\n</tr>\n<tr>\n<td>Is Discontinued By Manufacturer</td>\n<td>No</td>\n</tr>\n<tr>\n<td>Size</td>\n<td>4 Gauge Cable</td>\n</tr>\n<tr>\n<td>Color</td>\n<td>5 ft Black + 5 ft Red</td>\n</tr>\n<tr>\n<td>Item Package Quantity</td>\n<td>1000000</td>\n</tr>\n<tr>\n<td>Batteries Included?</td>\n<td>No</td>\n</tr>\n<tr>\n<td>Batteries Required?</td>\n<td>No</td>\n</tr>\n<tr>\n<td>ASIN</td>\n<td>B01MUC8XYY</td>\n</tr>\n</tbody>\n</table></div>\n<h4 class=\"h2-heading\">Description</h4>\n<p>4 Gauge 4 AWG 5 Feet Black + 5 Feet Red Welding Battery Pure Copper Flexible Cable Wire - Car, Inverter, RV, Solar</p>",
+    "features": [
+      {
+        "title_en": "Product Details",
+        "items_en": [
+          "Use selection tabs above to select (1) cable gauge size and (2) cable length and insulation color. Available in 8 Gauge through 4/0 Gauge. Please refer to the photo gallery for a technical specification chart (amperage, voltage, stranding, insulation and copper thickness, etc.)",
+          "WindyNation Power-Flex Cable is fully annealed PURE copper, flexible (high copper strand count), with a tough, solvent resistant EPDM insulation jacket. REFER TO THE PHOTO GALLERY FOR  DETAILED SPECIFICATION CHART",
+          "Copper cable is fully annealed per ASTM standards. Complies with SAE J1127.",
+          "Rated up to 600 volts, -50AC to +105AC (-58AF to +221AF).",
+          "IEC and RoHS compliant"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "428",
+    "slug": "battery-racks",
+    "title_en": "BATTERY RACKS",
+    "excerpt_en": "",
+    "content_en": "<p>STEELMAXenergy's wide range of Battery Racks fully meets the endusers' overall needs in various sectors, such as:Telecommunications, Manufacturing, Transportation and Infrastructures industries.</p>\n<p>Battery Racks are made to accommodate each and every type of battery. Whether it is an open or closed type of battery, a lead-acid (Pb) or nickel-cadmium (NiCd) type of battery, for a vertical or horizontal installation, we have a solution which offers a great amount of free space conservation, adapted to the majority of manufacturers and for all battery kinds: VRLA, FRONT TERMINAL, PzS, OPzS, OPzV, RES, NiCd, LiFe, etc.</p>\n<p>STEELMAXenergy's battery racks are designed to be immune to earthquakes, (anti-seismic desig ), they are solid and rigid, easy to handle, acid-resistant, while all the metal bars that are used are laminated in plastic and covered with a protective coating. The racks are manufactured with articulated components and their assembly and possible future modification is extremely simple and modular - plug & play.</p>\n<p>All STEELMAXenergy's battery racks as well as any other kind of accessory are all made in our premises. Quality checks from the initial design to the final assembly stage, ensure the best quality and price and thus constitute the ideal product for every need.</p>",
+    "features": []
+  },
+  {
+    "id": "431",
+    "slug": "battery-rack-36w-x-36d-x-51h",
+    "title_en": "BATTERY RACK (36\"W X 36\"D X 51\"H)",
+    "excerpt_en": "",
+    "content_en": "<h4 class=\"product-title\">WELDED OPEN UPRIGHT FOR MINI-RACKING, SR UNIVERSAL POST (36\"D X 51\"H)</h4>\n<img class=\"alignnone size-medium wp-image-433\" src=\"/uploads/2021/08/rousseau-breakdown-sr13-300x300.webp\" alt=\"\" width=\"300\" height=\"300\" />\n<h4 class=\"main-title\">SPECIFICATIONS</h4>\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody class=\"grid-padded-bottom\">\n<tr>\n<th class=\"col \" scope=\"row\">Name</th>\n<th class=\"col data w-700 bold spec\" data-th=\"Name\">Welded Open Upright for Mini-Racking, SR Universal Post (36\"D x 51\"H)</th>\n</tr>\n<tr>\n<th class=\"col \" scope=\"row\">SKU</th>\n<td class=\"col data w-700 bold spec\" data-th=\"SKU\">SR13-360512</td>\n</tr>\n<tr>\n<th class=\"col \" scope=\"row\">Material</th>\n<td class=\"col data w-700 bold spec\" data-th=\"Material\">Painted steel</td>\n</tr>\n<tr>\n<th class=\"col \" scope=\"row\">Height (inches)</th>\n<td class=\"col data w-700 bold spec\" data-th=\"Height (inches)\">51</td>\n</tr>\n<tr>\n<th class=\"col \" scope=\"row\">Depth (inches)</th>\n<td class=\"col data w-700 bold spec\" data-th=\"Depth (inches)\">36</td>\n</tr>\n<tr>\n<th class=\"col \" scope=\"row\">Products line</th>\n<td class=\"col data w-700 bold spec\" data-th=\"Products line\">Mini-racking</td>\n</tr>\n<tr>\n<th class=\"col \" scope=\"row\">Type</th>\n<td class=\"col data w-700 bold spec\" data-th=\"Type\">Essential components</td>\n</tr>\n</tbody>\n</table></div>\n<h4 class=\"main-title\">FEATURES</h4>\n<p>Upright with factory welded side braces.</p>\n<p>\"¢ Fast assembly.</p>\n<p>\"¢ Other dimensions available.</p>\n<p>\"¢ For personalized configuration, contact us!</p>",
+    "features": []
+  },
+  {
+    "id": "437",
+    "slug": "battery-racks-2",
+    "title_en": "Battery racks",
+    "excerpt_en": "",
+    "content_en": "<p>Product portfolio includes standard and anti-seismic battery racks (conforming to Uniform Building Code, Seismic Zone 4). These have been designed for all cell types in the range and are supplied unassembled to allow for easy installation. The purpose-built racks are strong, adaptable and provide good alkali protection.</p>\n<p>Dimensions are given below for the range of rack layouts. Rack lengths are available in increments of 150 mm from 600 mm to a maximum of 6,000 mm. Calculate the required length using the cell length on page 5, 10, or 15 for normal connection, and by using the cell width 195 mm for crosswise connection.</p>",
+    "features": []
+  },
+  {
+    "id": "440",
+    "slug": "battery-cabinets",
+    "title_en": "Battery Cabinets",
+    "excerpt_en": "",
+    "content_en": "<p>Being a renowned organization of the market, we are engaged in offering an all-encompassing range of <b>Battery Cabinets</b> to our global clients. The battery cabinets offered by us are available in various Sizes like 17U Height to 45U Height, 300mm to 1200mm Depth and 600mm to1200mm width. These cabinets are manufactured using topmost grade raw material and sophisticated technology in conformity with certified industrial norms at vendors end. In order to deliver the defect free range, these products are checked against various parameters of quality set by the international industry.</p>\n<b>Standard Accessories:</b> Heavy duty Fix Tray, Power distribution management, AC/DC Fans, Cable Management , Fluorescent light\n<b>Construction :</b> CRC Steel 1.2mm/1.5mm ( as per requirement) thickness, Equipment Mounting angles and partition 2.0mm thickness, heavy duty lifting hook\n<b>Static Load Capacity : </b>up to 750 Kg-1000 kg\n",
+    "features": [
+      {
+        "title_en": "Features",
+        "items_en": [
+          "High load bearing capacity",
+          "Enhanced service life",
+          "Easy maintenance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "443",
+    "slug": "battery-cabinet-110-220vdc-large",
+    "title_en": "Battery Cabinet 110-220VDC \"Large\"",
+    "excerpt_en": "",
+    "content_en": "<p>The battery cabinet are designed for tough conditions and are rated to have ingress protection 43/44. Moreover, the cabinet is equipped with optional vibration damper in order to prevent the effect of vibration on components. Horizontal stabilizers that protect batteries from moving around inside the cabinet.</p>\n<strong>120Ah</strong><strong> - 190Ah</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Front access</li>\n<li>High IP degree</li>\n<li>Scalable battery compartment - Max 18 pcs of 190Ah</li>\n<li>Built in battery monitoring</li>\n<li>2 x HH1/250A fuse switch</li>\n\n",
+    "features": []
+  },
+  {
+    "id": "446",
+    "slug": "easy-ups-3m-classic-battery-cabinet-with-batteries-iec-2-x-1000mm-wide-config-e",
+    "title_en": "Easy UPS 3M Classic Battery Cabinet with batteries, IEC, 2 x 1000mm wide - Config E",
+    "excerpt_en": "",
+    "content_en": "<div class=\"features__text-container\">Easy UPS 3M Classic Battery Cabinet with batteries, IEC, 2 x 1000mm wide - Config E</div>\n<div class=\"features__text-container\">Battery cabinet that includes batteries and battery breaker.</div>\n<div>\n<h4 class=\"tab-content-header__title\">Specifications</h4>\n<div class=\"technical-specification-tab\">\n<div class=\"technical-specification-tab__header\">\n<p>Batteries & Runtime</p>\n\n<li class=\"technical-specification-tab__title\">Battery type : VRLA</li>\n<li class=\"technical-specification-tab__title\">Battery mounting : Enclosed battery cabinet</li>\n\n</div>\n</div>\n<div class=\"technical-specification-tab\">\n<div class=\"technical-specification-tab__header\">\n<h4 class=\"technical-specification-tab__title\">Physical</h4>\n</div>\n\n<li class=\"technical-content-block\">Maximum Height : 1895MM, 189.5CM</li>\n<li class=\"technical-content-block\">Maximum Width : 2004MM, 200.4CM</li>\n<li class=\"technical-content-block\">Maximum Depth : 845MM, 84.5CM</li>\n<li class=\"technical-content-block\">Net Weight : 2542.0KG</li>\n<li class=\"technical-content-block\">Shipping weight : 2582.0KG</li>\n<li class=\"technical-content-block\">Shipping Height : 1980MM, 198.0CM</li>\n<li class=\"technical-content-block\">Shipping Width : 2260MM, 226.0CM</li>\n<li class=\"technical-content-block\">Shipping Depth : 970MM, 97.0CM</li>\n\n</div>\n<div class=\"technical-specification-tab\">\n<div class=\"technical-specification-tab__header\">\n<h4 class=\"technical-specification-tab__title\">Environmental</h4>\n</div>\n\n<li class=\"technical-content-block\">Operating Temperature : 0 - 40 AC</li>\nStorage Temperature :  -15 - 40 AC\n\n</div>\n</div>",
+    "features": []
+  },
+  {
+    "id": "450",
+    "slug": "battery-cabinets-enclosures",
+    "title_en": "Battery Cabinets / Enclosures",
+    "excerpt_en": "",
+    "content_en": "<h4>Battery & Charger Enclosures</h4>\n<span class=\"semibold-class\">Custom-Built NEM 1, 3R and 12 Enclosures</span>\n<p>Exponential Power designs and builds custom DC enclosures for battery systems and/or chargers.  typical cabinet integrates batteries, racking and chargers into an indoor (NEM 1 or 12) or outdoor (NEM 3R) rated enclosure. There are many different options and accessories available, making every system unique and built to your site-specific needs. They can be constructed with batteries, battery/charger combinations, and even DC distribution panels. Batteries can be installed on pull-out drawers or fixed shelves.</p>\n\n<span class=\"textbold\">NEM Type 1</span> - Enclosures are for indoor use to provide a degree of protection to personnel against access to hazardous parts and to provide a degree of protection of the equipment inside the enclosure against ingress of solid foreign objects (falling dirt). This is a basic indoor cabinet that will include venting for batteries.\n<span class=\"textbold\">NEM Type 3R</span> - Enclosures are for indoor or outdoor use to provide a degree of protection to personnel against access to hazardous parts; to provide a degree of protection of the equipment inside the enclosure against ingress of solid foreign objects (falling dirt); to provide a degree of protection with respect to harmful effects on the equipment due to the ingress of water (rain, sleet, snow); and that will be undamaged by the external formation of ice on the enclosure. This is a typical outdoor cabinet that will require rain hoods for the vents.\n<span class=\"textbold\">NEM Type 12</span> - Enclosures are for indoor use to provide a degree of protection to personnel against access to hazardous parts; to provide a degree of protection of the equipment inside the enclosure against ingress of solid foreign objects (falling dirt and circulating dust, lint, fibers, and flyings); and to provide a degree of protection with respect to harmful effects on the equipment due to the ingress of water (dripping and light splashing). This cabinet will require NEM 12 vents and/or cooling fans.\n<h4>Common Battery Enclosure Sizes</h4>\n<h4>Technical Data</h4>\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr>\n<th class=\"textbold\">art No.</th>\n<th class=\"textbold\">\n<div >No. of Doors</div></th>\n<th class=\"textbold\">\n<div >Length (in.) [w/ rain hoods]</div></th>\n<th class=\"textbold\">\n<div >Width/Depth (in.)</div></th>\n<th class=\"textbold\">\n<div >Height (in.) [w/ 6\" legs & eye bolts]</div></th>\n<th class=\"textbold\">\n<div >Vent/Fan Size (in.)</div></th>\n</tr>\n<tr v>\n<td>SBS-603624STD</td>\n<td>\n<div >1</div></td>\n<td>\n<div >36 [45]</div></td>\n<td>\n<div >24</div></td>\n<td>\n<div >60 [67.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr v>\n<td>SBS-723624STD</td>\n<td>\n<div >1</div></td>\n<td>\n<div >36 [44]</div></td>\n<td>\n<div >24</div></td>\n<td>\n<div >72 [79.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr v>\n<td>SBS-723636STD</td>\n<td>\n<div >1</div></td>\n<td>\n<div >36 [45]</div></td>\n<td>\n<div >36</div></td>\n<td>\n<div >72 [79.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr v>\n<td>SBS-903636STD</td>\n<td>\n<div >1</div></td>\n<td>\n<div >36 [45]</div></td>\n<td>\n<div >36</div></td>\n<td>\n<div >90 [97.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr>\n<td>SBS-724824STD</td>\n<td>\n<div >1</div></td>\n<td>\n<div >48 [57]</div></td>\n<td>\n<div >24</div></td>\n<td>\n<div >72 [79.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr>\n<td>SBS-724836STD</td>\n<td>\n<div >1</div></td>\n<td>\n<div >48 [57]</div></td>\n<td>\n<div >36</div></td>\n<td>\n<div >72 [79.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr v>\n<td>SBS-726024STD</td>\n<td>\n<div >1</div></td>\n<td>\n<div >60 [69]</div></td>\n<td>\n<div >24</div></td>\n<td>\n<div >72 [79.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr v>\n<td>SBS-726036STD*</td>\n<td>\n<div >1</div></td>\n<td>\n<div >60 [69]</div></td>\n<td>\n<div >36</div></td>\n<td>\n<div >72 [79.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr>\n<td>SBS-907224STD*</td>\n<td>\n<div >2</div></td>\n<td>\n<div >72 [81]</div></td>\n<td>\n<div >24</div></td>\n<td>\n<div >90 [97.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr>\n<td>SBS-907236STD*</td>\n<td>\n<div >2</div></td>\n<td>\n<div >72 [81]</div></td>\n<td>\n<div >36</div></td>\n<td>\n<div >90 [97.75]</div></td>\n<td>\n<div >6</div></td>\n</tr>\n<tr v>\n<td>SBS-8611230STD*</td>\n<td>\n<div >3</div></td>\n<td>\n<div >112 [121]</div></td>\n<td>\n<div >30</div></td>\n<td>\n<div >86 [93.75]</div></td>\n<td>\n<div >10</div></td>\n</tr>\n<tr>\n<td>SBS-8614930STD*</td>\n<td>\n<div >4</div></td>\n<td>\n<div >149 [158]</div></td>\n<td>\n<div >30</div></td>\n<td>\n<div >86 [93.75]</div></td>\n<td>\n<div >10</div></td>\n</tr>\n</tbody>\n</table></div>\n\n<strong><span class=\"textbold\">NEMA1 grill & washable aluminum filter kit</span></strong> - Stainless steel grill with thumb screws. Available in 6\" and 10\" sizes.\n<strong><span class=\"textbold\">Charger subpanel and charger installation</span></strong> - Full or half size subpanels can be installed inside the enclosure to mount the charger and other equipment. This feature is common when a charger is pre-installed inside an enclosure. The subpanel typically mounts to the sides of the cabinets and can telescope towards the front or back of the cabinet.\n<strong><span class=\"textbold\">Floor stand kit</span> (required for NEM Type 3R applications)</strong> - Kit includes two stands. Larger cabinets require two kits (4 stands). 6\"H stands standard and 12\" stands are optional.\n<strong><span class=\"textbold\">Rack assembly and installation</span></strong> - Exponential Power will assemble and mount the battery rack inside the cabinet so once the enclosure is set in place it can be loaded with the batteries. To permanently mount the rack, the floor stand kit is required.\n<strong><span class=\"textbold\">DC cabling</span></strong> - Exponential Power will supply and connect the DC cables to the charger and provide the proper cable, lugs and insulating covers needed to connect to the supplied battery",
+    "features": [
+      {
+        "title_en": "Typical Features",
+        "items_en": [
+          "Carbon steel (0.104 - 0.125\")",
+          "ANSI-61 gray powder coated finish",
+          "Continuously welded and ground smooth seams",
+          "Lifting eyes for easy handling",
+          "Concealed door hinges",
+          "Key / Padlocking handle",
+          "3-point locking mechanism",
+          "Body stiffeners",
+          "Oil resistant gasket",
+          "Ground stud on door",
+          "Print pocket provided on door",
+          "Provision for mounting LED light"
+        ]
+      },
+      {
+        "title_en": "Typical Industry Standards",
+        "items_en": [
+          "NEM Type 1, 3R, 12",
+          "UL Listed Type 1, 3R, 12",
+          "CS Type 1, 3R, 12",
+          "IEC 60529"
+        ]
+      },
+      {
+        "title_en": "Cabinet Accessories and Options",
+        "items_en": [
+          "Grill and washable filter kit",
+          "Fan kit (includes grill and filter)",
+          "Rain hood (for outdoor NEM 3R applications)",
+          "Door-activated LED lighting",
+          "NEM 12 vents and fan kit",
+          "Subpanel",
+          "Heater with built-in thermostat",
+          "Floor stand kit (6\" or 12\" stands available)",
+          "Drip shield",
+          "Viewing window",
+          "Batteries (Flooded LA, VRL or Ni-Cad)",
+          "Battery rack and rack installation",
+          "Spill containment",
+          "Battery charger and charger installation",
+          "DC cabling"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "458",
+    "slug": "24v-200ah-solar-storage-lifepo4-battery",
+    "title_en": "24V 200AH Solar Storage Lifepo4 Battery",
+    "excerpt_en": "",
+    "content_en": "<div class=\"breadcrumb-title \">\n<h1 class=\"titlefont text-uppercase text-center\">24V 200AH SOLAR STORAGE LIFEPO4 BATTERY</h1>\n</div>\n<p>24 volt 200AH Lifepo4 with 100amp continuous ouptput, 300 amp surge output; 10 years warranty 70-80% lighter than equivalent Sealed Lead Acid (SLA) batteries; 5 times longer life (3000 charge cycles vs. 400 on SLA);75% higher effective capacity than SL batteries;Includes Battery Management System (BMS) protection circuit.</p>\n<p>Looking for a lightweight, non-toxic, and maintenance-free energy storage solution? Youth Power deep-cycle Lithium Ferro Phosphate (LFP) batteries are optimized with proprietary cell architecture, power electronics, BMS and assembly methods. They are a drop-in replacement for lead acid batteries, and much safer. LFP is the safest, most environmentally chemistry available. They are modular, lightweight and scalable for installations. The batteries provide power security and seamless integration of renewable and traditional sources of energy in conjunction with or independent of the grid: net zero, peak shaving, emergency back-up, portable and mobile. Enjoy easy installation and cost with Youth Power wall battery.</p>\n<strong>1) Details Specifications</strong>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr>\n<th colspan=\"4\"  >Battery Specifications</th>\n</tr>\n<tr>\n<td >Model No.</td>\n<td>YP-W24100</td>\n<td>YP-W24200</td>\n<td>YP-W24300</td>\n</tr>\n<tr>\n<td >Voltage</td>\n<td>25.6V</td>\n<td>25.6V</td>\n<td>25.6V</td>\n</tr>\n<tr>\n<td >Combination</td>\n<td>8S2P</td>\n<td>8S4P</td>\n<td>8S6P</td>\n</tr>\n<tr>\n<td >Capacity</td>\n<td>100AH</td>\n<td>200AH</td>\n<td>300A</td>\n</tr>\n<tr>\n<td >Energy</td>\n<td>2.56KWH</td>\n<td>5.12KwH</td>\n<td>7.68KwH</td>\n</tr>\n<tr>\n<td >Weight</td>\n<td>22.7kg</td>\n<td>45.3kg</td>\n<td>68.0kg</td>\n</tr>\n<tr>\n<td ></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td >Chemistry</td>\n<td colspan=\"3\" >Lithium Ferro Phosphate ( Lifepo4 ) Safest Lithium Ion, No fire risk</td>\n</tr>\n<tr>\n<td >BMS</td>\n<td colspan=\"3\">Built - in Battery Management System</td>\n</tr>\n<tr>\n<td >Connectors</td>\n<td colspan=\"3\">Waterproof connector</td>\n</tr>\n<tr>\n<td >Dimension</td>\n<td colspan=\"3\">610X440*220mm</td>\n</tr>\n<tr>\n<td >Cycles ( 80% DOD )</td>\n<td colspan=\"3\">6000 cycles</td>\n</tr>\n<tr>\n<td >Depeth of discharge</td>\n<td colspan=\"3\">Upto 100%</td>\n</tr>\n<tr>\n<td >Life time</td>\n<td colspan=\"3\">10 years</td>\n</tr>\n<tr>\n<td >Standard charge</td>\n<td colspan=\"3\">Constant current : 20A</td>\n</tr>\n<tr>\n<td >Standard discharge</td>\n<td colspan=\"3\">Constant current : 20A</td>\n</tr>\n<tr>\n<td >Maximum continuous charge</td>\n<td colspan=\"3\">100A</td>\n</tr>\n<tr>\n<td >Maximum continuous discharge</td>\n<td colspan=\"3\">100A</td>\n</tr>\n<tr>\n<td >Operation temperature</td>\n<td colspan=\"3\">Charge : 0-45AC. Discharge : -20-55AC</td>\n</tr>\n<tr>\n<td >Storage Temperature</td>\n<td colspan=\"3\">Keep at -20 to 65AC</td>\n</tr>\n<tr>\n<td >Protection standard</td>\n<td colspan=\"3\">IP21</td>\n</tr>\n<tr>\n<td >Operation voltage</td>\n<td colspan=\"3\">20-29.2 VDC</td>\n</tr>\n<tr>\n<td >Max.charging voltage</td>\n<td colspan=\"3\">29.2 VDC</td>\n</tr>\n<tr>\n<td >Memory effect</td>\n<td colspan=\"3\">None</td>\n</tr>\n<tr>\n<td >Maintenance</td>\n<td colspan=\"3\">Maintenance free</td>\n</tr>\n<tr>\n<td >Compatibility</td>\n<td colspan=\"3\" >Compatible with all standard offgrid inverters and charge controllers. Battery to inverter output sizing keep 2:1 ratio.</td>\n</tr>\n<tr>\n<td >Warranty Period</td>\n<td colspan=\"3\">10 Years</td>\n</tr>\n<tr>\n<td >Remarks:</td>\n<td colspan=\"3\" >Youth Power 24V wall battery BMS must be wired in parallel only. Wiring in series will void the warranty. Allow max. 14 units in parallel to expand more capacity.</td>\n</tr>\n</tbody>\n</table></div>\n</div>\n",
+    "features": [
+      {
+        "title_en": "Features",
+        "items_en": [
+          "Long cycle life -product life expectancy of 15 - 20 years",
+          "Modular system allows storage capacity to be easily expandable as power needs increase",
+          "Proprietary architecture and integrated Battery Management System (BMS) - no additional programming, firmware, or wiring",
+          "Operates at unparalleled 98% efficiency for more than 5,000 cycles",
+          "Can be rack mounted or wall mounted in a dead space area of your home/business",
+          "Offers up to 100% depth of discharge",
+          "Non-toxic and non-hazardous recylcable materials - recycle at end of life"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "460",
+    "slug": "nsb-155ft-red",
+    "title_en": "NSB 155FT RED",
+    "excerpt_en": "",
+    "content_en": "<strong>The NSB RED Battery® delivers long life for reliable and unreliable grid conditions</strong>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Pure lead electrochemistry greatly increases temp and corrosion resistance, while reducing component aging</li>\n<li>Thin plates deliver large surface area, high power density and low resistance</li>\n<li>Design life 15+ years at 20AC (68AF)</li>\n<li>EUROBAT design life definition: Very Long Life (12+ years)</li>\n<li>Fast recharging</li>\n<li>Operating temperature range -40AC to +65AC (-40AF to 149AF)</li>\n<li>State-of-the-art automated manufacturing ensures consistency and reliability</li>\n<li>Shelf life of up to 24 months</li>\n<li>Advanced 3 stage terminal design to ensure leak-free operation - brass terminals provide maximum performance</li>\n<li>High modulus Polyphenylene Oxide (PPO) plastic materials designed to withstand extended elevated operating temperatures and maintain high battery compression essential for reliable operation</li>\n<li>Non-halogenated, thermally sealed plastic casing</li>\n<li>Flame retardant (UL 94 VO) and LOI of at least 28%</li>\n<li>Approved as non-hazardous cargo for ground, sea, and air transport - DOT 49CFR173.159(d), (i) and (ii)</li>\n\n\n<h4>Dimensions</h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr>\n<th>Height</th>\n<th>11 in</th>\n</tr>\n<tr>\n<th>Width</th>\n<td>4.9 in</td>\n</tr>\n<tr>\n<th>Length</th>\n<td>22 in</td>\n</tr>\n<tr>\n<th>Weight</th>\n<td>101 lbs</td>\n</tr>\n</tbody>\n</table></div>\n</div>\n<h4>Electrical</h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr>\n<th >Terminal</th>\n<th >Female M8 x 1.25</th>\n</tr>\n<tr>\n<th >Terminal torque</th>\n<td>8.0 Nm (71 in-lbs)</td>\n</tr>\n<tr>\n<th >1 hr capacity to 1.70VPC @ 20/25AC (68/77AF)</th>\n<td>106 / 110 Ah</td>\n</tr>\n<tr>\n<th >3 hr capacity to 1.75VPC @ 20/25AC (68/77AF)</th>\n<td>133 / 137 Ah</td>\n</tr>\n<tr>\n<th >8 hr capacity to 1.75VPC @ 20/25AC (68/77AF)</th>\n<td>150 / 153 Ah</td>\n</tr>\n<tr>\n<th >10 hr capacity to 1.80VPC @ 20/25AC (68/77AF)</th>\n<td>153 / 155 Ah</td>\n</tr>\n<tr>\n<th >Float voltage @ 20/25AC (68/77AF)</th>\n<td>2.28 / 2.27 VPC</td>\n</tr>\n<tr>\n<th >Impedance (1Khz)</th>\n<td>3.1 mÎ© @ 25AC (77AF)</td>\n</tr>\n<tr>\n<th >Conductance</th>\n<td>1648 S</td>\n</tr>\n<tr>\n<th >Short circuit current</th>\n<td>4200 A</td>\n</tr>\n<tr>\n<th >Operation temperature range</th>\n<td>-40AC to +65AC</td>\n</tr>\n<tr>\n<th >Nominal voltage</th>\n<td>12 V</td>\n</tr>\n</tbody>\n</table></div>\n</div>",
+    "features": []
+  },
+  {
+    "id": "464",
+    "slug": "nsb-210ft-ht-red",
+    "title_en": "NSB 210FT HT RED",
+    "excerpt_en": "",
+    "content_en": "<p>The NSB HT RED Battery® delivers long life in unreliable grid conditions even at high temperatures.</p>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Pure lead electrochemistry greatly increases temp and corrosion resistance while reducing component aging</li>\n<li>Thin plates deliver large surface area high power density and low resistance</li>\n<li>Design life 15+ years at 20AC (68AF)</li>\n<li>Extra long life at high temp operation 40AC (104AF)</li>\n<li>EUROBAT design life definition: Very Long Life (12+ years)</li>\n<li>Advanced 3 stage terminal design to ensure leak-free operation - brass terminals provide maximum performance</li>\n<li>Approved as non-hazardous cargo for ground, sea and air transport DOT 49CFR173.159(d), (i) and (ii)</li>\n<li>Fast recharging</li>\n<li>High cyclic performance</li>\n<li>Flame retardant (UL 94 VO) and LOI of at least 28%</li>\n<li>Shelf life of up to 24 months</li>\n<li>Operating temperature range -40AC to +65AC (-40AF to 149AF)</li>\n<li>State-of-the-art automated manufacturing ensures consistency and reliability</li>\n<li>High modulus Polyphenylene Oxide (PPO) plastic materials designed to withstand extended elevated operating temperatures and maintain high battery compression essential for reliable operation</li>\n<li>Non-halogenated thermally sealed plastic casing</li>\n\n\n<h4>Dimensions</h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr>\n<th>Height</th>\n<th>328 mm</th>\n</tr>\n<tr>\n<th>Width</th>\n<td>126 mm</td>\n</tr>\n<tr>\n<th>Length</th>\n<td>560 mm</td>\n</tr>\n<tr>\n<th>Weight</th>\n<td>66 kg</td>\n</tr>\n</tbody>\n</table></div>\n</div>\n<h4>Electrical</h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr>\n<th >Terminal</th>\n<th>Female M8 x 1.25</th>\n</tr>\n<tr>\n<th >Terminal torque</th>\n<td>8.0 Nm (71 in-lbs)</td>\n</tr>\n<tr>\n<th >1 hr capacity to 1.70VPC @ 20/25AC (68/77AF)</th>\n<td>150 / 156 Ah</td>\n</tr>\n<tr>\n<th >3 hr capacity to 1.75VPC @ 20/25AC (68/77AF)</th>\n<td>184 / 189 Ah</td>\n</tr>\n<tr>\n<th >8 hr capacity to 1.75VPC @ 20/25AC (68/77AF)</th>\n<td>207 / 210 Ah</td>\n</tr>\n<tr>\n<th >10 hr capacity to 1.80VPC @ 20/25AC (68/77AF)</th>\n<td>209 / 212 Ah</td>\n</tr>\n<tr>\n<th >Float voltage @ 20/25AC (68/77AF)</th>\n<td>2.28 / 2.27 VPC</td>\n</tr>\n<tr>\n<th >Impedance (1Khz)</th>\n<td>2.6 mÎ© @ 25AC (77AF)</td>\n</tr>\n<tr>\n<th >Conductance</th>\n<td>2102 S</td>\n</tr>\n<tr>\n<th >Short circuit current</th>\n<td>6000 A</td>\n</tr>\n<tr>\n<th >Operation temperature range</th>\n<td>-40AC to +65AC</td>\n</tr>\n<tr>\n<th >Nominal voltage</th>\n<td>12 V</td>\n</tr>\n</tbody>\n</table></div>\n</div>",
+    "features": []
+  },
+  {
+    "id": "467",
+    "slug": "313khigh-temperature",
+    "title_en": "313K(High Temperature)",
+    "excerpt_en": "",
+    "content_en": "<p>2V/12V, High temperature, Cycling & floating</p>\n<h4 class=\"btit\">Range summary</h4>\n<div class=\"stit\">\n<p>313K(HTB) series, under name of 313 degree Kelvin, series is High Temperature Battery. With 8 exclusive patented technologies, 313K series provide excellent deep cycling capability in high temperature. 313K series help user reduce greatly operating cost. 313K series is the first choice for increasing power demands in remote telecom sites where high temperature and other tough off-grid hybrid applications.</p>\n\n<h4>General Specifications</h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr class=\"firstRow\">\n<th rowspan=\"2\">Type</th>\n<th rowspan=\"2\">Nominal Voltage(V)</th>\n<th >Rated\n<p>Capacity(Ah)</th></p>\n<th colspan=\"4\">Dimensions(mm)</th>\n<th rowspan=\"2\">Weight\n<p>(Kg)</th></p>\n</tr>\n<tr>\n<th>C<sub>10</sub></th>\n<th>Length</th>\n<th>Width</th>\n<th>Height</th>\n<th>Total Height</th>\n</tr>\n<tr>\n<td  >HTB-200</td>\n<td  >2</td>\n<td  >200</td>\n<td  >227</td>\n<td  >96</td>\n<td  >291</td>\n<td  >303</td>\n<td  >17</td>\n</tr>\n<tr>\n<td  >HTB-300</td>\n<td  >2</td>\n<td  >300</td>\n<td  >227</td>\n<td  >133</td>\n<td  >291</td>\n<td  >303</td>\n<td  >24</td>\n</tr>\n<tr>\n<td  >HTB-400</td>\n<td  >2</td>\n<td  >400</td>\n<td  >227</td>\n<td  >170</td>\n<td  >291</td>\n<td  >303</td>\n<td  >31</td>\n</tr>\n<tr>\n<td  >HTB-500</td>\n<td  >2</td>\n<td  >500</td>\n<td  >231</td>\n<td  >155</td>\n<td  >395</td>\n<td  >407</td>\n<td  >39</td>\n</tr>\n<tr>\n<td  >HTB-600</td>\n<td  >2</td>\n<td  >600</td>\n<td  >231</td>\n<td  >180</td>\n<td  >396</td>\n<td  >408</td>\n<td  >46</td>\n</tr>\n<tr>\n<td  >HTB-800</td>\n<td  >2</td>\n<td  >800</td>\n<td  >231</td>\n<td  >231</td>\n<td  >396</td>\n<td  >408</td>\n<td  >61</td>\n</tr>\n<tr>\n<td  >HTB-1000</td>\n<td  >2</td>\n<td  >1000</td>\n<td  >231</td>\n<td  >282</td>\n<td  >396</td>\n<td  >408</td>\n<td  >76</td>\n</tr>\n<tr>\n<td  >HTB-1200</td>\n<td  >2</td>\n<td  >1200</td>\n<td  >232</td>\n<td  >264</td>\n<td  >502</td>\n<td  >514</td>\n<td  >90</td>\n</tr>\n<tr>\n<td  >HTB-1500</td>\n<td  >2</td>\n<td  >1500</td>\n<td  >232</td>\n<td  >322</td>\n<td  >502</td>\n<td  >514</td>\n<td  >110</td>\n</tr>\n<tr>\n<td  >HTB-2000</td>\n<td  >2</td>\n<td  >2000</td>\n<td  >232</td>\n<td  >456</td>\n<td  >502</td>\n<td  >514</td>\n<td  >155</td>\n</tr>\n<tr>\n<td  >12HTB100</td>\n<td  >12</td>\n<td  >100</td>\n<td  >390</td>\n<td  >108</td>\n<td  >287</td>\n<td  >287</td>\n<td  >35</td>\n</tr>\n<tr>\n<td   >12HTB150</td>\n<td   >12</td>\n<td   >150</td>\n<td   >546</td>\n<td   >125</td>\n<td   >310</td>\n<td   >310</td>\n<td   >54.7</td>\n</tr>\n<tr>\n<td  >12HTB170</td>\n<td  >12</td>\n<td  >170</td>\n<td  >546</td>\n<td  >125</td>\n<td  >310</td>\n<td  >310</td>\n<td  >60.5</td>\n</tr>\n<tr>\n<td   >12HTB100F</td>\n<td   >12</td>\n<td   >100</td>\n<td   >395</td>\n<td   >108</td>\n<td   >274</td>\n<td   >287</td>\n<td   >30</td>\n</tr>\n<tr>\n<td  >12HTB150F</td>\n<td  >12</td>\n<td  >150</td>\n<td  >550</td>\n<td  >125</td>\n<td  >272</td>\n<td  >283</td>\n<td  >47</td>\n</tr>\n<tr>\n<td  >12HTB170F</td>\n<td  >12</td>\n<td  >170</td>\n<td  >550</td>\n<td  >125</td>\n<td  >272</td>\n<td  >283</td>\n<td  >50</td>\n</tr>\n<tr>\n<td  >12HTB190F</td>\n<td  >12</td>\n<td  >190</td>\n<td  >558</td>\n<td  >125</td>\n<td  >305</td>\n<td  >316</td>\n<td  >57.5</td>\n</tr>\n<tr>\n<td  >12HTB200F</td>\n<td  >12</td>\n<td  >200</td>\n<td  >558</td>\n<td  >125</td>\n<td  >305</td>\n<td  >316</td>\n<td  >58</td>\n</tr>\n<tr>\n<td  >12HTB150HT</td>\n<td  >12</td>\n<td  >150</td>\n<td  >550</td>\n<td  >110</td>\n<td  >276</td>\n<td  >287</td>\n<td  >44</td>\n</tr>\n</tbody>\n</table></div>\n</div>\n</div>",
+    "features": [
+      {
+        "title_en": "Technical Features",
+        "items_en": [
+          "Special designed AGM-Acid Valve-Regulated Lead Acid battery",
+          "Patented anti-corrosion grid technology",
+          "Optimized active material for high temperature conditions",
+          "Wide operating temperature range:-40AC to +80AC",
+          "Excellent deep cycling performance",
+          "Innovative robust design inside and out to ensure superb safety and reliability",
+          "Innovative flame retardant ABS case (UL94 V-0, optional)",
+          "Low self-discharge rate",
+          "Suitable for continuous operation at temperatures in excess of 35AC",
+          "Comply with IEC, IEEE, UL, EN, CE standards, etc.",
+          "Design life at 35AC (95AF): 15+ years (2V), 10+ years (12V)"
+        ]
+      },
+      {
+        "title_en": "Main Applications",
+        "items_en": [
+          "Hybrid telecom remote base stations",
+          "Renewable energy wind & solar sites",
+          "Grid frequency leveling systems",
+          "All back-up applications where grid reliability is poor",
+          "All extreme environment off-grid"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "470",
+    "slug": "hrlhigh-rate-long-life",
+    "title_en": "HRL(High Rate Long Life)",
+    "excerpt_en": "",
+    "content_en": "<p>2V/12V, High Rate, Long Life</p>\n<h4 class=\"btit\">Range summary</h4>\n<p>HRL series, name of High Rate Long life, is high rate VRL battery. It is special designed for large data centers and UPS. With excellent high-power discharge performance, high reliability, long life design, wide operating temperature range, HRL series is ideal for high performance UPS batteries.</p>\n\n<h4>General Specifications</h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr class=\"firstRow\">\n<td  rowspan=\"2\"  v ><strong>Type</strong></td>\n<td  rowspan=\"2\"  v ><strong>Nominal Voltage(V)</strong></td>\n<td    v ><strong>Rated Power(W)</strong></td>\n<td colspan=\"4\"   v ><strong>Dimensions(mm)</strong></td>\n<td  rowspan=\"2\"  v ><strong>Weight</strong>\n<strong>(Kg)</strong></td>\n</tr>\n<tr>\n<th    v ><strong>15minute rate, 1.67V/cell\n</strong></th>\n<th    v ><strong>Length</strong></th>\n<th    v ><strong>Width</strong></th>\n<th    v ><strong>Height</strong></th>\n<th    v ><strong>Total Height</strong></th>\n</tr>\n<tr>\n<td    v >HRL550</td>\n<td    v >2</td>\n<td    v >550</td>\n<td    v >184.5</td>\n<td    v >94.5</td>\n<td    v >370</td>\n<td    v >370</td>\n<td    v >13.0</td>\n</tr>\n<tr>\n<td    v >HRL750</td>\n<td    v >2</td>\n<td    v >750</td>\n<td    v >183</td>\n<td    v >100</td>\n<td    v >370</td>\n<td    v >370</td>\n<td    v >16.3</td>\n</tr>\n<tr>\n<td    v >HRL1000</td>\n<td    v >2</td>\n<td    v >1000</td>\n<td    v >184.5</td>\n<td    v >123</td>\n<td    v >370</td>\n<td    v >370</td>\n<td    v >20.0</td>\n</tr>\n<tr>\n<td    v >HRL1100</td>\n<td    v >2</td>\n<td    v >1100</td>\n<td    v >184.5</td>\n<td    v >131</td>\n<td    v >370</td>\n<td    v >370</td>\n<td    v >22.0</td>\n</tr>\n<tr>\n<td    v >HRL1200</td>\n<td    v >2</td>\n<td    v >1200</td>\n<td    v >184.5</td>\n<td    v >144.5</td>\n<td    v >370</td>\n<td    v >370</td>\n<td    v >24.5</td>\n</tr>\n<tr>\n<td    v >HRL1300</td>\n<td    v >2</td>\n<td    v >1300</td>\n<td    v >184.5</td>\n<td    v >166</td>\n<td    v >370</td>\n<td    v >370</td>\n<td    v >26.7</td>\n</tr>\n<tr>\n<td    v >HRL1520</td>\n<td    v >2</td>\n<td    v >1520</td>\n<td    v >184.5</td>\n<td    v >178.5</td>\n<td    v >370</td>\n<td    v >370</td>\n<td    v >30.5</td>\n</tr>\n<tr>\n<td    v >HRL1750</td>\n<td    v >2</td>\n<td    v >1750</td>\n<td    v >184.5</td>\n<td    v >203</td>\n<td    v >370</td>\n<td    v >370</td>\n<td    v >34.1</td>\n</tr>\n<tr>\n<td    v >HRL2000</td>\n<td    v >2</td>\n<td    v >2000</td>\n<td    v >223</td>\n<td    v >184.5</td>\n<td    v >370</td>\n<td    v >370</td>\n<td    v >38.1</td>\n</tr>\n<tr>\n<td    v>HRL2500</td>\n<td    v>2</td>\n<td    v>2500</td>\n<td    v>279.5</td>\n<td    v>186</td>\n<td    v>370</td>\n<td    v>370</td>\n<td    v>48.2</td>\n</tr>\n<tr>\n<td    v>HRL2700</td>\n<td    v>2</td>\n<td    v>2700</td>\n<td    v>338.5</td>\n<td    v>190.5</td>\n<td    v>370</td>\n<td    v>370</td>\n<td    v>57.0</td>\n</tr>\n<tr>\n<td    v>12HRL36</td>\n<td    v>12</td>\n<td    v>36</td>\n<td    v>151</td>\n<td    v>65</td>\n<td    v>94</td>\n<td    v>100</td>\n<td    v>2.7</td>\n</tr>\n<tr>\n<td    v>12HRL50</td>\n<td    v>12</td>\n<td    v>50</td>\n<td    v>151</td>\n<td    v>98</td>\n<td    v>94.5</td>\n<td    v>100</td>\n<td    v>3.97</td>\n</tr>\n<tr>\n<td    v>12HRL80</td>\n<td    v>12</td>\n<td    v>80</td>\n<td    v>181</td>\n<td    v>76</td>\n<td    v>167</td>\n<td    v>167</td>\n<td    v>6.27</td>\n</tr>\n<tr>\n<td    v>12HRL100</td>\n<td    v>12</td>\n<td    v>100</td>\n<td    v>165.5</td>\n<td    v>125</td>\n<td    v>175</td>\n<td    v>175</td>\n<td    v>9.7</td>\n</tr>\n<tr>\n<td    v>12HRL140</td>\n<td    v>12</td>\n<td    v>140</td>\n<td    v>195</td>\n<td    v>130</td>\n<td    v>155</td>\n<td    v>160</td>\n<td    v>10.7</td>\n</tr>\n<tr>\n<td  v>12HRL180</td>\n<td  v>12</td>\n<td  v>180</td>\n<td  v>228</td>\n<td  v>139</td>\n<td  v>204.5</td>\n<td  v>204.5</td>\n<td  v>17.5</td>\n</tr>\n<tr>\n<td    v>12HRL200</td>\n<td    v>12</td>\n<td    v>200</td>\n<td    v>230</td>\n<td    v>138</td>\n<td    v>208</td>\n<td    v>211</td>\n<td    v>17.5</td>\n</tr>\n<tr>\n<td    v>12HRL300</td>\n<td    v>12</td>\n<td    v>300</td>\n<td    v>261</td>\n<td    v>173</td>\n<td    v>206</td>\n<td    v>206</td>\n<td    v>25.5</td>\n</tr>\n<tr>\n<td    v>12HRL365</td>\n<td    v>12</td>\n<td    v>365</td>\n<td    v>307</td>\n<td    v>168</td>\n<td    v>211</td>\n<td    v>216</td>\n<td    v>30.7</td>\n</tr>\n<tr>\n<td    v>12HRL390</td>\n<td    v>12</td>\n<td    v>390</td>\n<td    v>511</td>\n<td    v>110</td>\n<td    v>238</td>\n<td    v>238</td>\n<td    v>34</td>\n</tr>\n<tr>\n<td    v>12HRL400A</td>\n<td    v>12</td>\n<td    v>400</td>\n<td    v>341</td>\n<td    v>173</td>\n<td    v>213.5</td>\n<td    v>213.5</td>\n<td    v>34</td>\n</tr>\n<tr>\n<td    v>12HRL550</td>\n<td    v>12</td>\n<td    v>550</td>\n<td    v>341</td>\n<td    v>173</td>\n<td    v>278</td>\n<td    v>278</td>\n<td    v>45.0</td>\n</tr>\n<tr>\n<td    v>12HRL600</td>\n<td    v>12</td>\n<td    v>600</td>\n<td    v>550</td>\n<td    v>125</td>\n<td    v>283</td>\n<td    v>283</td>\n<td    v>51</td>\n</tr>\n<tr>\n<td    v>12HRL700</td>\n<td    v>12</td>\n<td    v>700</td>\n<td    v>558</td>\n<td    v>125</td>\n<td    v>316</td>\n<td    v>316</td>\n<td    v>60</td>\n</tr>\n<tr>\n<td    v>12HRL760</td>\n<td    v>12</td>\n<td    v>760</td>\n<td    v>560</td>\n<td    v>125</td>\n<td    v>320</td>\n<td    v>320</td>\n<td    v>65</td>\n</tr>\n<tr>\n<td    v>12HRL845</td>\n<td    v>12</td>\n<td    v>845</td>\n<td    v>522</td>\n<td    v>239.5</td>\n<td    v>222.5</td>\n<td    v>222.5</td>\n<td    v>68</td>\n</tr>\n<tr>\n<td    v>12HRL850</td>\n<td    v>12</td>\n<td    v>850</td>\n<td    v>499</td>\n<td    v>259</td>\n<td    v>221</td>\n<td    v>225.5</td>\n<td    v>76</td>\n</tr>\n</tbody>\n</table></div>\n</div>",
+    "features": [
+      {
+        "title_en": "Main Applications",
+        "items_en": [
+          "UPS",
+          "Data center",
+          "Electrical facilities",
+          "Cable TV"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "475",
+    "slug": "12v-200ah-solar-gel-battery",
+    "title_en": "12V, 200Ah, Solar GEL Battery",
+    "excerpt_en": "",
+    "content_en": "<div class=\"tablr-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr >\n<td v>Nominal Voltage</td>\n<td colspan=\"2\" v>12V</td>\n</tr>\n<tr >\n<td v>Nominal Capacity(10HR)</td>\n<td colspan=\"2\" v>200AH</td>\n</tr>\n<tr >\n<td rowspan=\"4\" v>Dimension</td>\n<td v>Length</td>\n<td v>522±3mm (20.55 inches)</td>\n</tr>\n<tr >\n<td v>Width</td>\n<td v>240±2mm (9.45 inches)</td>\n</tr>\n<tr >\n<td v>Container Height</td>\n<td v>218±2mm (8.58 inches)</td>\n</tr>\n<tr >\n<td v>Total Height (with Terminal)</td>\n<td v>224±2mm (8.81 inches)</td>\n</tr>\n<tr >\n<td v>Approx Weight</td>\nApprox 55 Kg  (121.254 Ibs)\n</tr>\n<tr >\n<td v>Terminal</td>\n<td colspan=\"2\" v>T11</td>\n</tr>\n<tr >\n<td v>Container Material</td>\n<td colspan=\"2\" v>ABS</td>\n</tr>\n<tr >\n<td rowspan=\"5\" v>Rated Capacity</td>\n<td v>20hr ,1.80V/cell,25AC/77AF</td>\n<td v>209.1 AH/10.4A</td>\n</tr>\n<tr >\n<td v>10hr,1.80V/cell,25AC/77AF</td>\n<td v>200.0 AH/20.0A</td>\n</tr>\n<tr >\n<td v>5hr,1.75V/cell,25AC/77AF</td>\n<td v>173.0A H/34.6A</td>\n</tr>\n<tr >\n<td v>3hr,1.75V/cell,25AC/77AF</td>\n<td v>157.2 AH/52.4A</td>\n</tr>\n<tr >\n<td v>1hr,1.60V/cell,25AC/77AF</td>\n<td v>122.8 AH/122.8A</td>\n</tr>\n</tbody>\n</table></div>\n</div>",
+    "features": []
+  },
+  {
+    "id": "656",
+    "slug": "sp-pro-series-2i-intelligence-enhanced",
+    "title_en": "SP PRO Series 2i : Intelligence Enhanced",
+    "excerpt_en": "",
+    "content_en": "<p>The world's smartest bi-directional inverter charger now comes with built-in advanced communications as standard, in the NEW SP PRO Series 2i.</p>\n<p>Recognisable by the circular \"˜silver seal' on the outer casing, the SP PRO Series 2i new features include advanced communications functionality for multi-phase system operation and high speed interfacing with compatible managed battery brands. All Demand Response Modes (DRM 0 - 8) are fully supported as well as all AS4777 Power Quality Modes. These built-in features provide significant added value to the SP PRO, without the need to purchase additional accessories - saving cost and valuable time during installation.</p>\n<p>Whether you live (or want to live) off-grid, or on-grid and want to add battery storage, the SP PRO bi-directional inverter charger can control and manage every aspect of your energy needs. By incorporating solar, wind, hydro, with a diesel generator and/or grid supply, you can be sure your whole site will never be without power.</p>\n<h4>New SPMC480 3.5kW Model Now Available!</h4>\n<p>The new SPMC480 model caters for a growing demand for smaller scale battery storage systems, with a continuous output of 3.5kW to outperform all competing brand equivalents on the market, when compared accurately. The SPMC480 can also deliver 5.25kW for 30 minutes, 6kW for 1 minute and a peak output of 8.4kW for 30seconds. This new model is also capable of charging batteries from an AC Source at up to 73A DC or 3.5kW. Up to 7kW of managed AC Coupled PV can be connected, or an unlimited amount of DC Coupled PV.</p>\n\n<h4>SP PRO AU series models</h4>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr class=\"modelheader\">\n<td id=\"AUbg24V\" >24V</td>\n<td id=\"AUbg24V\" >24V</td>\n<td id=\"AUbg48V\" >48V</td>\n<td id=\"AUbg48V\" >48V</td>\n<td id=\"AUbg48V\" >48V</td>\n<td id=\"AUbg120V\" >120V</td>\n<td id=\"AUbg120V\" >120V</td>\n<td id=\"AUbg120V\" >120V</td>\n</tr>\n<tr class=\"modelheader\">\n<td>3.0 kW</td>\n<td>4.5 kW</td>\n<td>3.5 kW</td>\n<td>5.0 kW</td>\n<td>7.5 kW</td>\n<td>7.5 kW</td>\n<td>15.0 kW</td>\n<td>20.0 kW</td>\n</tr>\n<tr>\n<th class=\"ModelNumbers\">SPMC240-AU</th>\n<th class=\"ModelNumbers\">SPMC241-AU</th>\n<th class=\"ModelNumbers\">SPMC480-AU</th>\n<th class=\"ModelNumbers\">SPMC481-AU</th>\n<th class=\"ModelNumbers\">SPMC482-AU</th>\n<th class=\"ModelNumbers\">SPMC1201</th>\n<th class=\"ModelNumbers\">SPLC1200</th>\n<th class=\"ModelNumbers\">SPLC1202</th>\n</tr>\n</tbody>\n</table></div>\n</div>",
+    "features": [
+      {
+        "title_en": "Product Features and Benefits:",
+        "items_en": [
+          "NEW! Advanced Communications as standard, for multi-phase system operation and managed battery interfacing",
+          "NEW! AC Coupling recovery mode to easily recharge from AC Coupled PV",
+          "Australian designed and manufactured",
+          "More features included as standard \"˜inside the box' than any other inverter charger",
+          "Off-grid and Solar Hybrid (grid backup and grid feed), marine and mobile operation",
+          "AC or DC coupling compatible",
+          "Retrofit existing systems",
+          "Easily configurable for domestic and commercial applications",
+          "Integrated generator controller to maximise system efficiency",
+          "AC continuous load power from 3 kW to 60 kW",
+          "63A or 125A transfer contactor standard",
+          "Demand Response Modes (DRM 0 - 8)",
+          "AS4777 Power Quality Modes",
+          "Up to 10 year warranty (terms and conditions apply"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "661",
+    "slug": "blueplanet-3-0-tl3-10-0-tl3",
+    "title_en": "Blueplanet 3.0 TL3 - 10.0 TL3",
+    "excerpt_en": "",
+    "content_en": "<p>It doesn't always have to be south: The blueplanet 3.0 TL3 to 10.0 TL3 inverters offer you all the options for implementing multifaceted solar installations. So, don't hesitate to consider east-west roofs or including a dormer in your design to get the most out of your PV investment.</p>\n<h4><strong>Well planned, quickly installed</strong></h4>\n<p>You can choose from numerous inverters which all are equipped with 2 MPP trackers; and as with most KACO new energy inverters, the trackers are able to process the entire AC power.</p>\n<p>You can comfortably mount these lightweight units on the wall; DC and AC connections are easily wired via plug connectors.</p>\n<p>Commissioning is easily facilitated by the proven display with its well-arranged menu. Smooth communication with the inverters is achieved via the standard interfaces of USB, RS485 and Ethernet connections. The data logger with web server is also integrated for meaningful monitoring.</p>\n<h4>Self-consumption of solar power</h4>\n<p>The Priwatt function also comes ex works: Anyone looking for an easy way to directly use their own solar power in a targeted manner has achieved their goal here.</p>\n",
+    "features": [
+      {
+        "title_en": "Your benefits at a glance",
+        "items_en": [
+          "Rapid amortisation of residential and small commercial PV arrays",
+          "High flexibility for unconventional system designs",
+          "Extensive standard equipment",
+          "Simple installation and commissioning",
+          "Data logger with web server for continuous system monitoring",
+          "Optimised for the targeted self-consumption of solar power"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "664",
+    "slug": "kostal-battery-inverter",
+    "title_en": "KOSTAL battery inverter",
+    "excerpt_en": "",
+    "content_en": "<h4 class=\"section__headline\">Battery inverters from KOSTAL: - Solar energy storage made easy</h4>\n<p>Adding a storage unit to a photovoltaic system is child's play when it comes to KOSTAL battery inverters. Benefit from the expertise of the company that took top place for its AC-coupled system efficiency.</p>\n<h4>KOSTAL battery inverters: install storage and consume solar power yourself around the clock</h4>\n<p>Pure battery inverters are particularly worthwhile for those who already own a photovoltaic system or want to set up a storage system independently of the PV system. They are simply connected to the AC grid in parallel with the PV system and the distribution is supplemented with the intelligent KOSTAL Smart Energy Meter. From then on the intelligent control software takes over: The storage unit is automatically charged with excess solar power and, if additional energy is required, it's discharged as needed.</p>\n<p> PV battery can help to significantly increase the level of self-consumption because the solar power generated during the day can be stored temporarily and can also be used after sunset. With the PLENTICORE BI, KOSTAL offers a battery inverter with maximum efficiency. The PIKO MP plus, designed for single-phase grid connection, can also be used as a battery inverter with suitable accessories. Here, too, you benefit from our award-winning system skills and particularly high efficiency.</p>\n<h4 class=\"section__headline\">Battery inverters from KOSTAL</h4>\n<p>Simple storage of solar power for more self-consumption</p>\n<h4>Increase your self-consumption thanks to solar power storage</h4>\n<img class=\"alignnone size-full wp-image-666\" src=\"/uploads/2021/08/content-batterie-wechselrichter-stromspeicher.webp\" alt=\"\" width=\"945\" height=\"945\" />\n<p>Photovoltaics is an environmentally and climate-friendly way to produce energy. And anyone can do it on their own roof. However, photovoltaic systems without storage only generate electricity during the day and, if there's no storage facility available, the electricity can only be used when it's generated.</p>\n<p>By using storage systems, which have now become very affordable, the self-generated solar power can also be put to use after sunset. This leads to higher self-consumption rates and reduces electricity costs as less electricity has to be purchased from the grid operator.  storage system ensures greater independence from the energy supplier.</p>\n<h4 class=\"section__headline\">Advantages of a storage retrofit</h4>\n<strong>Advantages of retrofitting storage with a battery inverter</strong>\n<p>For existing photovoltaic systems, there are two ways to retrofit a storage unit. Either you replace your existing inverter with a hybrid inverter, which has a high-voltage battery connected to it in parallel, or you add a pure battery inverter with storage parallel to your existing system.</p>",
+    "features": []
+  },
+  {
+    "id": "671",
+    "slug": "midnite-solar-diy-series-mn3548diy-inverter-charger",
+    "title_en": "MidNite Solar DIY Series MN3548DIY Inverter & Charger",
+    "excerpt_en": "",
+    "content_en": "<p>The MN3548DIY is a 3,500, 48 VDC inverter-charger that includes a built-in MPPT charge controller. Offering a simple, all-in-one installation and flexible programming, the new MidNite Solar Inverter/charger DIY Series will charge virtually any battery chemistry.</p>\n<p>With Excellent surge capability, the DIY Series will start the most demanding 120VAC Loads. Perfect for your off-grid cabin or house, the DIY Series is designed to be affordable, dependable, and supported by the industry's best customer service personnel at MidNite Solar.</p>\n",
+    "features": [
+      {
+        "title_en": "Specifications:",
+        "items_en": [
+          "System Voltage: 48VDC",
+          "Rated AC Output Power: 3500W",
+          "PV panel MPPT Voltage: 60-115V",
+          "Max PV array power: 4400W",
+          "Input/Output frequency: 60 Hz",
+          "Max Battery Charging Current: 120A (Adjustable)",
+          "Max PV input Voltage: 150V",
+          "Battery type: Lead Acid or Lithium",
+          "Dimensions: 16.93\"L x 13.31\"W x 4.96\"H",
+          "Warranty: 1 year"
+        ]
+      },
+      {
+        "title_en": "Applications:",
+        "items_en": [
+          "Off grid - battery and PV or generator required",
+          "Grid connected for backup - battery required"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "674",
+    "slug": "magnum-energy-rd1824-1800-watt-24-volt-dc-w-charger",
+    "title_en": "Magnum Energy 2500W 12VDC Modified Sine Inverter Charger ME Series",
+    "excerpt_en": "",
+    "content_en": "<strong>Magnum Energy 2500W 12VDC Modified Sine Inverter Charger ME Series</strong>\n<p>The ME Series Inverter / Charger from Magnum Energy is a modified sine wave inverter designed specifically for rugged mobile applications. The ME Series is powerful, easy-to-use, and best of all, cost effective.</p>\n<strong>Safe and reliable:</strong> The ME Series is ETL Listed to the stringent requirements of UL/cUL 458 and CS C22.2 #107.1-01, ensuring that the inverter is safe and reliable.\n<p>&nbsp;</p>\n<strong>Specifications</strong>\n<div class=\"table-responsive\">\n<div class=\"modern-table-container\"><table class=\"modern-table\">\n<tbody>\n<tr class=\"even\">\n<th class=\"views-field views-field-field-output-power-watts\">Output Power</th>\n<td class=\"views-field views-field-field-output-power-watts\">2,500W</td>\n</tr>\n<tr class=\"odd\">\n<th class=\"views-field views-field-field-output-power-peak-watts\">Peak Watts</th>\n<td class=\"views-field views-field-field-output-power-peak-watts\">5,000W</td>\n</tr>\n<tr class=\"even\">\n<th class=\"views-field views-field-field-warranty\">Warranty</th>\n<td class=\"views-field views-field-field-warranty\">3 Years</td>\n</tr>\n<tr class=\"odd\">\n<th class=\"views-field views-field-field-output-voltage\">Output Voltage</th>\n<td class=\"views-field views-field-field-output-voltage\">120 VAC</td>\n</tr>\n<tr class=\"even\">\n<th class=\"views-field views-field-field-output-current-float\">Output Current</th>\n<td class=\"views-field views-field-field-output-current-float\">20.8 amps</td>\n</tr>\n<tr class=\"odd\">\n<th class=\"views-field views-field-field-output-waveform\">Output Waveform</th>\n<td class=\"views-field views-field-field-output-waveform\">Modified Sine</td>\n</tr>\n<tr class=\"even\">\n<th class=\"views-field views-field-field-output-frequency\">Output Frequency</th>\n<td class=\"views-field views-field-field-output-frequency\">60 Hz</td>\n</tr>\n<tr class=\"odd\">\n<th class=\"views-field views-field-field-input-current\">Input Voltage</th>\n<td class=\"views-field views-field-field-input-current\">12</td>\n</tr>\n<tr class=\"even\">\n<th class=\"views-field views-field-field-operating-temp\">Operating Temp</th>\n<td class=\"views-field views-field-field-operating-temp\">-20A C to +60A C (-4A F to 140A F)</td>\n</tr>\n<tr class=\"odd\">\n<th class=\"views-field views-field-field-efficiency\">Efficiency</th>\n<td class=\"views-field views-field-field-efficiency\">91%</td>\n</tr>\n<tr class=\"even\">\n<th class=\"views-field views-field-field-weight\">Weight</th>\n<td class=\"views-field views-field-field-weight\">41 lb (18.6 kg)</td>\n</tr>\n<tr class=\"odd\">\n<th class=\"views-field views-field-field-dimensions\">Dimensions</th>\n<td class=\"views-field views-field-field-dimensions\">13.75\" x 12.65\" x 8.0\" (34.9 cm x 32.1 cm x 20.3 cm)</td>\n</tr>\n<tr class=\"even\">\n<th class=\"views-field views-field-field-ul-certified\">UL Certified</th>\n<td class=\"views-field views-field-field-ul-certified\">Yes</td>\n</tr>\n<tr class=\"odd\">\n<th class=\"views-field views-field-field-phase\">Phase</th>\n<td class=\"views-field views-field-field-phase\">Single</td>\n</tr>\n<tr class=\"even\">\n<th class=\"views-field views-field-field-frequency\">Topology</th>\n<td class=\"views-field views-field-field-frequency\">Low Frequency</td>\n</tr>\n<tr class=\"odd\">\n<th class=\"views-field views-field-field-input-voltage-range\">Input Battery Voltage Range</th>\n<td class=\"views-field views-field-field-input-voltage-range\">9-16</td>\n</tr>\n</tbody>\n</table></div>\n</div>\n<p>2 year warranty</p>",
+    "features": []
+  },
+  {
+    "id": "677",
+    "slug": "outback-radian-gs8048a-01-8000-watt-advanced-inverter-charger",
+    "title_en": "Outback Radian GS8048A-01 8,000 Watt Advanced Inverter/Charger",
+    "excerpt_en": "",
+    "content_en": "<h4 class=\"section-label\">Details</h4>\n<strong>Outback Radian GS8048A 8,000 Watt Inverter/Charger</strong>\n<strong>NOTE:</strong> This is the new GS8048A-01 model which replaced the GS8048A. It's the same inverter but also conforms to the new UL 1741 S as defined in California's Rule 21. This inverter qualifies to be installed anywhere in the United States, including California and Hawaii. You can read more about this in the <strong>OutBack Power Product Change Notice</strong>.\n<p>This is the Radian Advanced. The main difference between the standard Radian and the advanced Radian is that the advanced model can charge a wider variety of battery types. It also has more advanced diagnostics and a superior energy management program.</p>\n<p>The Radian series is the newest inverter from Outback Power. Unlike other Outback models, the Radian is capable of 120/240 volts AC output using just a single unit. While you can combine up to 10 Radian inverters in parallel for 80,000 watts, it's not necessary to use more than one Radian if your power consumption is less than 8,000 watts. If you plan to parallel multiple units for more power, a HUB4 or HUB10 communications manager is necessary. The Radian Advanced is only available in a 48 volt DC input.</p>\n<p>These units are referred to as grid-interactive. It can be used as a standard grid-tie inverter and offset your utility bill or it can work as an off-grid system. In the event that you lose utility power, the Radian will take over by keeping your house powered. The length of time you will have backup power will depend upon the storage capacity of your battery bank. If you have a generator, the Radian's built-in charger can be used to keep your batteries full. If inclement weather prevents your solar array from charging your batteries, a generator can save the day (and your batteries).</p>\n<p>When used in conjunction with the GSLC load center, installation is fast and easy. Generally, the installation can be completed by the home owner. However, be sure to check with your local electrical inspector and utility company for local laws and regulations when connecting to the grid. Some jurisdictions require grid-interactive inverters to be installed by licensed electricians.</p>\n\n<strong>Warranty: 5 Years</strong>",
+    "features": [
+      {
+        "title_en": "Specifications:",
+        "items_en": [
+          "Continuous Output Power: 8000 VA",
+          "Input Voltage: 48 VDC",
+          "AC Output Voltage: 120/240 VAC",
+          "Pure Sinewave Output",
+          "Overload Capability (5 seconds): 12,000 VA",
+          "Overload Capability (30 minutes): 9,000 VA",
+          "Idle Power Consumption: 34 Watts",
+          "Battery Charger Maximum DC Output: 115 ADC",
+          "Field Upgradeable Firmware",
+          "Non-Volatile Memory",
+          "Weight: 125 lbs.",
+          "Dimensions (H x W x D): 28\" x 16\" x 8.7\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "680",
+    "slug": "victron-enery-quattro-15000-watt-48-volt-inverter-200-amp-battery-charger-230-vac",
+    "title_en": "Victron Enery Quattro 15,000 Watt 48 Volt Inverter & 200 Amp Battery Charger 230 VAC",
+    "excerpt_en": "",
+    "content_en": "<p>These single phase inverters can be programmed to output 240V 60Hz for North American applications. Couple with an Autotransformer to do neutral forming for 120/240V split phase applications. We can also stack these inverters in three phase configurations to do 230V/400V WYE (50Hz or 60Hz). For three phase 120V/208V applications the 120V Quattro inverters should be used. If you have questions or would like product recommendations, please contact our engineers to discuss your application in greater detail.</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody>\n<tr><th class=\"spec-key\">Note</th><th class=\"spec-value\">This item must ship by truck Freight. Please contract us if you have any questions or concerns.</th></tr>\n</tbody></table></div>\n<h4 class=\"section-label\">Details</h4>\n<h4>Victron 15,000 Watt 48VDC Inverter & Charger</h4>\n<p data-enable-parallax=\"0\" data-parallax-speed=\"0.5\" data-background-images=\"{}\" data-element=\"inner\">Similar to the MultiPlus, the Quattro is also a combined inverter and charger. Additionally it can accept two AC input and automatically connect to the active source. Its many features include two sine wave inverter, adaptive charging, hybrid PowerAssist technology plus multiple system integration features such a three or split phase operation and parallel operation.The Quattro can be connected to two independent AC sources, for example shore-side power and a generator, or two generators. The Quattro will automatically connect to the active source. The main output has no-break functionality. In the event of a grid failure, or shore or generator power being disconnected, the Quattro takes over the supply to the connected loads. This happens so fast that computers and other electronic equipment will continue to operate without disruption. The second output is live only when AC is available on one of the inputs of the Quattro.The Quattro will prevent overload of a limited AC source, such as a generator or shore power connection. First, battery charging will automatically be reduced when otherwise an overload would occur. The second level will boost the output of a generator or shore side supply with power taken from the battery</p>\n\n<p class=\"info\">The difference here between an inverter's specified V rating and Watt rating is referencing power factor and crest ratio both of which can affect the apparent power vs the actual power and peak wave form vs RMS on the inverter. Most inverter manufactures derate their specified inverter watt output to account for loads with poor power factor and wave distortion.</p>",
+    "features": [
+      {
+        "title_en": "Features and Specifications:",
+        "items_en": [
+          "Multifunctional, with intelligent power management",
+          "Two AC inputs & Two AC outputs",
+          "Three phase capability",
+          "Split phase options",
+          "PowerControl - Dealing with limited generator, shore side or grid power",
+          "Unique PowerAssist -  Boosting the capacity of shore or generator power",
+          "Input Voltage range: 38 to 66 Volt DC",
+          "Output voltage: 230 Volts AC +/-2% @ 50 Hz",
+          "Continuous output power: 15,000 Volt-Amps @ 77oF",
+          "Zero load power: 110 Watts; 15 Watts in search mode",
+          "Charge current (house battery): 200 Amps",
+          "Dimensions: 22.5\" x 19.2\" x 13.5\" inches",
+          "Weight: 158.7 pounds",
+          "5 year warranty"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "683",
+    "slug": "growatt-sph4000-10000tl3-bh",
+    "title_en": "GROWATT SPH4000-10000TL3 BH",
+    "excerpt_en": "",
+    "content_en": "<h4>Application</h4>\n<p>Three phase hybrid inverter ideal for home and small commercial systems. Its battery ready design can help reduce initial system investment, stunning IP65 protection level, more durable and flexible for installation, multiple programmable working modes, decide by yourself how to realize self-sufficiency and increase system self-consumption. And the EPS output can even provide backup supply during grid absence.</p>\n\n<h4>Technical Parameter</h4>\n<img class=\"alignnone wp-image-685 size-full\" src=\"/uploads/2021/08/6014b3bd9719c-scaled.webp\" alt=\"\" width=\"1912\" height=\"2560\" />",
+    "features": [
+      {
+        "title_en": "User Friendly",
+        "items_en": [
+          "Compact design",
+          "Local graphical LCD and 4 buttons",
+          "Support export control"
+        ]
+      },
+      {
+        "title_en": "Flexible",
+        "items_en": [
+          "Battery ready",
+          "Dual MPP trackers",
+          "Programmable working modes"
+        ]
+      },
+      {
+        "title_en": "Safe & Reliable",
+        "items_en": [
+          "Smart battery management",
+          "Online smart service",
+          "IP65 & natural cooling",
+          "Support backup function"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "698",
+    "slug": "four",
+    "title_en": "Victron Off-Grid Inverter Models (3000VA, 5000VA, 8000VA, 10000VA, 15000VA)",
+    "excerpt_en": "",
+    "content_en": "<h4>Multifunctional</h4>\n<p>Similar to the MultiPlus, the Quattro is also a combination inverter and charger. Additionally, it can accept two AC inputs and automatically switch to the active source. It integrates various functions such as a true sine wave inverter, variable loading, PowerAssist hybrid technology, as well as various system integration features such as three-phase, dissociated phase and parallel operation.</p>\n<p>For ESS systems with Quattro 48/15000 it is mandatory by law to use the Ziehl Anti-islanding relay UFR1001E.</p>\n<h4>Models:</h4>\n<strong>3000VA, 5000VA, 8000VA, 10000VA, 15000VA</strong>\n<h4>Two AC inputs and two AC outputs</h4>\n<img class=\"alignnone size-full wp-image-699\" src=\"/uploads/2021/08/1554881502-upload-documents-260-325-vic-pdp-two-ac-input-output-.webp\" alt=\"\" width=\"260\" height=\"195\" />\n<p>The Quattro can be connected to two independent AC sources such as the dock mains and a generator or to two generators. Quattro automatically connects to the active source. The main output has a \"no-break\" function (without interruption). In the event of a failure in the electrical network or the wharf electrical network or the generator being switched off, the Quattro takes over the power supply to the connected appliances. This is so fast (less than 20 ms) that computers, or other electronic equipment, will continue to work without interruption. The second output is only active when AC power is available at one of the Quattro inputs. Devices that do not discharge the battery, such as an air conditioner or a boiler, can be connected to this output.</p>\n<h4>PowerAssist exclusive function</h4>\n<img class=\"alignnone size-full wp-image-700\" src=\"/uploads/2021/08/1616081016-upload-documents-260-325-vic-pdp-powerassist.webp\" alt=\"\" width=\"260\" height=\"195\" />\n<p>Quatro prevents overloading a limited AC source, such as a generator or dock wiring. First, the battery charge is automatically reduced if an overload occurs. The second level increases the power of a generator or dock system with energy taken from the battery.</p>\n<h4>Virtually unlimited power thanks to parallel operation</h4>\n<img class=\"alignnone size-full wp-image-701\" src=\"/uploads/2021/08/1616081146-upload-documents-260-325-vic-pdp-parralel-operation.webp\" alt=\"\" width=\"260\" height=\"195\" />\n<p>Up to six Quattros can be run in parallel for greater power output. Three-phase or dissociated phase operation is also possible. Consult our technical data sheets to see which models are capable of parallel, three-phase and dissociated phase connection.</p>\n<h4 class=\"productDetails__block-title\"><span class=\"productDetails__block-title-content\">Remote Monitoring and Control</span></h4>\n<img class=\"alignnone size-full wp-image-702\" src=\"/uploads/2021/08/1616081187-upload-documents-260-325-vic-pdp-vrm.webp\" alt=\"\" width=\"260\" height=\"195\" />\n<p>When connected to a GX device (eg Cerbo GX), you can monitor and control your Multi and systems locally (LAN) or remotely via the Internet, anywhere in the world, with the free VRM application and the free VRM portal site . It can be accessed through a mobile phone, tablet, laptop or computer in various operating systems. There are no limits on the level of control, from configuring the Multi to automatically turning on a backup generator, among many other options.\"</p>",
+    "features": []
+  },
+  {
+    "id": "791",
+    "slug": "battery-cables",
+    "title_en": "Battery Cables",
+    "excerpt_en": "",
+    "content_en": "<p>Red and black battery connector cables with round battery pins at both ends insulated.</p>\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>The thickness of the cable is 35 sq mm.</li>\n<li>Current carrying capacity: 138Amp</li>\n<li>Voltage capacity: 1100v</li>\n<li>Core: copper</li>\n<li>Lugs: Round battery pin copper</li>\n<li>Cable type: Fire retardant PVC</li>\n<li>Core: 1</li>\n<li>Ideal for connecting between battery in the battery banks of 24v, 48v battery banks.</li>\n<li>Ideal for connecting battery to an inverter up to 5kw.</li>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Manufactured with ultra-flexible Angle Power-Flex Cable</li>\n<li>100% fine stranded PURE COPPER cable for high amperage applications</li>\n<li>Copper cable lugs are tinned coated and utilize a closed end design for corrosion protection</li>\n<li>Polyolefin heat shrink tubing applied to form a protective seal.</li>\n<li>Includes one black cable and one red cable.</li>\n\n",
+    "features": []
+  }
+]

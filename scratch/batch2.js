@@ -1,0 +1,77 @@
+const fs = require('fs');
+const path = require('path');
+
+const translatedData = [
+  {
+    "id": "248",
+    "title_pt": "Inversor de String SCHNEIDER CL-60E",
+    "excerpt_pt": "",
+    "content_pt": "<strong>A solução ideal para centrais eléctricas descentralizadas e grandes edifícios comerciais</strong>\n<p class=\"lead\">Transforme um telhado ou terreno não utilizado numa fonte rentável de energia verde e renovável, com o Inversor de String CL-60.</p>\n<p>Juntamente com os rigorosos procedimentos de fiabilidade da Schneider Electric, o CL-60 é durável e projectado para fiabilidade a longo prazo. Com uma eficiência máxima líder na indústria de 98,9%, reduz os seus custos operacionais e o seu Custo Nivelado de Energia (LCOE). Para propriedades comerciais ou serviços descentralizados que procuram uma solução solar que gere a potência máxima, serviços fáceis e rápidos, promovendo simultaneamente a estabilidade da rede — o CL-60 é a escolha de negócio inteligente.</p>\n<p>O CL-60 também é compatível com o <a href=\"https://solar.schneider-electric.com/product/insight/\">Insight Energy Management</a> para uma gestão remota de activos e resolução de problemas mais fácil.</p>\nHá honra em anunciar que o CL-60 da Schneider Electric foi nomeado como um Top Performer no Scorecard de Fiabilidade de Inversores Fotovoltaicos da PV Evolution Labs (PVEL). O PVEL PV Inverter Reliability Scorecard foi concebido para fornecer informações sobre a fiabilidade a longo prazo dos inversores. O CL-60 foi identificado como um dos melhores em múltiplos testes, incluindo eficiência MPPT, eficiência de conversão, recolha de energia,\n<p>e ciclagem térmica de potência.</p>\n<div class=\"modern-table-container\"><table class=\"modern-table\"><tbody>\n<tr><th class=\"spec-key\">[embed]https</th><th class=\"spec-value\">//www.youtube.com/watch?v=Kgwd9LRmTVw[/embed]</th></tr>\n</tbody></table></div>",
+    "features_pt": []
+  },
+  {
+    "id": "251",
+    "title_pt": "CONTROLADOR DE CARGA SOLAR OUTBACK FLEXmax 60 / 80",
+    "excerpt_pt": "",
+    "content_pt": "<ul class=\"pos-infobar\">\n<li class=\"element element-select first\"><strong>Linha de Produto:</strong> Carregador</li>\n<li class=\"element element-text last\"><strong>Número da Peça:</strong> Modelo: FLEXmax 60/80</li>\n\n\n<h4>Descrição</h4>\n<strong>A família FLEXmax de controladores de carga é a mais recente inovação em controladores de carga com Rastreio do Ponto de Potência Máxima (MPPT) da OutBack Power.</strong> O inovador algoritmo de software FLEXmax MPPT é contínuo e activo, aumentando o rendimento da potência do seu array fotovoltaico em até 30% em comparação com controladores não-MPPT. Graças ao arrefecimento activo e à gestão térmica inteligente, ambos os controladores de carga FLEXmax podem operar na sua classificação de corrente máxima total, 60 Amperes ou 80 Amperes, respectivamente, em temperaturas ambientes de até 40°C (104°F).\n<p>Incluído em todos os controladores de carga FLEXmax estão as funcionalidades revolucionárias desenvolvidas pela primeira vez pela OutBack Power, incluindo o suporte para uma vasta gama de tensões nominais de bateria e a capacidade de reduzir a tensão de um array solar de maior voltagem para recarregar um banco de baterias de menor voltagem. Um visor retroiluminado integrado de 80 caracteres mostra o estado actual e os dados de desempenho do sistema registados nos últimos 128 dias com o toque de um botão. As comunicações de rede integradas da OutBack permitem que os controladores de carga da série FLEXmax sejam programados e monitorizados remotamente através de um ecrã de sistema MATE e proporcionam uma integração de sistema completa e inigualável.</p>\n<p>Os controladores de carga FLEXmax MPPT são a única escolha quando exige um controlador de carga de alto desempenho, eficiente e versátil para o seu sistema de energia avançado.</p>",
+    "features_pt": [
+      {
+        "title_pt": "Destaques do Produto",
+        "items_pt": [
+          "Rastreio do Ponto de Potência Máxima (MPPT)",
+          "Arrefecimento activo e gestão térmica inteligente",
+          "Temperaturas ambientes de até 40°C (104°F)",
+          "Visor retroiluminado integrado de 80 caracteres",
+          "Comunicações de rede OutBack integradas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "254",
+    "title_pt": "CONTROLADOR DE CARGA SOLAR MIDNITE CLASSIC 150",
+    "excerpt_pt": "",
+    "content_pt": "\n<div>Para garantir um arranque adequado e operação MPPT, a tensão de entrada fotovoltaica inicial mínima deve ser pelo menos 30% superior à tensão de bateria mais alta esperada.</div>\n<p>Enviado com o Sensor de Temperatura de Bateria MidNite (MNBTS) e Manual impresso.</p>\n<div>A MidNite Solar oferece uma novidade na indústria: uma garantia alargada para todos os controladores de carga Classic MPPT. Seis meses antes do fim do período de garantia, os clientes podem enviar o seu Classic de volta para a MidNite Solar com um cheque de $147 dólares mais portes e substituiremos quaisquer peças de desgaste e faremos uma revisão geral. Isto estenderá a garantia por mais 2 anos adicionais, outra boa razão para adquirir um Classic.</div>\n\n<ul class=\"modern-list\">\n<ul class=\"modern-list\">\n<li>Garantia - 5 anos.</li>\n<li>Listado por ETL para EUA e Canadá</li>\n<li>Certificado CE</li>\n<li>Listado FCC Classe B</li>\n<li>Fabricado nos EUA</li>\n\n\n<h4><b>Descrição</b></h4>\n<p>O Controlador de Carga Classic 150 MPPT é o modelo mais popular da MidNite Solar. Possui detecção de Falha de Arco, Falha de Terra, monitorização web gratuita, um painel gráfico e Modos Solar, Hídrico e Eólico. O Classic 150 tem uma corrente de saída máxima de 96 amperes, uma tensão operacional de 150 volts e funciona com sistemas de bateria de 12 a 72 volts. A aplicação local gratuita da MidNite Solar permite-lhe monitorizar os seus Classics através da sua rede local ou da Internet. Tal como acontece com toda a linha Classic, o Classic 150 possui o exclusivo HyperVOC da MidNite, que estende os limites de VOC quando necessário.</p>",
+    "features_pt": [
+      {
+        "title_pt": "CARACTERÍSTICAS:",
+        "items_pt": [
+          "Tensão operacional de 150V",
+          "Corrente de saída máx.: 96 amperes",
+          "Listado ETL para UL1741 e CSA",
+          "Classificação ambiental Tipo 1",
+          "Terminais classificados para 75°C",
+          "HyperVOC exclusivo estende limites de VOC",
+          "Bateria de 12-72V",
+          "DC-GFP e Falha de Arco integrados",
+          "Detector",
+          "Modos MPPT solar, eólico e hídrico"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "260",
+    "title_pt": "CONTROLADOR DE CARGA SOLAR SCHNEIDER Conext MPPT 80 600",
+    "excerpt_pt": "",
+    "content_pt": "<h4><strong>Instale por menos, colha mais energia</strong></h4>\n<p class=\"lead\">O controlador de carga solar Conext™ MPPT 80 600 oferece um conjunto de funcionalidades de integração inéditas na indústria e um desempenho de topo que permite que grandes sistemas de arrays fotovoltaicos sejam facilmente instalados e ligados ao banco de baterias ao custo total mais baixo. Instalar um MPPT 80 600 é mais rápido do que instalar múltiplos controladores de carga mais pequenos e reduz ainda mais os custos totais ao utilizar menos strings fotovoltaicas, cablagem e condutas mais pequenas, e ao eliminar a necessidade de caixas combinadoras fotovoltaicas e disjuntores DC.</p>\n",
+    "features_pt": [
+      {
+        "title_pt": "Número da peça",
+        "items_pt": [
+          "Conext™ MPPT 80 600 - 865-1032"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "263",
+    "title_pt": "CONTROLADOR DE CARGA SOLAR VICTRON SmartSolar MPPT 150/45 até 250/100",
+    "excerpt_pt": "",
+    "content_pt": "<div class=\"productDetail__content-desc\">\n<p>O carregador solar recolhe energia dos seus painéis solares e armazena-a nas suas baterias. Utilizando a tecnologia mais recente e rápida, o SmartSolar maximiza esta recolha de energia, gerindo-a de forma inteligente para atingir a carga total no menor tempo possível. O SmartSolar mantém a saúde da bateria, prolongando a sua vida útil.</p>\n<p>O controlador de carga SmartSolar irá mesmo recarregar uma bateria severamente descarregada. Pode operar com uma tensão de bateria tão baixa quanto 0 Volts, desde que as células não estejam permanentemente sulfatadas ou danificadas de outra forma.</p>\n</div>\n<h4 class=\"productDetail__content-models\"><b>Modelos: </b>12/24/36/48 Volt</h4>",
+    "features_pt": []
+  }
+];
+
+fs.writeFileSync(path.join(__dirname, 'batch2.json'), JSON.stringify(translatedData, null, 2));
+console.log("Batch 2 translated.");
