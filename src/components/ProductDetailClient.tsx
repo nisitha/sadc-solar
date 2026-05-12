@@ -124,7 +124,7 @@ export default function ProductDetailClient({
             <div className="space-y-12">
               <div>
                 <div className="text-brand-navy font-bold text-xs uppercase tracking-[0.4em] mb-4">
-                  {t.productCategory as string}: <span className="text-slate-500 font-medium notranslate">{product.categories[0]}</span>
+                  {t.productCategory as string}: <span className="text-slate-500 font-medium notranslate">{translateCategory(product.categories[0])}</span>
                 </div>
                 <h1 className="text-4xl md:text-6xl font-black text-brand-navy tracking-tight leading-none mb-8 notranslate">
                   {language === 'pt' ? (product.title_pt || product.title) : (product.title_en || product.title)}
@@ -160,8 +160,12 @@ export default function ProductDetailClient({
                         <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-brand-navy mb-6 shadow-sm group-hover:scale-110 group-hover:bg-brand-yellow group-hover:text-brand-navy transition-all">
                           <Icon className="w-6 h-6" />
                         </div>
-                        <h4 className="text-lg font-bold text-brand-navy mb-2">{feature.title}</h4>
-                        <p className="text-sm text-slate-500 font-medium leading-relaxed">{feature.description}</p>
+                        <h4 className="text-lg font-bold text-brand-navy mb-2">
+                          {language === 'pt' ? (feature.title_pt || feature.title) : feature.title}
+                        </h4>
+                        <p className="text-sm text-slate-500 font-medium leading-relaxed">
+                          {language === 'pt' ? (feature.description_pt || feature.description) : feature.description}
+                        </p>
                       </div>
                     );
                   })}

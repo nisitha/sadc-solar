@@ -40,7 +40,8 @@ export default function Header() {
     };
     window.addEventListener("scroll", handleScroll);
 
-    // Google Translate Initialization
+    // Google Translate Initialization removed to avoid conflict with custom LanguageContext
+    /*
     if (!(window as any).googleTranslateElementInit) {
       (window as any).googleTranslateElementInit = () => {
         new (window as any).google.translate.TranslateElement({
@@ -55,6 +56,7 @@ export default function Header() {
       addScript.async = true;
       document.body.appendChild(addScript);
     }
+    */
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
