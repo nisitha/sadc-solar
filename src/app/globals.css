@@ -5,9 +5,9 @@
   --brand-hover: #DA291C;
   --brand-accent-2: #EA6003;
   --brand-yellow: #FACC15;
-  --brand-navy: #0A1628;
-  --background: #ffffff;
-  --foreground: #1a1a1a;
+  --brand-navy: #001f3f;
+  --background: #f8fafc;
+  --foreground: #1e293b;
 }
 
 .lang-en {
@@ -104,7 +104,7 @@ body {
   background: var(--color-brand-hover);
 }
 
-/* Premium Technical Specification Table Styling */
+/* Premium Technical Specification Table Styling (Light Mode) */
 .technical-spec-table table {
   width: 100% !important;
   border-collapse: collapse;
@@ -115,19 +115,19 @@ body {
 .technical-spec-table th {
   text-align: left;
   padding: 1.25rem 1.5rem;
-  color: var(--brand-yellow);
+  color: var(--brand-navy);
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.7rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 2px solid var(--brand-yellow);
 }
 
 .technical-spec-table td {
   padding: 1.25rem 1.5rem;
-  color: #e5e7eb;
+  color: #475569;
   font-weight: 500;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid #e2e8f0;
   transition: background 0.3s ease;
 }
 
@@ -136,7 +136,7 @@ body {
 }
 
 .technical-spec-table tr:hover td {
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(241, 245, 249, 0.5);
 }
 
 .wp-content p {
@@ -183,7 +183,7 @@ body {
 }
 
 .prose-custom {
-  color: #4b5563;
+  color: #475569;
   line-height: 1.8;
   font-size: 1.125rem;
 }

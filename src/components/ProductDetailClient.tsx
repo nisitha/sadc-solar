@@ -103,7 +103,7 @@ export default function ProductDetailClient({
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div className="sticky top-32 space-y-8">
-              <div className="relative aspect-square rounded-[3rem] overflow-hidden bg-gray-50 border border-gray-100 shadow-2xl group">
+              <div className="relative aspect-square rounded-[3rem] overflow-hidden bg-slate-50 border border-slate-100 shadow-sm group">
                 <img
                   src={(product.imageUrl || "/placeholder-product.webp")
                     .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")}
@@ -111,10 +111,10 @@ export default function ProductDetailClient({
                   className="w-full h-full object-contain p-12 transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute top-8 left-8 flex flex-col space-y-3">
-                  <span className="px-4 py-1.5 bg-brand-primary text-white text-[10px] font-black uppercase tracking-widest rounded-full shadow-lg">
+                  <span className="px-4 py-1.5 bg-brand-navy text-white text-[10px] font-black uppercase tracking-widest rounded-full shadow-lg">
                     {t.premiumQuality as string}
                   </span>
-                  <span className="px-4 py-1.5 bg-gray-900 text-white text-[10px] font-black uppercase tracking-widest rounded-full shadow-lg">
+                  <span className="px-4 py-1.5 bg-brand-yellow text-brand-navy text-[10px] font-black uppercase tracking-widest rounded-full shadow-lg">
                     {t.warrantyGuaranteed as string}
                   </span>
                 </div>
@@ -123,10 +123,10 @@ export default function ProductDetailClient({
 
             <div className="space-y-12">
               <div>
-                <div className="text-brand-primary font-bold text-xs uppercase tracking-[0.4em] mb-4">
-                  {t.productCategory as string}: <span className="notranslate">{product.categories[0]}</span>
+                <div className="text-brand-navy font-bold text-xs uppercase tracking-[0.4em] mb-4">
+                  {t.productCategory as string}: <span className="text-slate-500 font-medium notranslate">{product.categories[0]}</span>
                 </div>
-                <h1 className="text-4xl md:text-6xl font-black text-gray-900 tracking-tight leading-none mb-8 notranslate">
+                <h1 className="text-4xl md:text-6xl font-black text-brand-navy tracking-tight leading-none mb-8 notranslate">
                   {product.title}
                 </h1>
                 <div className="flex flex-wrap gap-4">
@@ -141,11 +141,11 @@ export default function ProductDetailClient({
 
               <div className="space-y-10">
                 <div className="border-l-4 border-brand-yellow pl-8">
-                  <h3 className="text-lg font-black text-white uppercase tracking-widest mb-6 bg-brand-navy/50 backdrop-blur-md px-4 py-2 rounded-lg inline-block">
+                  <h3 className="text-lg font-black text-brand-navy uppercase tracking-widest mb-6 bg-slate-100 px-4 py-2 rounded-lg inline-block">
                     {t.coreOverview as string}
                   </h3>
                   <div
-                    className="text-lg text-gray-400 leading-relaxed font-medium prose-custom"
+                    className="text-lg text-slate-600 leading-relaxed font-medium prose-custom"
                     dangerouslySetInnerHTML={{
                       __html: language === 'pt' ? (product.content_pt || product.content_en) : product.content_en
                     }}
@@ -156,12 +156,12 @@ export default function ProductDetailClient({
                   {product.features?.map((feature: any, i: number) => {
                     const Icon = ICON_MAP[feature.title] || Activity;
                     return (
-                      <div key={i} className="p-8 bg-brand-navy/30 backdrop-blur-md rounded-[2rem] border border-white/5 hover:border-brand-yellow/20 transition-all group">
-                        <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center text-brand-yellow mb-6 shadow-sm group-hover:scale-110 transition-transform">
+                      <div key={i} className="p-8 bg-white rounded-[2rem] border border-slate-100 hover:border-brand-yellow/20 transition-all group shadow-sm hover:shadow-md">
+                        <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-brand-navy mb-6 shadow-sm group-hover:scale-110 group-hover:bg-brand-yellow group-hover:text-brand-navy transition-all">
                           <Icon className="w-6 h-6" />
                         </div>
-                        <h4 className="text-lg font-bold text-white mb-2">{feature.title}</h4>
-                        <p className="text-sm text-gray-400 font-medium leading-relaxed">{feature.description}</p>
+                        <h4 className="text-lg font-bold text-brand-navy mb-2">{feature.title}</h4>
+                        <p className="text-sm text-slate-500 font-medium leading-relaxed">{feature.description}</p>
                       </div>
                     );
                   })}
@@ -183,16 +183,16 @@ function TechnicalTable({ specifications, t }: { specifications: string, t: any 
   if (!specifications) return null;
 
   return (
-    <div className="mt-16 overflow-hidden rounded-[2.5rem] border border-white/10 shadow-2xl bg-[#0A1628]/95 backdrop-blur-xl">
-      <div className="bg-white/5 px-10 py-6 border-b border-white/5">
-        <h3 className="text-sm font-black text-white uppercase tracking-[0.3em] flex items-center">
+    <div className="mt-16 overflow-hidden rounded-[2.5rem] border border-slate-200 shadow-sm bg-white/80 backdrop-blur-md">
+      <div className="bg-slate-50 px-10 py-6 border-b border-slate-100">
+        <h3 className="text-sm font-black text-brand-navy uppercase tracking-[0.3em] flex items-center">
           <Settings className="w-4 h-4 mr-3 text-brand-yellow" />
           {t.specifications as string}
         </h3>
       </div>
       <div className="overflow-x-auto">
         <div
-          className="technical-spec-table p-8 text-gray-300"
+          className="technical-spec-table p-8 text-slate-600"
           dangerouslySetInnerHTML={{
             __html: specifications
           }}
