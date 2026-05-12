@@ -47,7 +47,6 @@ export const translations = {
     // Common Actions
     readMore: "Read More",
     viewDetails: "View Details",
-    applyNow: "Apply Now",
     backToHome: "Back to Home",
     
     // Stats / Impact
@@ -60,6 +59,11 @@ export const translations = {
     projectGallery: "Project Gallery",
     ourImpact: "Our Impact in Angola.",
     galleryDescription: "A glimpse of the scale and complexity of the solar infrastructure projects we have successfully delivered.",
+    utilityScaleSolar: "Utility Scale Solar",
+    commercialRooftop: "Commercial Rooftop",
+    ruralElectrification: "Rural Electrification",
+    modernInfrastructure: "Modern Infrastructure",
+    standardizingSADC: "Standardizing Renewable Energy in the SADC Region.",
     
     // Sections
     financingTitle: "Institutional Financing",
@@ -69,6 +73,8 @@ export const translations = {
     ctaDescription: "Join the thousands of homes and businesses in Angola powered by clean, reliable, and sustainable solar energy.",
     caseStudy: "Case Study",
     financial: "Financial",
+    applyNow: "Apply Now",
+    requestNow: "Request Now",
     
     // Product/Solution related
     turnkeySolutions: "Turnkey Solutions",
@@ -218,6 +224,13 @@ export const translations = {
     news3Summary: "CNN highlights Angola's major shift from oil dependency to investing heavily in hydropower and solar projects like Quilemba and PRODEL.",
     news4Title: "Sub-Saharan Africa's Largest Off-Grid Solar Plant",
     news4Summary: "Angola makes history by opening the largest off-grid solar plant in Moxico Leste, bringing vital electricity to rural communities.",
+    marketNews: "Market News",
+    shareStory: "Share this story:",
+    viewMoreNews: "View More News →",
+    horizontalExplorer: "Horizontal Explorer",
+    productsAndSolutions: "Products & Solutions",
+    viewCatalog: "View Catalog",
+    exploreTechnology: "Explore Technology",
   },
   pt: {
     // Navegação
@@ -267,7 +280,6 @@ export const translations = {
     // Acções Comuns
     readMore: "Ler Mais",
     viewDetails: "Ver Detalhes",
-    applyNow: "Solicitar Agora",
     backToHome: "Voltar ao Início",
     
     angolaPioneer: "Pioneira de Angola em Padrões de Energia Solar.",
@@ -279,6 +291,11 @@ export const translations = {
     projectGallery: "Galeria de Projectos",
     ourImpact: "Nosso Impacto em Angola.",
     galleryDescription: "Um vislumbre da escala e complexidade dos projectos de infraestrutura solar que entregámos com sucesso.",
+    utilityScaleSolar: "Solar de Escala Utilitária",
+    commercialRooftop: "Cobertura Comercial",
+    ruralElectrification: "Electrificação Rural",
+    modernInfrastructure: "Infraestrutura Moderna",
+    standardizingSADC: "Padronizando Energias Renováveis na Região da SADC.",
     
     // Secções
     financingTitle: "Financiamento Institucional",
@@ -288,6 +305,8 @@ export const translations = {
     ctaDescription: "Junte-se aos milhares de lares e empresas em Angola alimentados por energia solar limpa, fiável e sustentável.",
     caseStudy: "Estudo de Caso",
     financial: "Financeiro",
+    applyNow: "Solicitar Agora",
+    requestNow: "Solicitar Agora",
     
     // Relacionado com Produtos/Soluções
     turnkeySolutions: "Soluções Chave na Mão",
@@ -437,6 +456,13 @@ export const translations = {
     news3Summary: "A CNN destaca a grande mudança de Angola da dependência do petróleo para o investimento em projectos hidroeléctricos e solares como Quilemba.",
     news4Title: "A Maior Central Solar Off-Grid da África Subsariana",
     news4Summary: "Angola faz história ao abrir a maior central solar off-grid em Moxico Leste, trazendo electricidade vital para as comunidades rurais.",
+    marketNews: "Notícias do Mercado",
+    shareStory: "Partilhar esta notícia:",
+    viewMoreNews: "Ver Mais Notícias →",
+    horizontalExplorer: "Explorador Horizontal",
+    productsAndSolutions: "Produtos e Soluções",
+    viewCatalog: "Ver Catálogo",
+    exploreTechnology: "Explorar Tecnologia",
   }
 };
 

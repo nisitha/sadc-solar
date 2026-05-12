@@ -1,40 +1,41 @@
-"use client";
 import React, { useRef, useState, useEffect } from "react";
 import { Search, Zap, Sun, Battery, Settings, ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { motion, useScroll, useSpring } from "framer-motion";
-
-const EXPLORER_ITEMS = [
-  {
-    title: "Off-Grid Solar Inverters",
-    icon: Zap,
-    href: "/products?category=Off-grid+Solar+Inverters"
-  },
-  {
-    title: "On-Grid Solar Inverters",
-    icon: Settings,
-    href: "/products?category=On-grid+Solar+Inverters"
-  },
-  {
-    title: "Solar Charge Controllers",
-    icon: Sun,
-    href: "/products?category=Solar+Charge+Controllers"
-  },
-  {
-    title: "Solar Batteries / Storage",
-    icon: Battery,
-    href: "/products?category=Solar+Batteries"
-  },
-  {
-    title: "Solar Panels / PV",
-    icon: Sun,
-    href: "/products?category=Solar+Panels"
-  }
-];
+import { motion } from "framer-motion";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function ProductExplorer() {
+  const { t } = useLanguage();
   const scrollRef = useRef<HTMLDivElement>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
+
+  const EXPLORER_ITEMS = [
+    {
+      title: t.catOffGridInverters,
+      icon: Zap,
+      href: "/products/off-grid-solar-inverters"
+    },
+    {
+      title: t.catOnGridInverters,
+      icon: Settings,
+      href: "/products/on-grid-solar-inverters"
+    },
+    {
+      title: t.catChargeControllers,
+      icon: Sun,
+      href: "/products/solar-charge-controllers"
+    },
+    {
+      title: t.catSolarBatteries,
+      icon: Battery,
+      href: "/products/solar-batteries"
+    },
+    {
+      title: t.catSolarPanels,
+      icon: Sun,
+      href: "/products/solar-panels"
+    }
+  ];
 
   const handleScroll = () => {
     if (scrollRef.current) {
@@ -55,7 +56,7 @@ export default function ProductExplorer() {
           <div className="relative">
             <input 
               type="text" 
-              placeholder="What are you looking for?"
+              placeholder={t.searchPlaceholder}
               className="w-full bg-white/5 border border-white/10 backdrop-blur-md rounded-full py-5 px-14 text-white placeholder:text-white/30 focus:outline-none focus:border-brand-primary/50 transition-all text-lg font-medium"
             />
             <Search className="absolute left-6 top-1/2 -translate-y-1/2 w-5 h-5 text-white/40" />
@@ -69,11 +70,11 @@ export default function ProductExplorer() {
         <div className="relative z-10">
           <div className="flex items-center justify-between mb-8">
             <h3 className="text-[10px] font-black text-white uppercase tracking-[0.4em] opacity-40">
-              Products & Solutions
+              {t.productsAndSolutions}
             </h3>
             <div className="hidden md:flex items-center space-x-2">
               <div className="w-2 h-2 rounded-full bg-brand-primary animate-pulse" />
-              <span className="text-[10px] font-bold text-white uppercase tracking-widest opacity-20">Horizontal Explorer</span>
+              <span className="text-[10px] font-bold text-white uppercase tracking-widest opacity-20">{t.horizontalExplorer}</span>
             </div>
           </div>
 
@@ -94,11 +95,11 @@ export default function ProductExplorer() {
                   <div className="w-24 h-24 rounded-3xl bg-white/[0.02] flex items-center justify-center group-hover/card:bg-brand-primary/10 transition-colors duration-500">
                     <Icon className="w-12 h-12 text-brand-primary group-hover/card:scale-110 transition-transform duration-500" />
                   </div>
-                  <h4 className="text-xl font-bold text-white tracking-tight px-4 leading-tight">
+                  <h4 className="text-xl font-bold text-white tracking-tight px-4 leading-tight notranslate">
                     {item.title}
                   </h4>
                   <div className="text-brand-primary font-black text-[10px] uppercase tracking-widest opacity-0 group-hover/card:opacity-100 transition-opacity duration-500">
-                    View Catalog
+                    {t.viewCatalog}
                   </div>
                 </Link>
               );
@@ -121,7 +122,7 @@ export default function ProductExplorer() {
               className="group inline-flex items-center text-sm font-black text-brand-primary uppercase tracking-[0.3em] hover:text-white transition-colors"
               prefetch={false}
             >
-              Explore Technology
+              {t.exploreTechnology}
               <div className="ml-4 w-8 h-8 rounded-full border border-brand-primary/30 flex items-center justify-center group-hover:bg-brand-primary group-hover:border-brand-primary transition-all">
                 <ArrowRight className="w-4 h-4" />
               </div>

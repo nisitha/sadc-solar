@@ -24,7 +24,7 @@ export default function NewsDetailClient({ item }: { item: any }) {
 
           <article className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <div className="text-primary font-bold text-xs uppercase tracking-[0.3em] mb-6">Market News</div>
+              <div className="text-primary font-bold text-xs uppercase tracking-[0.3em] mb-6">{t.marketNews}</div>
               <h1 className="text-4xl md:text-6xl font-black text-gray-900 tracking-tight leading-tight mb-8 notranslate">
                 {language === 'pt' ? (item.title_pt || item.title) : (item.title_en || item.title)}
               </h1>
@@ -57,7 +57,7 @@ export default function NewsDetailClient({ item }: { item: any }) {
 
             <div className="mt-24 pt-12 border-t border-gray-100 flex justify-between items-center">
               <div className="flex items-center space-x-4">
-                <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">Share this story:</span>
+                <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">{t.shareStory}</span>
                 <div className="flex space-x-2">
                   {[Share2].map((Icon, i) => (
                     <button key={i} className="w-10 h-10 rounded-full border border-gray-100 flex items-center justify-center text-gray-400 hover:border-primary hover:text-primary transition-all">
@@ -67,7 +67,7 @@ export default function NewsDetailClient({ item }: { item: any }) {
                 </div>
               </div>
               <Link href="/news" className="text-sm font-bold text-primary hover:underline" prefetch={false}>
-                View More News →
+                {t.viewMoreNews}
               </Link>
             </div>
           </article>

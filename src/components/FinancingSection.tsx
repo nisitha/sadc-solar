@@ -119,8 +119,8 @@ const CONTENT = {
 };
 
 export default function FinancingSection() {
-  const { language } = useLanguage();
-  const t = CONTENT[language];
+  const { language, t: translations } = useLanguage();
+  const content = CONTENT[language];
 
   return (
     <section className="py-48 relative overflow-hidden bg-[#0a0a0a]">
@@ -139,7 +139,7 @@ export default function FinancingSection() {
             viewport={{ once: true }}
             className="text-primary font-black text-xs uppercase tracking-[0.5em] mb-6"
           >
-            {t.subtitle}
+            {content.subtitle}
           </motion.div>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -148,7 +148,7 @@ export default function FinancingSection() {
             transition={{ delay: 0.1 }}
             className="text-5xl md:text-7xl font-black text-white tracking-tighter mb-10"
           >
-            {language === 'pt' ? "Financiamento" : "Institutional"} <span className="text-primary">{language === 'pt' ? "Institucional" : "Financing"}</span>
+            {content.title.split(' ').map((word, i) => i === 0 ? word + ' ' : <span key={i} className="text-primary">{word} </span>)}
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -157,12 +157,12 @@ export default function FinancingSection() {
             transition={{ delay: 0.2 }}
             className="text-xl text-white/40 font-medium leading-relaxed"
           >
-            {t.description}
+            {content.description}
           </motion.p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {t.banks.map((bank, i) => {
+          {content.banks.map((bank, i) => {
             const Icon = bank.icon;
             return (
               <motion.div 
@@ -183,7 +183,7 @@ export default function FinancingSection() {
                         <Icon className="w-8 h-8" />
                       </div>
                       <div className="text-[10px] font-black text-white/20 uppercase tracking-[0.3em] vertical-rl rotate-180">
-                        {bank.name === "Standard Bank" ? (language === 'pt' ? "Estudo de Caso" : "Case Study") : (language === 'pt' ? "Financeiro" : "Financial")}
+                        {bank.name === "Standard Bank" ? translations.caseStudy : translations.financial}
                       </div>
                     </div>
 
@@ -201,7 +201,7 @@ export default function FinancingSection() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center text-xs font-black text-white uppercase tracking-[0.2em] group/btn bg-brand-primary/10 px-6 py-3 rounded-xl hover:bg-brand-primary transition-all duration-500"
                       >
-                        {language === 'pt' ? "Solicitar Agora" : "Apply Now"}
+                        {translations.applyNow}
                         <ArrowRight className="ml-3 w-4 h-4 text-brand-primary group-hover:text-white transition-transform group-hover/btn:translate-x-2" />
                       </a>
                     </div>

@@ -122,7 +122,7 @@ export default function Home() {
 
         <SectionReveal className="relative z-10 text-center px-4 md:px-6 max-w-4xl pointer-events-none">
           <h2 className="text-3xl md:text-6xl font-bold text-white tracking-tighter leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-            {language === 'pt' ? "Padronizando Energias Renováveis na Região da SADC." : "Standardizing Renewable Energy in the SADC Region."}
+            {t.standardizingSADC}
           </h2>
           <div className="w-24 h-1.5 bg-white mt-8 mx-auto rounded-full transition-all duration-500 group-hover:w-48 group-hover:bg-[#EA6003] shadow-[0_0_20px_rgba(255,255,255,0.5)]" />
         </SectionReveal>
@@ -143,19 +143,19 @@ export default function Home() {
             {[
               {
                 url: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1200",
-                label: "Utility Scale Solar"
+                label: t.utilityScaleSolar
               },
               {
                 url: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80&w=1000",
-                label: "Commercial Rooftop"
+                label: t.commercialRooftop
               },
               {
                 url: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&q=80&w=1200",
-                label: "Rural Electrification"
+                label: t.ruralElectrification
               },
               {
                 url: "https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&q=80&w=1000",
-                label: "Modern Infrastructure"
+                label: t.modernInfrastructure
               }
             ].map((project, i) => (
               <SectionReveal key={i} className="relative rounded-3xl overflow-hidden group shadow-2xl">

@@ -30,7 +30,19 @@ const ICON_MAP: Record<string, any> = {
   "Easy to Use": Smile,
   "KEY FEATURES": Settings,
   "Product Highlights": Zap,
-  "FEATURES": Settings
+  "FEATURES": Settings,
+  "Eficiente": Zap,
+  "Flexível": Layers,
+  "Inovador": Cpu,
+  "Conveniente": Smile,
+  "Robusto": ShieldCheck,
+  "Fácil de Usar": Smile,
+  "Seguro": ShieldCheck,
+  "Fiável": Activity,
+  "Desempenho": Activity,
+  "Monitorização": Eye,
+  "Características": Settings,
+  "Destaques": Zap
 };
 
 export default function ProductDetailClient({
@@ -117,7 +129,7 @@ export default function ProductDetailClient({
                 <img
                   src={(product.imageUrl || "/placeholder-product.webp")
                     .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")}
-                  alt={language === 'pt' ? (product.title_pt || product.title) : (product.title_en || product.title)}
+                  alt={language === 'pt' ? (product.title_pt || product.title_en) : (product.title_en)}
                   className="w-full h-full object-contain p-12 transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute top-8 left-8 flex flex-col space-y-3">
@@ -137,7 +149,7 @@ export default function ProductDetailClient({
                   {t.productCategory as string}: <span className="text-slate-500 font-medium notranslate">{translateCategory(product.categories[0])}</span>
                 </div>
                 <h1 className="text-3xl md:text-6xl font-black text-brand-navy tracking-tight leading-tight mb-8 notranslate">
-                  {language === 'pt' ? (product.title_pt || product.title) : (product.title_en || product.title)}
+                  {language === 'pt' ? (product.title_pt || product.title_en) : (product.title_en)}
                 </h1>
                 <div className="flex flex-wrap gap-4">
                   <Link href="/contact-us" className="px-6 py-4 md:px-10 md:py-5 bg-brand-primary text-white font-bold rounded-2xl hover:bg-brand-primary/90 transition-all shadow-xl shadow-brand-primary/20 flex items-center uppercase tracking-widest text-xs" prefetch={false}>
@@ -160,7 +172,7 @@ export default function ProductDetailClient({
                   <div
                     className="text-xl text-slate-600 leading-relaxed font-medium prose-custom max-w-5xl"
                     dangerouslySetInnerHTML={{
-                      __html: language === 'pt' ? product.content_pt : product.content_en
+                      __html: language === 'pt' ? (product.content_pt || product.content) : (product.content_en || product.content)
                     }}
                   />
                 </div>
@@ -169,7 +181,7 @@ export default function ProductDetailClient({
                   {product.features?.map((feature: any, i: number) => {
                     const title = language === 'pt' ? (feature.title_pt || feature.title_en || feature.title) : (feature.title_en || feature.title);
                     const items = language === 'pt' ? (feature.items_pt || feature.items_en || feature.items || []) : (feature.items_en || feature.items || []);
-                    const Icon = ICON_MAP[feature.title_en || feature.title] || Activity;
+                    const Icon = ICON_MAP[feature.title_en] || ICON_MAP[feature.title_pt] || ICON_MAP[feature.title] || Activity;
 
                     return (
                       <FeatureCard

@@ -7,7 +7,7 @@ import { Mail, Phone, MapPin, Send, User, MessageSquare, ChevronDown, CheckCircl
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function ContactUsPage() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   return (
     <main className="flex min-h-screen flex-col bg-white">
@@ -64,7 +64,7 @@ export default function ContactUsPage() {
                   icon={MapPin} 
                   title={t.ourHeadquarters as string} 
                   detail="Luanda, Angola"
-                  subtext="SADC Solar Energy HQ"
+                  subtext={language === 'pt' ? "Sede da SADC Solar" : "SADC Solar Energy HQ"}
                 />
               </div>
 
