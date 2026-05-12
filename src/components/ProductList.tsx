@@ -6,7 +6,7 @@ import SectionReveal from "./SectionReveal";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function ProductList({ initialProducts, categories }: { initialProducts: any[], categories: string[] }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -108,35 +108,7 @@ export default function ProductList({ initialProducts, categories }: { initialPr
                   {/* Dynamic Translated Content */}
                   <div 
                     className="text-sm text-gray-400 font-medium prose-custom line-clamp-4 group-hover:text-gray-300 transition-colors mb-6"
-                    dangerouslySetInnerHTML={{ __html: (() => {
-                      let html = (p.excerpt || p.content || "")
-                        .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
-                        .replace(/<img[^>]*>/g, ""); // Remove images from list view cards
-                      
-                      const replacements: Record<string, string> = {
-                        "Application": t.application as string,
-                        "User Friendly": t.userFriendly as string,
-                        "Flexible": t.flexible as string,
-                        "Safe & Reliable": t.safeReliable as string,
-                        "Technical Parameter": t.technicalParameter as string,
-                        "Models:": t.models as string,
-                        "Voltage": t.voltage as string,
-                        "Power": t.power as string,
-                        "Efficiency": t.efficiency as string,
-                        "Output Power": t.outputPower as string,
-                        "Battery Voltage": t.batteryVoltage as string,
-                        "Input Voltage": t.inputVoltage as string,
-                        "Protection Level": t.protectionLevel as string
-                      };
-
-                      Object.entries(replacements).forEach(([en, localized]) => {
-                        const regex = new RegExp(`(<h4>|<strong>|<b>|^|>|\\s)${en}(</h4>|</strong>|</b>|<|\\s|:)`, 'gi');
-                        // Use a span with yellow highlight for key terms
-                        html = html.replace(regex, `$1<span class="text-brand-yellow font-bold">${localized}</span>$2`);
-                      });
-
-                      return html;
-                    })() }}
+                    dangerouslySetInnerHTML={{ __html: language === 'pt' ? (p.content_pt || p.content_en) : p.content_en }}
                   />
 
                   <div className="mt-auto pt-6 border-t border-white/5 flex items-center justify-between">

@@ -34,7 +34,7 @@ export default function ProductDetailClient({
   isCategory: boolean,
   allProducts: any[]
 }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const translateCategory = (cat: string) => {
     const map: Record<string, string> = {
@@ -140,45 +140,14 @@ export default function ProductDetailClient({
               </div>
 
               <div className="space-y-10">
-                <div className="border-l-4 border-brand-primary pl-8">
-                  <h3 className="text-lg font-black text-gray-900 uppercase tracking-widest mb-6">
+                <div className="border-l-4 border-brand-yellow pl-8">
+                  <h3 className="text-lg font-black text-white uppercase tracking-widest mb-6 bg-brand-navy/50 backdrop-blur-md px-4 py-2 rounded-lg inline-block">
                     {t.coreOverview as string}
                   </h3>
                   <div
-                    className="text-lg text-gray-600 leading-relaxed font-medium prose-custom"
+                    className="text-lg text-gray-400 leading-relaxed font-medium prose-custom"
                     dangerouslySetInnerHTML={{
-                      __html: (() => {
-                        let html = product.content.replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/");
-                        
-                        // Technical labels to translate
-                        const labels: Record<string, string> = {
-                          "Application": t.application as string,
-                          "User Friendly": t.userFriendly as string,
-                          "Flexible": t.flexible as string,
-                          "Safe & Reliable": t.safeReliable as string,
-                          "Technical Parameter": t.technicalParameter as string,
-                          "Output Power": t.outputPower as string,
-                          "Battery Voltage": t.batteryVoltage as string,
-                          "Input Voltage": t.inputVoltage as string,
-                          "Protection Level": t.protectionLevel as string,
-                          "Operating Temperature": t.operatingTemp as string,
-                          "Highlights": t.highlights as string,
-                          "Features": t.features as string,
-                          "Specifications:": t.specifications as string,
-                          "Weight": t.weight as string,
-                          "Dimensions": t.dimensions as string,
-                          "Voltage": t.voltage as string,
-                          "Efficiency": t.efficiency as string,
-                          "Power": t.power as string
-                        };
-
-                        Object.entries(labels).forEach(([en, localized]) => {
-                          const regex = new RegExp(`(<h4>|<strong>|<b>|<li>|^|>|\\s)${en}(</h4>|</strong>|</b>|<|\\s|:)`, 'gi');
-                          html = html.replace(regex, `$1<span class="text-brand-yellow font-bold">${localized}</span>$2`);
-                        });
-
-                        return html;
-                      })()
+                      __html: language === 'pt' ? (product.content_pt || product.content_en) : product.content_en
                     }}
                   />
                 </div>
@@ -187,18 +156,18 @@ export default function ProductDetailClient({
                   {product.features?.map((feature: any, i: number) => {
                     const Icon = ICON_MAP[feature.title] || Activity;
                     return (
-                      <div key={i} className="p-8 bg-gray-50 rounded-[2rem] border border-gray-100 hover:border-brand-primary/20 transition-all group">
-                        <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-brand-primary mb-6 shadow-sm group-hover:scale-110 transition-transform">
+                      <div key={i} className="p-8 bg-brand-navy/30 backdrop-blur-md rounded-[2rem] border border-white/5 hover:border-brand-yellow/20 transition-all group">
+                        <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center text-brand-yellow mb-6 shadow-sm group-hover:scale-110 transition-transform">
                           <Icon className="w-6 h-6" />
                         </div>
-                        <h4 className="text-lg font-bold text-gray-900 mb-2 notranslate">{feature.title}</h4>
-                        <p className="text-sm text-gray-500 font-medium leading-relaxed notranslate">{feature.description}</p>
+                        <h4 className="text-lg font-bold text-white mb-2">{feature.title}</h4>
+                        <p className="text-sm text-gray-400 font-medium leading-relaxed">{feature.description}</p>
                       </div>
                     );
                   })}
                 </div>
 
-                <TechnicalTable specifications={product.specifications} t={t} />
+                <TechnicalTable specifications={language === 'pt' ? product.specifications_pt : product.specifications_en} t={t} />
               </div>
             </div>
           </div>
@@ -225,33 +194,7 @@ function TechnicalTable({ specifications, t }: { specifications: string, t: any 
         <div
           className="technical-spec-table p-8 text-gray-300"
           dangerouslySetInnerHTML={{
-            __html: (() => {
-              let html = specifications;
-              
-              const mapper: Record<string, string> = {
-                "Parameter": t.parameter as string,
-                "Specification": t.specification as string,
-                "Voltage": t.voltage as string,
-                "Power": t.power as string,
-                "Efficiency": t.efficiency as string,
-                "Weight": t.weight as string,
-                "Output Power": t.outputPower as string,
-                "Battery Voltage": t.batteryVoltage as string,
-                "Input Voltage": t.inputVoltage as string,
-                "Operating Temperature": t.operatingTemp as string,
-                "Protection Level": t.protectionLevel as string,
-                "Dimensions": t.dimensions as string
-              };
-
-              Object.entries(mapper).forEach(([en, localized]) => {
-                const regex = new RegExp(`(<th>|<td>|<strong>|<b>|^|>|\\s)${en}(</th>|</td>|</strong>|</b>|<|\\s|:)`, 'gi');
-                html = html.replace(regex, `$1<span class="text-brand-yellow font-bold">${localized}</span>$2`);
-              });
-
-              // Apply clean white thin borders between rows via class injection if possible, 
-              // but usually handled by global CSS. We'll ensure the table tags look clean.
-              return html;
-            })()
+            __html: specifications
           }}
         />
       </div>
