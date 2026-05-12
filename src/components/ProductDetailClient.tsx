@@ -106,8 +106,7 @@ export default function ProductDetailClient({
               <div className="relative aspect-square rounded-[3rem] overflow-hidden bg-gray-50 border border-gray-100 shadow-2xl group">
                 <img 
                   src={(product.imageUrl || "/placeholder-product.webp")
-                    .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
-                    .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1")} 
+                    .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
                   alt={product.title}
                   className="w-full h-full object-contain p-12 transition-transform duration-700 group-hover:scale-110"
                 />
@@ -149,7 +148,6 @@ export default function ProductDetailClient({
                     className="text-lg text-gray-600 leading-relaxed font-medium prose-custom"
                     dangerouslySetInnerHTML={{ __html: product.content
                       .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
-                      .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1") 
                     }}
                   />
                 </div>

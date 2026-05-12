@@ -43,8 +43,7 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
             <div className="relative rounded-[3rem] overflow-hidden aspect-video mb-16 shadow-2xl group">
               <img 
                 src={(solution.imageUrl || "/placeholder-solution.webp")
-                  .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
-                  .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1")} 
+                  .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
                 alt={isAggregator 
                   ? (slug === "turnkey-solutions" ? t.turnkeySolutions as string : t.otherTurnkeySolutions as string) 
                   : solution.title}

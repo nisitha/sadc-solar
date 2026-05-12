@@ -83,11 +83,8 @@ export default function ProductList({ initialProducts, categories }: { initialPr
               {/* Image Container */}
               <div className="relative aspect-[4/3] overflow-hidden bg-gray-50">
                 <img 
-                  src={p.slug === 'enlarged-led-module-solar-street-lightslz' 
-                    ? '/uploads/40W-to-200W-LED-Solar-Street-Light.webp'
-                    : (p.imageUrl || "/placeholder-product.webp")
-                        .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
-                        .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1")} 
+                  src={(p.imageUrl || "/placeholder-product.webp")
+                        .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
                   alt={p.title}
                   className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
                 />
