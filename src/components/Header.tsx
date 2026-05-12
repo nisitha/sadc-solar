@@ -44,7 +44,7 @@ export default function Header() {
     if (!(window as any).googleTranslateElementInit) {
       (window as any).googleTranslateElementInit = () => {
         new (window as any).google.translate.TranslateElement({
-          pageLanguage: 'en',
+          pageLanguage: 'pt',
           includedLanguages: 'en,pt',
           autoDisplay: false,
         }, 'google_translate_element');

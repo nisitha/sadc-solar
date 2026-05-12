@@ -14,11 +14,12 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>('pt');
 
   useEffect(() => {
+    // Strictly pull from localStorage and nowhere else
     const saved = localStorage.getItem('preferredLanguage') as Language;
-    if (saved) {
+    if (saved && (saved === 'en' || saved === 'pt')) {
       setLanguage(saved);
     } else {
-      // Default to PT if no preference saved
+      // Default to PT only if nothing is in localStorage
       setLanguage('pt');
     }
   }, []);
@@ -26,13 +27,18 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     // Update HTML lang attribute and class for theme
     document.documentElement.lang = language;
+    
+    // Ensure the 'translate' attribute is set to 'no' as requested in layout
+    // but we can reinforce it here if needed. 
+    // The user already asked to add it to layout.tsx
+    
     if (language === 'en') {
       document.documentElement.classList.add('lang-en');
     } else {
       document.documentElement.classList.remove('lang-en');
     }
 
-    // Sync with Google Translate if it exists
+    // Sync with Google Translate if it exists, but ONLY manually
     const syncWithGoogle = () => {
       const googleCombo = document.querySelector('.goog-te-combo') as HTMLSelectElement;
       if (googleCombo) {
@@ -45,19 +51,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       return false;
     };
 
-    // Try immediately
-    if (!syncWithGoogle()) {
-      // If not ready, try periodically for a few seconds
-      const interval = setInterval(() => {
-        if (syncWithGoogle()) {
-          clearInterval(interval);
-        }
-      }, 500);
-      
-      // Cleanup interval after 10 seconds to avoid infinite loop
-      setTimeout(() => clearInterval(interval), 10000);
-      return () => clearInterval(interval);
-    }
+    // Try sync once
+    syncWithGoogle();
   }, [language]);
 
   const handleSetLanguage = (lang: Language) => {

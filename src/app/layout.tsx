@@ -21,8 +21,12 @@ export default function RootLayout({
   return (
     <html
       lang="pt"
+      translate="no"
       className={`${inter.variable} h-full antialiased`}
     >
+      <head>
+        <meta name="google" content="notranslate" />
+      </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <LanguageProvider>
           {children}
