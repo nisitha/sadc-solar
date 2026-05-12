@@ -75,10 +75,8 @@ export default function ProductList({ initialProducts, categories }: { initialPr
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-stretch">
         {filteredProducts.map((p, i) => {
-          const title = language === 'pt' ? (p.title_pt || p.title) : (p.title_en || p.title);
-          const rawContent = language === 'pt' 
-            ? (p.content_pt || p.content_en || p.content) 
-            : (p.content_en || p.content);
+          const title = language === 'pt' ? p.title_pt : p.title_en;
+          const rawContent = language === 'pt' ? p.content_pt : p.content_en;
           // Strip HTML tags for the preview
           const plainTextDescription = rawContent ? rawContent.replace(/<[^>]*>?/gm, '').trim() : "";
 

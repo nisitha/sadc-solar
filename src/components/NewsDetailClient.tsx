@@ -26,7 +26,7 @@ export default function NewsDetailClient({ item }: { item: any }) {
             <div className="text-center mb-16">
               <div className="text-primary font-bold text-xs uppercase tracking-[0.3em] mb-6">{t.marketNews}</div>
               <h1 className="text-4xl md:text-6xl font-black text-gray-900 tracking-tight leading-tight mb-8 notranslate">
-                {language === 'pt' ? (item.title_pt || item.title) : (item.title_en || item.title)}
+                {language === 'pt' ? item.title_pt : item.title_en}
               </h1>
               <div className="flex items-center justify-center space-x-8 text-sm font-bold text-gray-400 uppercase tracking-widest">
                 <div className="flex items-center">
@@ -44,7 +44,7 @@ export default function NewsDetailClient({ item }: { item: any }) {
               <div className="rounded-[3rem] overflow-hidden aspect-video mb-16 shadow-2xl">
                 <img 
                   src={item.imageUrl.replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
-                  alt={language === 'pt' ? (item.title_pt || item.title) : (item.title_en || item.title)}
+                  alt={language === 'pt' ? item.title_pt : item.title_en}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -52,7 +52,7 @@ export default function NewsDetailClient({ item }: { item: any }) {
 
             <div 
               className="text-xl text-gray-600 leading-relaxed font-medium wp-content space-y-8 prose-custom"
-              dangerouslySetInnerHTML={{ __html: (language === 'pt' ? (item.content_pt || "") : (item.content_en || "")).replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/") }}
+              dangerouslySetInnerHTML={{ __html: (language === 'pt' ? item.content_pt : item.content_en).replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/") }}
             />
 
             <div className="mt-24 pt-12 border-t border-gray-100 flex justify-between items-center">
