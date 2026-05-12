@@ -147,8 +147,38 @@ export default function ProductDetailClient({
                   <div
                     className="text-lg text-gray-600 leading-relaxed font-medium prose-custom"
                     dangerouslySetInnerHTML={{
-                      __html: product.content
-                        .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
+                      __html: (() => {
+                        let html = product.content.replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/");
+                        
+                        // Technical labels to translate
+                        const labels: Record<string, string> = {
+                          "Application": t.application as string,
+                          "User Friendly": t.userFriendly as string,
+                          "Flexible": t.flexible as string,
+                          "Safe & Reliable": t.safeReliable as string,
+                          "Technical Parameter": t.technicalParameter as string,
+                          "Output Power": t.outputPower as string,
+                          "Battery Voltage": t.batteryVoltage as string,
+                          "Input Voltage": t.inputVoltage as string,
+                          "Protection Level": t.protectionLevel as string,
+                          "Operating Temperature": t.operatingTemp as string,
+                          "Highlights": t.highlights as string,
+                          "Features": t.features as string,
+                          "Specifications:": t.specifications as string,
+                          "Weight": t.weight as string,
+                          "Dimensions": t.dimensions as string,
+                          "Voltage": t.voltage as string,
+                          "Efficiency": t.efficiency as string,
+                          "Power": t.power as string
+                        };
+
+                        Object.entries(labels).forEach(([en, localized]) => {
+                          const regex = new RegExp(`(<h4>|<strong>|<b>|<li>|^|>|\\s)${en}(</h4>|</strong>|</b>|<|\\s|:)`, 'gi');
+                          html = html.replace(regex, `$1<span class="text-brand-yellow font-bold">${localized}</span>$2`);
+                        });
+
+                        return html;
+                      })()
                     }}
                   />
                 </div>
@@ -184,24 +214,44 @@ function TechnicalTable({ specifications, t }: { specifications: string, t: any 
   if (!specifications) return null;
 
   return (
-    <div className="mt-16 overflow-hidden rounded-[2.5rem] border border-gray-100 shadow-xl">
-      <div className="bg-gray-900 px-10 py-6">
+    <div className="mt-16 overflow-hidden rounded-[2.5rem] border border-white/10 shadow-2xl bg-[#0A1628]/95 backdrop-blur-xl">
+      <div className="bg-white/5 px-10 py-6 border-b border-white/5">
         <h3 className="text-sm font-black text-white uppercase tracking-[0.3em] flex items-center">
-          <Settings className="w-4 h-4 mr-3 text-brand-primary" />
-          Technical Specifications
+          <Settings className="w-4 h-4 mr-3 text-brand-yellow" />
+          {t.specifications as string}
         </h3>
       </div>
-      <div className="bg-white overflow-x-auto">
+      <div className="overflow-x-auto">
         <div
-          className="technical-spec-table p-4"
+          className="technical-spec-table p-8 text-gray-300"
           dangerouslySetInnerHTML={{
-            __html: specifications
-              .replace(/<th>Parameter<\/th>/gi, `<th>${t.parameter}</th>`)
-              .replace(/<th>Specification<\/th>/gi, `<th>${t.specification}</th>`)
-              .replace(/Voltage/gi, t.voltage)
-              .replace(/Power/gi, t.power)
-              .replace(/Efficiency/gi, t.efficiency)
-              .replace(/Weight/gi, t.weight)
+            __html: (() => {
+              let html = specifications;
+              
+              const mapper: Record<string, string> = {
+                "Parameter": t.parameter as string,
+                "Specification": t.specification as string,
+                "Voltage": t.voltage as string,
+                "Power": t.power as string,
+                "Efficiency": t.efficiency as string,
+                "Weight": t.weight as string,
+                "Output Power": t.outputPower as string,
+                "Battery Voltage": t.batteryVoltage as string,
+                "Input Voltage": t.inputVoltage as string,
+                "Operating Temperature": t.operatingTemp as string,
+                "Protection Level": t.protectionLevel as string,
+                "Dimensions": t.dimensions as string
+              };
+
+              Object.entries(mapper).forEach(([en, localized]) => {
+                const regex = new RegExp(`(<th>|<td>|<strong>|<b>|^|>|\\s)${en}(</th>|</td>|</strong>|</b>|<|\\s|:)`, 'gi');
+                html = html.replace(regex, `$1<span class="text-brand-yellow font-bold">${localized}</span>$2`);
+              });
+
+              // Apply clean white thin borders between rows via class injection if possible, 
+              // but usually handled by global CSS. We'll ensure the table tags look clean.
+              return html;
+            })()
           }}
         />
       </div>

@@ -139,6 +139,16 @@ export const translations = {
     powerAssist: "PowerAssist exclusive function",
     unlimitedPower: "Virtually unlimited power thanks to parallel operation",
     remoteMonitoring: "Remote Monitoring and Control",
+    outputPower: "Output Power",
+    batteryVoltage: "Battery Voltage",
+    inputVoltage: "Input Voltage",
+    maxChargeCurrent: "Max Charge Current",
+    operatingTemp: "Operating Temperature",
+    protectionLevel: "Protection Level",
+    dimensions: "Dimensions",
+    highlights: "Highlights",
+    features: "Features",
+    specifications: "Technical Specifications",
 
     // About Us Page
     aboutHeroTitle: "YOUR TRUSTED SOLAR ENERGY SPECIALIST",
@@ -348,6 +358,16 @@ export const translations = {
     powerAssist: "Função exclusiva PowerAssist",
     unlimitedPower: "Potência virtualmente ilimitada graças à operação paralela",
     remoteMonitoring: "Monitorização e Controlo Remotos",
+    outputPower: "Potência de Saída",
+    batteryVoltage: "Tensão da Bateria",
+    inputVoltage: "Tensão de Entrada",
+    maxChargeCurrent: "Corrente de Carga Máxima",
+    operatingTemp: "Temperatura de Operação",
+    protectionLevel: "Nível de Proteção",
+    dimensions: "Dimensões",
+    highlights: "Destaques",
+    features: "Características",
+    specifications: "Especificações Técnicas",
 
     // About Us Page
     aboutHeroTitle: "O SEU ESPECIALISTA EM ENERGIA SOLAR DE CONFIANÇA",

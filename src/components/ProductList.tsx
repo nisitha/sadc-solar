@@ -122,7 +122,11 @@ export default function ProductList({ initialProducts, categories }: { initialPr
                         "Models:": t.models as string,
                         "Voltage": t.voltage as string,
                         "Power": t.power as string,
-                        "Efficiency": t.efficiency as string
+                        "Efficiency": t.efficiency as string,
+                        "Output Power": t.outputPower as string,
+                        "Battery Voltage": t.batteryVoltage as string,
+                        "Input Voltage": t.inputVoltage as string,
+                        "Protection Level": t.protectionLevel as string
                       };
 
                       Object.entries(replacements).forEach(([en, localized]) => {

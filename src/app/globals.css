@@ -4,6 +4,8 @@
   --brand-primary: #EA6003;
   --brand-hover: #DA291C;
   --brand-accent-2: #EA6003;
+  --brand-yellow: #FACC15;
+  --brand-navy: #0A1628;
   --background: #ffffff;
   --foreground: #1a1a1a;
 }
@@ -66,6 +68,8 @@
   --color-brand-primary: var(--brand-primary);
   --color-brand-hover: var(--brand-hover);
   --color-brand-accent-2: var(--brand-accent-2);
+  --color-brand-yellow: var(--brand-yellow);
+  --color-brand-navy: var(--brand-navy);
   --color-primary: var(--brand-primary);
   --color-primary-hover: var(--brand-hover);
   --color-background: var(--background);
@@ -100,40 +104,39 @@ body {
   background: var(--color-brand-hover);
 }
 
-/* WordPress Content Styling */
-.wp-content table {
+/* Premium Technical Specification Table Styling */
+.technical-spec-table table {
   width: 100% !important;
   border-collapse: collapse;
-  margin: 2rem 0;
+  margin: 1rem 0;
   font-size: 0.95rem;
-  overflow: hidden;
-  border-radius: 12px;
 }
 
-.wp-content th {
+.technical-spec-table th {
   text-align: left;
-  padding: 1rem;
-  border-bottom: 2px solid var(--color-brand-primary);
-  color: var(--color-brand-primary);
-  font-weight: 800;
+  padding: 1.25rem 1.5rem;
+  color: var(--brand-yellow);
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  font-size: 0.7rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.wp-content td {
-  padding: 1rem;
-  border-bottom: 1px solid #f1f1f1;
-  color: #4b5563;
+.technical-spec-table td {
+  padding: 1.25rem 1.5rem;
+  color: #e5e7eb;
   font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.3s ease;
 }
 
-.wp-content tr:last-child td {
+.technical-spec-table tr:last-child td {
   border-bottom: none;
 }
 
-.wp-content tr:hover td {
-  background: #fffcf8;
+.technical-spec-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .wp-content p {
@@ -165,7 +168,7 @@ body {
   top: 0.2rem;
   width: 1.25rem;
   height: 1.25rem;
-  background-color: var(--color-brand-primary);
+  background-color: var(--brand-yellow);
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
   mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/xml' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
   -webkit-mask-repeat: no-repeat;
