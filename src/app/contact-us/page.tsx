@@ -1,10 +1,14 @@
+"use client";
 import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SectionReveal from "@/components/SectionReveal";
 import { Mail, Phone, MapPin, Send, User, MessageSquare, ChevronDown, CheckCircle2 } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function ContactUsPage() {
+  const { t } = useLanguage();
+
   return (
     <main className="flex min-h-screen flex-col bg-white">
       <Header />
@@ -24,14 +28,13 @@ export default function ContactUsPage() {
           <SectionReveal>
             <div className="inline-flex items-center space-x-2 bg-primary/20 backdrop-blur-md px-4 py-2 rounded-full mb-6 border border-primary/30">
               <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              <span className="text-[10px] font-bold text-white uppercase tracking-widest">Get In Touch</span>
+              <span className="text-[10px] font-bold text-white uppercase tracking-widest">{t.getInTouch as string}</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-black text-white tracking-tight leading-[1.1] mb-8 drop-shadow-2xl">
-              Let's Engineer Your <br />
-              <span className="text-primary">Energy Independence</span>
+              {(t.contactHeroTitle as string).split(' ').map((word, i) => i > 3 ? <span key={i} className="text-primary">{word} </span> : word + ' ')}
             </h1>
             <p className="text-xl text-white/70 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Have questions about our technology or need a custom quote? Reach out to our specialist team in Luanda.
+              {t.contactHeroText as string}
             </p>
           </SectionReveal>
         </div>
@@ -47,19 +50,19 @@ export default function ContactUsPage() {
               <div className="space-y-10">
                 <ContactDetail 
                   icon={Mail} 
-                  title="EMAIL INQUIRY" 
+                  title={t.emailInquiry as string} 
                   detail="solutions@sadcsolar.com"
-                  subtext="Response within 24 business hours"
+                  subtext={t.emailResponse as string}
                 />
                 <ContactDetail 
                   icon={Phone} 
-                  title="CALL SPECIALISTS" 
+                  title={t.callSpecialists as string} 
                   detail="+244 923 512 645"
-                  subtext="Mon-Fri: 08:00 - 17:00 WAT"
+                  subtext={t.workingHours as string}
                 />
                 <ContactDetail 
                   icon={MapPin} 
-                  title="OUR HEADQUARTERS" 
+                  title={t.ourHeadquarters as string} 
                   detail="Luanda, Angola"
                   subtext="SADC Solar Energy HQ"
                 />
@@ -78,7 +81,7 @@ export default function ContactUsPage() {
                   className="grayscale hover:grayscale-0 transition-all duration-700"
                 />
                 <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-xl border border-white/20 shadow-lg text-[10px] font-black tracking-widest text-gray-900 uppercase">
-                  View Large Map
+                  {t.viewLargeMap as string}
                 </div>
               </div>
             </SectionReveal>
@@ -88,30 +91,30 @@ export default function ContactUsPage() {
               <div className="bg-white rounded-[2.5rem] shadow-[0_30px_80px_-15px_rgba(0,0,0,0.08)] p-10 border border-gray-100">
                 <div className="mb-10">
                   <h3 className="text-3xl font-black text-gray-900 tracking-tight mb-4 flex items-center">
-                    Request a Proposal
+                    {t.requestProposalTitle as string}
                     <div className="ml-4 h-[2px] w-12 bg-primary/20 rounded-full" />
                   </h3>
-                  <p className="text-gray-500 font-medium">Please fill out the form below and an engineer will contact you shortly.</p>
+                  <p className="text-gray-500 font-medium">{t.formPlaceholder as string}</p>
                 </div>
 
                 <form className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <FormInput icon={User} placeholder="Full Name" type="text" />
-                    <FormInput icon={Mail} placeholder="Email Address" type="email" />
+                    <FormInput icon={User} placeholder={t.fullName as string} type="text" />
+                    <FormInput icon={Mail} placeholder={t.emailAddressField as string} type="email" />
                   </div>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <FormInput icon={Phone} placeholder="+244 9XX XXX XXX" type="tel" />
+                    <FormInput icon={Phone} placeholder={t.phoneNumber as string} type="tel" />
                     <div className="relative group">
                       <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                         <CheckCircle2 className="h-5 w-5 text-gray-300 group-focus-within:text-primary transition-colors" />
                       </div>
                       <select className="block w-full pl-11 pr-10 py-4 bg-gray-50 border-none rounded-2xl text-gray-600 font-medium focus:ring-2 focus:ring-primary appearance-none transition-all">
-                        <option value="">Interested Service</option>
-                        <option value="residential">Residential Solar</option>
-                        <option value="commercial">Commercial Solar</option>
-                        <option value="off-grid">Off-grid Solutions</option>
-                        <option value="water-pumps">Solar Water Pumps</option>
+                        <option value="">{t.interestedService as string}</option>
+                        <option value="residential">{t.residentialSolar as string}</option>
+                        <option value="commercial">{t.commercialSolar as string}</option>
+                        <option value="off-grid">{t.offGridSolutions as string}</option>
+                        <option value="water-pumps">{t.waterPumps as string}</option>
                       </select>
                       <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-gray-400">
                         <ChevronDown className="h-4 w-4" />
@@ -125,13 +128,13 @@ export default function ContactUsPage() {
                     </div>
                     <textarea 
                       rows={5}
-                      placeholder="Tell us about your project requirements..."
+                      placeholder={t.projectRequirements as string}
                       className="block w-full pl-11 pr-4 py-4 bg-gray-50 border-none rounded-2xl text-gray-600 font-medium focus:ring-2 focus:ring-primary transition-all resize-none"
                     />
                   </div>
 
                   <button className="w-full bg-primary text-white font-black py-5 rounded-2xl shadow-xl shadow-primary/20 hover:bg-primary-hover hover:-translate-y-1 transition-all duration-300 flex items-center justify-center uppercase tracking-[0.2em] text-sm">
-                    Send Request
+                    {t.sendRequest as string}
                     <Send className="ml-3 h-5 w-5" />
                   </button>
                 </form>
@@ -147,7 +150,7 @@ export default function ContactUsPage() {
   );
 }
 
-function ContactDetail({ icon: Icon, title, detail, subtext }: { icon: any, title: string, detail: string, subtextText?: string, subtext: string }) {
+function ContactDetail({ icon: Icon, title, detail, subtext }: { icon: any, title: string, detail: string, subtext: string }) {
   return (
     <div className="flex items-start space-x-6 group">
       <div className="w-14 h-14 rounded-2xl bg-primary/5 flex items-center justify-center shrink-0 group-hover:bg-primary transition-colors duration-500">

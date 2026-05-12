@@ -1,11 +1,13 @@
 "use client";
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { translations } from '@/data/translations';
 
 type Language = 'en' | 'pt';
 
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
+  t: typeof translations.en;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -60,8 +62,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('preferredLanguage', lang);
   };
 
+  const t = translations[language];
+
   return (
-    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage }}>
+    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, t }}>
       {children}
     </LanguageContext.Provider>
   );

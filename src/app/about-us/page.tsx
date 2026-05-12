@@ -3,65 +3,29 @@ import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Counter from "@/components/Counter";
-import Link from "next/link";
 import * as motion from "framer-motion/client";
 import { CheckCircle2, Target, Eye, ShieldCheck, Zap, Activity, Users, Globe, Award } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
-const CONTENT = {
-  en: {
-    heroTitle: "YOUR TRUSTED SOLAR ENERGY SPECIALIST",
-    heroText: "SADC - Electric is looking into the future and establishing Renewable Energy Standards that will help to change the way we think about energy all together.",
-    integrityTitle: "INTEGRITY",
-    integrityText: "We appreciate your trust in SADC SOLAR. We are committed to integrity as our sacred virtue. When you choose SADC SOLAR, you are choosing:",
-    integrityPoints: [
-      { t: "Total Transparency", d: "Honesty in every step of the project." },
-      { t: "Rigorous Quality", d: "Sustainable and long-lasting solutions." },
-      { t: "Trusted Partnership", d: "Focused on meeting your energy needs with rigor." }
-    ],
-    visionTitle: "VISION",
-    visionText: "Innovation and Technology: Adopting cutting-edge technologies like energy storage (batteries), AI for grid management, and digitalization of services. We include Wi-Fi/4G monitoring and cloud platforms for real-time tracking.",
-    commitmentTitle: "COMMITMENT",
-    commitmentPoints: [
-      "Environmental Sustainability", "Efficiency and Economy (ESG)", "Quality and Safety",
-      "Innovation and Development", "Social Responsibility"
-    ],
-    specializationTitle: "SPECIALIZATION",
-    specializationPoints: [
-      "Technical capacity for solar system sizing using advanced software such as AutoCAD and PVsyst.",
-      "Maintenance and management of solar systems.",
-      "Compliance with technical standards, safety, and project management legal requirements."
-    ]
-  },
-  pt: {
-    heroTitle: "O SEU ESPECIALISTA EM ENERGIA SOLAR DE CONFIANÇA",
-    heroText: "A SADC SOLAR está a olhar para o futuro e a estabelecer padrões de energia renovável que ajudarão a mudar a forma como pensamos sobre a energia em geral.",
-    integrityTitle: "INTEGRIDADE",
-    integrityText: "Agradecemos a confiança na SADC SOLAR. Assumimos o compromisso de que a integridade é a nossa virtude sagrada. Quando confia na SADC SOLAR, está a escolher:",
-    integrityPoints: [
-      { t: "Transparência Total", d: "Honestidade em cada etapa do projeto." },
-      { t: "Qualidade Rigorosa", d: "Soluções sustentáveis e duradouras." },
-      { t: "Parceria de Confiança", d: "Focados em atender à sua necessidade energética com rigor e profissionalismo." }
-    ],
-    visionTitle: "VISÃO",
-    visionText: "Inovação e Tecnologia: Adotar tecnologias de ponta, como armazenamento de energia (baterias), inteligência artificial para gestão de redes e digitalização de serviços. Incluímos monitorização Wi-Fi/4G e plataformas na nuvem para acompanhamento em tempo real.",
-    commitmentTitle: "COMPROMISSO",
-    commitmentPoints: [
-      "Sustentabilidade Ambiental", "Eficiência e Economia (ESG)", "Qualidade e Segurança",
-      "Inovação e Desenvolvimento", "Responsabilidade Social"
-    ],
-    specializationTitle: "ESPECIALIZAÇÃO",
-    specializationPoints: [
-      "Capacidade técnica de dimensionamento sistemas solares usando avançados softwares tais como AutoCAD e PVsyst.",
-      "Manutenção e gestão de sistemas solares.",
-      "Compliance com as normas técnicas, segurança, requisitos legais de gestão de projetos."
-    ]
-  }
-};
-
 export default function AboutUsPage() {
-  const { language } = useLanguage();
-  const t = CONTENT[language];
+  const { t, language } = useLanguage();
+
+  const integrityPoints = [
+    { title: t.totalTransparency, desc: t.transparencyDesc },
+    { title: t.rigorousQuality, desc: t.qualityDesc },
+    { title: t.trustedPartnership, desc: t.partnershipDesc }
+  ];
+
+  const specializationPoints = [
+    t.specPoint1,
+    t.specPoint2,
+    t.specPoint3
+  ];
+
+  const commitmentPoints = [
+    t.sustainability, t.efficiencyEconomy, t.qualitySafety,
+    t.innovationDev, t.socialResp
+  ];
 
   return (
     <main className="flex min-h-screen flex-col bg-white">
@@ -79,9 +43,9 @@ export default function AboutUsPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="max-w-4xl">
             <div className="text-brand-primary font-black text-xs uppercase tracking-[0.4em] mb-6">Established 2013</div>
             <h1 className="text-5xl md:text-7xl font-black text-gray-900 tracking-tight leading-[1.1] mb-10">
-              {t.heroTitle.split(' ').map((word, i) => i === 3 || i === 4 ? <span key={i} className="text-brand-primary">{word} </span> : word + ' ')}
+              {(t.aboutHeroTitle as string).split(' ').map((word, i) => i === 3 || i === 4 ? <span key={i} className="text-brand-primary">{word} </span> : word + ' ')}
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed font-medium mb-12 max-w-2xl">{t.heroText}</p>
+            <p className="text-xl text-gray-600 leading-relaxed font-medium mb-12 max-w-2xl">{t.aboutHeroText as string}</p>
           </motion.div>
         </div>
       </section>
@@ -108,14 +72,14 @@ export default function AboutUsPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { label: language === 'en' ? "Years Exp." : "Anos Exp.", value: 10, suffix: "+" },
-              { label: language === 'en' ? "Projects" : "Projectos", value: 57, suffix: "+" },
-              { label: language === 'en' ? "Quality Rate" : "Qualidade", value: 100, suffix: "%" },
-              { label: language === 'en' ? "Partners" : "Parceiros", value: 102, suffix: "" },
+              { label: t.yearsExp, value: 10, suffix: "+" },
+              { label: t.projects, value: 57, suffix: "+" },
+              { label: t.qualityRate, value: 100, suffix: "%" },
+              { label: t.partners, value: 102, suffix: "" },
             ].map((stat, i) => (
               <div key={i} className="text-center">
                 <div className="text-4xl font-black text-gray-900 mb-2"><Counter value={stat.value} suffix={stat.suffix} /></div>
-                <div className="text-[10px] font-bold text-brand-primary uppercase tracking-[0.2em]">{stat.label}</div>
+                <div className="text-[10px] font-bold text-brand-primary uppercase tracking-[0.2em]">{stat.label as string}</div>
               </div>
             ))}
           </div>
@@ -131,18 +95,18 @@ export default function AboutUsPage() {
               <div>
                 <div className="inline-flex items-center space-x-2 bg-brand-primary/20 px-4 py-2 rounded-full mb-8">
                   <ShieldCheck className="w-4 h-4 text-brand-primary" />
-                  <span className="text-[10px] font-bold text-brand-primary uppercase tracking-widest">{t.integrityTitle}</span>
+                  <span className="text-[10px] font-bold text-brand-primary uppercase tracking-widest">{t.integrityTitle as string}</span>
                 </div>
-                <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-8 leading-tight">{t.integrityText}</h2>
+                <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-8 leading-tight">{t.integrityText as string}</h2>
               </div>
               <div className="space-y-6">
-                {t.integrityPoints.map((p, i) => (
+                {integrityPoints.map((p, i) => (
                   <div key={i} className="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
                     <div className="flex items-center space-x-4 mb-2">
                       <CheckCircle2 className="w-5 h-5 text-brand-primary" />
-                      <span className="text-lg font-bold text-white">{p.t}</span>
+                      <span className="text-lg font-bold text-white">{p.title as string}</span>
                     </div>
-                    <p className="text-gray-400 text-sm ml-9">{p.d}</p>
+                    <p className="text-gray-400 text-sm ml-9">{p.desc as string}</p>
                   </div>
                 ))}
               </div>
@@ -164,8 +128,8 @@ export default function AboutUsPage() {
               <div className="w-20 h-20 bg-brand-primary/5 rounded-3xl flex items-center justify-center text-brand-primary mb-10 group-hover:bg-brand-primary group-hover:text-white transition-all duration-500">
                 <Eye className="w-10 h-10" />
               </div>
-              <h3 className="text-4xl font-black text-gray-900 mb-8 uppercase tracking-tight">{t.visionTitle}</h3>
-              <p className="text-xl text-gray-600 leading-relaxed font-medium">{t.visionText}</p>
+              <h3 className="text-4xl font-black text-gray-900 mb-8 uppercase tracking-tight">{t.visionTitle as string}</h3>
+              <p className="text-xl text-gray-600 leading-relaxed font-medium">{t.visionText as string}</p>
             </motion.div>
             
             <motion.div 
@@ -212,13 +176,13 @@ export default function AboutUsPage() {
               <div className="w-20 h-20 bg-brand-primary/5 rounded-3xl flex items-center justify-center text-brand-primary mb-10 group-hover:bg-brand-primary group-hover:text-white transition-all duration-500">
                 <Zap className="w-10 h-10" />
               </div>
-              <h3 className="text-4xl font-black text-gray-900 mb-8 uppercase tracking-tight">{t.specializationTitle}</h3>
+              <h3 className="text-4xl font-black text-gray-900 mb-8 uppercase tracking-tight">{t.specializationTitle as string}</h3>
               <div className="space-y-6">
-                {t.specializationPoints.map((p, i) => (
+                {specializationPoints.map((p: any, i: number) => (
                   <div key={i} className="flex items-start space-x-5">
                     <div className="mt-2 w-2 h-2 rounded-full bg-brand-primary shrink-0" />
                     <p className="text-lg text-gray-600 font-semibold leading-relaxed">
-                      {p.split(' ').map((word, j) => 
+                      {(p as string).split(' ').map((word, j) => 
                         (word.includes('AutoCAD') || word.includes('PVsyst')) 
                         ? <span key={j} className="notranslate text-gray-900 font-black">{word} </span> 
                         : word + ' '
@@ -237,17 +201,17 @@ export default function AboutUsPage() {
         <div className="max-w-7xl mx-auto px-6 text-center">
           <div className="inline-flex items-center space-x-2 bg-brand-primary/5 px-6 py-2 rounded-full mb-8">
             <Award className="w-4 h-4 text-brand-primary" />
-            <span className="text-[10px] font-bold text-brand-primary uppercase tracking-[0.3em]">{t.commitmentTitle}</span>
+            <span className="text-[10px] font-bold text-brand-primary uppercase tracking-[0.3em]">{t.commitmentTitle as string}</span>
           </div>
-          <h2 className="text-5xl font-black text-gray-900 mb-20 tracking-tighter">SADC SOLAR ESG & VALUES</h2>
+          <h2 className="text-5xl font-black text-gray-900 mb-20 tracking-tighter">{t.esgValues as string}</h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {t.commitmentPoints.map((item, i) => (
+            {commitmentPoints.map((item: any, i: number) => (
               <div key={i} className="group p-10 bg-gray-50 rounded-[2.5rem] border border-transparent hover:border-brand-primary/20 hover:bg-white hover:shadow-2xl transition-all duration-500">
                 <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand-primary mb-6 group-hover:scale-110 transition-transform">
                   <Activity className="w-6 h-6" />
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 text-left">{item}</h4>
+                <h4 className="text-xl font-bold text-gray-900 text-left">{item as string}</h4>
               </div>
             ))}
           </div>

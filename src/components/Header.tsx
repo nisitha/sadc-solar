@@ -7,29 +7,29 @@ import { Mail, Phone, MapPin, ChevronDown, Menu, X, Globe, Search, Zap, Sun, Bat
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 
-const SOLUTIONS = [
-  { name: "Soluções Chave na Mão", href: "/solutions/turnkey-solutions" },
-  { name: "Outras Soluções Chave na Mão", href: "/solutions/other-turnkey-solutions" },
-];
-
-const PRODUCTS_LIST = [
-  { name: "INVERSORES SOLARES OFF-GRID", href: "/products/off-grid-solar-inverters" },
-  { name: "INVERSORES SOLARES ON-GRID", href: "/products/on-grid-solar-inverters" },
-  { name: "CONTROLADORES DE CARGA SOLAR", href: "/products/solar-charge-controllers" },
-  { name: "PAINÉIS SOLARES", href: "/products/solar-panels" },
-  { name: "BATERIAS SOLARES", href: "/products/solar-batteries" },
-  { name: "BOMBAS DE ÁGUA SOLARES", href: "/products/solar-water-pumps" },
-  { name: "LUMINÁRIAS SOLARES", href: "/products/solar-street-lights" },
-  { name: "ARMÁRIOS DE RACK E BATERIAS", href: "/products/rack-and-battery-cabinets" },
-  { name: "FIAÇÃO E CABOS", href: "/products/wiring-and-cables" },
-];
-
 export default function Header() {
+  const { language, setLanguage, t } = useLanguage();
+
+  const SOLUTIONS = [
+    { name: t.turnkeySolutions as string, href: "/solutions/turnkey-solutions" },
+    { name: t.otherTurnkeySolutions as string, href: "/solutions/other-turnkey-solutions" },
+  ];
+
+  const PRODUCTS_LIST = [
+    { name: t.catOffGridInverters as string, href: "/products/off-grid-solar-inverters" },
+    { name: t.catOnGridInverters as string, href: "/products/on-grid-solar-inverters" },
+    { name: t.catChargeControllers as string, href: "/products/solar-charge-controllers" },
+    { name: t.catSolarPanels as string, href: "/products/solar-panels" },
+    { name: t.catSolarBatteries as string, href: "/products/solar-batteries" },
+    { name: t.catSolarPumps as string, href: "/products/solar-water-pumps" },
+    { name: t.catStreetLights as string, href: "/products/solar-street-lights" },
+    { name: t.catRacksCabinets as string, href: "/products/rack-and-battery-cabinets" },
+    { name: t.catWiringCables as string, href: "/products/wiring-and-cables" },
+  ];
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const { language, setLanguage } = useLanguage();
   const [isTranslateLoaded, setIsTranslateLoaded] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -82,7 +82,7 @@ export default function Header() {
           <div className="flex-1 max-w-xl mx-12 relative group">
             <input 
               type="text"
-              placeholder={language === 'pt' ? "O que você está procurando?" : "What are you looking for?"}
+              placeholder={t.searchPlaceholder}
               className="w-full bg-white/5 border border-white/10 rounded-full py-2.5 px-12 text-xs text-white placeholder:text-white/30 focus:outline-none focus:border-primary/50 focus:bg-white/10 transition-all backdrop-blur-md"
               onFocus={() => setIsSearchOpen(true)}
               value={searchQuery}
@@ -131,7 +131,7 @@ export default function Header() {
                 {/* Solutions Row - Compact */}
                 <div className="mb-10">
                   <div className="flex items-center space-x-4 mb-6">
-                    <span className="text-[9px] font-black text-white/30 uppercase tracking-[0.4em]">Soluções</span>
+                    <span className="text-[9px] font-black text-white/30 uppercase tracking-[0.4em]">{t.solutionsLabel}</span>
                     <div className="h-[1px] flex-1 bg-white/5" />
                   </div>
                   <div className="flex space-x-4 overflow-x-auto pb-4 no-scrollbar">
@@ -155,7 +155,7 @@ export default function Header() {
                 {/* Products Row - Compact Grid-like Flow */}
                 <div>
                   <div className="flex items-center space-x-4 mb-6">
-                    <span className="text-[9px] font-black text-white/30 uppercase tracking-[0.4em]">Categorias de Produtos</span>
+                    <span className="text-[9px] font-black text-white/30 uppercase tracking-[0.4em]">{t.categoriesLabel}</span>
                     <div className="h-[1px] flex-1 bg-white/5" />
                   </div>
                   <div className="grid grid-cols-3 gap-4">
@@ -179,7 +179,7 @@ export default function Header() {
                 {/* Footer Explorer Action */}
                 <div className="mt-8 pt-6 border-t border-white/5 flex justify-center">
                    <Link href="/products" className="text-[10px] font-black text-primary uppercase tracking-[0.3em] hover:text-white transition-colors" prefetch={false}>
-                      Ver Catálogo Completo de Tecnologia →
+                      {t.viewAllProducts}
                    </Link>
                 </div>
               </motion.div>
@@ -209,8 +209,8 @@ export default function Header() {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
-            <NavLink href="/">{language === 'pt' ? 'Início' : 'Home'}</NavLink>
-            <NavLink href="/about-us">{language === 'pt' ? 'Sobre Nós' : 'About Us'}</NavLink>
+            <NavLink href="/">{t.home}</NavLink>
+            <NavLink href="/about-us">{t.aboutUs}</NavLink>
             
             {/* Solutions Dropdown */}
             <div 
@@ -219,7 +219,7 @@ export default function Header() {
               onMouseLeave={() => setActiveMenu(null)}
             >
               <button className="flex items-center text-[15px] font-semibold text-gray-700 group-hover:text-primary transition-colors cursor-pointer">
-                {language === 'pt' ? 'Soluções' : 'Solutions'} <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
+                {t.solutions} <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
               <AnimatePresence>
                 {activeMenu === 'solutions' && (
@@ -251,7 +251,7 @@ export default function Header() {
               onMouseLeave={() => setActiveMenu(null)}
             >
               <button className="flex items-center text-[15px] font-semibold text-gray-700 group-hover:text-primary transition-colors cursor-pointer">
-                {language === 'pt' ? 'Produtos' : 'Products'} <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
+                {t.products} <ChevronDown className="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" />
               </button>
               <AnimatePresence>
                 {activeMenu === 'products' && (
@@ -276,7 +276,7 @@ export default function Header() {
               </AnimatePresence>
             </div>
 
-            <NavLink href="/news">{language === 'pt' ? 'Últimas Notícias' : 'Latest News'}</NavLink>
+            <NavLink href="/news">{t.news}</NavLink>
             
             {/* Language Switcher */}
             <div className="flex items-center bg-gray-50 rounded-full p-1 border border-gray-100">
@@ -305,7 +305,7 @@ export default function Header() {
               className="px-6 py-2.5 bg-primary text-white text-sm font-bold rounded-full hover:bg-primary-hover transform hover:-translate-y-0.5 transition-all shadow-lg shadow-primary/20"
               prefetch={false}
             >
-              {language === 'pt' ? 'Contate-nos' : 'Contact Us'}
+              {t.contactUs}
             </Link>
           </div>
 
@@ -354,8 +354,8 @@ export default function Header() {
                       <Globe className="w-6 h-6 text-brand-primary" />
                     </div>
                     <div>
-                      <div className="text-[10px] font-black text-gray-500 uppercase tracking-[0.2em] mb-1">Configuração de Região</div>
-                      <div className="text-sm font-bold text-white uppercase tracking-wider">Selecione o Idioma</div>
+                      <div className="text-[10px] font-black text-gray-500 uppercase tracking-[0.2em] mb-1">{t.regionSetting}</div>
+                      <div className="text-sm font-bold text-white uppercase tracking-wider">{t.selectLanguage}</div>
                     </div>
                   </div>
                   
@@ -401,11 +401,11 @@ export default function Header() {
                 {/* Separator Line */}
                 <div className="h-px w-full bg-gray-100/50 mb-4" />
 
-                <MobileNavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>{language === 'pt' ? 'Início' : 'Home'}</MobileNavLink>
-                <MobileNavLink href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>{language === 'pt' ? 'Sobre Nós' : 'About Us'}</MobileNavLink>
+                <MobileNavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>{t.home}</MobileNavLink>
+                <MobileNavLink href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>{t.aboutUs}</MobileNavLink>
                 
                 <div className="space-y-6">
-                  <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest px-2">Soluções</div>
+                  <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest px-2">{t.solutionsLabel}</div>
                   <div className="grid grid-cols-1 gap-3">
                     {SOLUTIONS.map(s => (
                       <Link 
@@ -425,7 +425,7 @@ export default function Header() {
                 </div>
 
                 <div className="space-y-6">
-                  <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest px-2">Catálogo de Tecnologia</div>
+                  <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest px-2">{t.categoriesLabel}</div>
                   <div className="grid grid-cols-1 gap-3">
                     {PRODUCTS_LIST.slice(0, 4).map(item => (
                       <Link 
@@ -442,12 +442,12 @@ export default function Header() {
                       </Link>
                     ))}
                     <Link href="/products" onClick={() => setIsMobileMenuOpen(false)} className="text-center py-4 text-xs font-black text-primary uppercase tracking-[0.3em] hover:opacity-70 transition-opacity">
-                      EXPLORAR TODOS OS PRODUTOS →
+                      {t.viewAllProducts}
                     </Link>
                   </div>
                 </div>
 
-                <MobileNavLink href="/news" onClick={() => setIsMobileMenuOpen(false)}>{language === 'pt' ? 'Últimas Notícias' : 'Latest News'}</MobileNavLink>
+                <MobileNavLink href="/news" onClick={() => setIsMobileMenuOpen(false)}>{t.news}</MobileNavLink>
                 
                 <Link 
                   href="/contact-us" 
@@ -455,7 +455,7 @@ export default function Header() {
                   className="w-full py-6 bg-primary text-white text-center font-black rounded-[2.5rem] shadow-2xl shadow-primary/30 uppercase tracking-[0.3em] text-sm min-h-[64px] flex items-center justify-center hover:scale-[1.02] active:scale-95 transition-all"
                   prefetch={false}
                 >
-                  {language === 'pt' ? 'Obter um Orçamento Gratuito' : 'Get a Free Quote'}
+                  {t.getAQuote}
                 </Link>
               </div>
             </div>

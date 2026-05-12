@@ -1,3 +1,5 @@
+"use client";
+import React from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
@@ -9,6 +11,7 @@ import Image from "next/image";
 import { getProducts, getSolutions } from "@/lib/wordpress";
 import { cn } from "@/lib/utils";
 import FinancingSection from "@/components/FinancingSection";
+import { useLanguage } from "@/context/LanguageContext";
 
 const ICON_MAP: { [key: string]: any } = {
   "Off-grid Solar Inverters": Zap,
@@ -24,9 +27,20 @@ const ICON_MAP: { [key: string]: any } = {
   "Other Turnkey Solutions": Shield,
 };
 
-export default async function Home() {
-  const products = await getProducts();
-  const solutions = await getSolutions();
+export default function Home() {
+  const { t, language } = useLanguage();
+  const [products, setProducts] = React.useState<any[]>([]);
+  const [solutions, setSolutions] = React.useState<any[]>([]);
+
+  React.useEffect(() => {
+    async function fetchData() {
+      const p = await getProducts();
+      const s = await getSolutions();
+      setProducts(p);
+      setSolutions(s);
+    }
+    fetchData();
+  }, []);
 
   const turnkeySolutions = solutions.filter((s: any) => s.categories.includes("Turnkey Solutions"));
   const otherSolutions = solutions.filter((s: any) => s.categories.includes("Other Turnkey Solutions"));
@@ -54,20 +68,20 @@ export default async function Home() {
             <SectionReveal>
               <div className="inline-flex items-center space-x-2 bg-brand-accent-2/10 px-4 py-2 rounded-full mb-8">
                 <div className="w-2 h-2 rounded-full bg-brand-accent-2 animate-pulse" />
-                <span className="text-[10px] font-bold text-brand-accent-2 uppercase tracking-widest">Líderes da Indústria</span>
+                <span className="text-[10px] font-bold text-brand-accent-2 uppercase tracking-widest">{t.industryLeaders}</span>
               </div>
               <h2 className="text-5xl font-black text-gray-900 tracking-tight leading-tight mb-8">
-                Pioneira de Angola em <br />Padrões de Energia Solar.
+                {t.angolaPioneer}
               </h2>
               <p className="text-lg text-gray-500 font-medium leading-relaxed mb-10">
-                A SADC Solar está comprometida na promoção e divulgação das energias renováveis em Angola ao mesmo tempo estabelecendo padrões que ajudarão a mudar a forma como pensamos sobre a energia renovável em Angola. Prontos para a instalação sistemas solar em qualquer parte do país.
+                {t.leadershipDescription}
               </p>
               <div className="grid grid-cols-2 gap-6 mb-12">
                 {[
-                  "Padrões de Qualidade Certificados",
-                  "Suporte Técnico de Longo Prazo",
-                  "Garantias de Desempenho Máximo",
-                  "Tecnologia de Energia Sustentável",
+                  t.certifiedQuality,
+                  t.longTermSupport,
+                  t.maxPerformance,
+                  t.sustainableTech,
                 ].map((text, i) => (
                   <div key={i} className="group flex items-center space-x-4 text-sm font-bold text-gray-900">
                     <div className="w-10 h-10 rounded-xl bg-brand-accent-2/5 flex items-center justify-center shrink-0 group-hover:bg-brand-accent-2 group-hover:text-white transition-all duration-300">
@@ -108,7 +122,7 @@ export default async function Home() {
 
         <SectionReveal className="relative z-10 text-center px-6 max-w-4xl pointer-events-none">
           <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tighter leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-            Padronizando Energias Renováveis <br className="hidden md:block" /> na Região da SADC.
+            {language === 'pt' ? "Padronizando Energias Renováveis na Região da SADC." : "Standardizing Renewable Energy in the SADC Region."}
           </h2>
           <div className="w-24 h-1.5 bg-white mt-8 mx-auto rounded-full transition-all duration-500 group-hover:w-48 group-hover:bg-[#EA6003] shadow-[0_0_20px_rgba(255,255,255,0.5)]" />
         </SectionReveal>
@@ -118,10 +132,10 @@ export default async function Home() {
       <section className="py-32 bg-gray-900">
         <div className="max-w-7xl mx-auto px-6">
           <SectionReveal className="text-center max-w-3xl mx-auto mb-20">
-            <div className="text-brand-accent-2 font-bold text-xs uppercase tracking-[0.3em] mb-4">Galeria de Projetos</div>
-            <h2 className="text-5xl font-black text-white tracking-tight mb-6">Nosso Impacto em Angola.</h2>
+            <div className="text-brand-accent-2 font-bold text-xs uppercase tracking-[0.3em] mb-4">{t.projectGallery}</div>
+            <h2 className="text-5xl font-black text-white tracking-tight mb-6">{t.ourImpact}</h2>
             <p className="text-lg text-white/50 font-medium leading-relaxed">
-              Um vislumbre da escala e complexidade dos projetos de infraestrutura solar que entregamos com sucesso.
+              {t.galleryDescription}
             </p>
           </SectionReveal>
 
@@ -168,16 +182,16 @@ export default async function Home() {
           <SectionReveal className="bg-primary rounded-[4rem] p-16 md:p-24 text-center relative overflow-hidden group shadow-[0_35px_60px_-15px_rgba(252,163,17,0.3)]">
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.webp')] opacity-10" />
             <div className="relative z-10">
-              <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">Pronto para mudar para a energia solar?</h2>
+              <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">{t.readyToSwitch}</h2>
               <p className="text-xl text-white/80 font-medium mb-12 max-w-2xl mx-auto leading-relaxed">
-                Entre em contato com nossos especialistas hoje para uma avaliação gratuita do local e uma proposta de energia personalizada em Angola.
+                {t.ctaDescription}
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
                 <Link href="/contact-us" className="px-12 py-6 bg-white text-primary font-bold rounded-2xl hover:bg-gray-50 transition-all shadow-2xl shadow-black/10 text-lg uppercase tracking-widest" prefetch={false}>
-                  Obter um Orçamento Gratuito
+                  {t.getAQuote}
                 </Link>
                 <Link href="/about-us" className="px-12 py-6 border-2 border-white/30 text-white font-bold rounded-2xl hover:bg-white/10 transition-all text-lg uppercase tracking-widest" prefetch={false}>
-                  Saber Mais
+                  {t.learnMore}
                 </Link>
               </div>
             </div>

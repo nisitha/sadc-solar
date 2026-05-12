@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
@@ -22,6 +23,7 @@ const InstagramIcon = () => (
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const { t } = useLanguage();
 
   return (
     <footer className="relative bg-brand-primary/80 backdrop-blur-2xl text-white py-32 border-t border-white/20 overflow-hidden">
@@ -40,7 +42,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-[#2D241E] leading-relaxed font-medium">
-              Soluções de energia solar premium para Angola. Somos especialistas em projetos chave na mão e componentes solares de alta qualidade para um amanhã mais verde.
+              {t.footerDescription}
             </p>
             <div className="flex items-center space-x-5">
               <a 
@@ -75,14 +77,14 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-[#1A140F]">Navegação</h3>
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-[#1A140F]">{t.navigation}</h3>
             <ul className="space-y-4">
               {[
-                { name: "Sobre Nós", href: "/about-us" },
-                { name: "Soluções", href: "/solutions" },
-                { name: "Produtos", href: "/products" },
-                { name: "Últimas Notícias", href: "/news" },
-                { name: "Contate-nos", href: "/contact-us" }
+                { name: t.aboutUs, href: "/about-us" },
+                { name: t.solutions, href: "/solutions" },
+                { name: t.products, href: "/products" },
+                { name: t.news, href: "/news" },
+                { name: t.contactUs, href: "/contact-us" }
               ].map((item) => (
                 <li key={item.name}>
                   <Link href={item.href} className="text-[#2D241E] hover:text-[#1A140F] transition-colors flex items-center group" prefetch={false}>
@@ -96,14 +98,14 @@ export default function Footer() {
 
           {/* Contact Details */}
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-[#1A140F]">Informações de Contato</h3>
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-[#1A140F]">{t.contactInfo}</h3>
             <ul className="space-y-6">
               <li className="flex items-start">
                 <div className="w-10 h-10 rounded-xl bg-[#1A140F]/10 flex items-center justify-center mr-4 shrink-0 text-[#1A140F]">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase tracking-widest text-[#1A140F]/60 font-bold mb-1">Localização</div>
+                  <div className="text-[10px] uppercase tracking-widest text-[#1A140F]/60 font-bold mb-1">{t.location}</div>
                   <span className="font-bold text-[#2D241E]">Luanda, Angola</span>
                 </div>
               </li>
@@ -112,7 +114,7 @@ export default function Footer() {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase tracking-widest text-[#1A140F]/60 font-bold mb-1">Telefone</div>
+                  <div className="text-[10px] uppercase tracking-widest text-[#1A140F]/60 font-bold mb-1">{t.phone}</div>
                   <span className="font-bold text-[#2D241E]">+244 923 512 645</span>
                 </div>
               </li>
@@ -121,7 +123,7 @@ export default function Footer() {
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase tracking-widest text-[#1A140F]/60 font-bold mb-1">Email</div>
+                  <div className="text-[10px] uppercase tracking-widest text-[#1A140F]/60 font-bold mb-1">{t.email}</div>
                   <span className="font-bold text-[#2D241E]">solutions@sadcsolar.com</span>
                 </div>
               </li>
@@ -130,20 +132,20 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-[#1A140F]">Boletim Informativo</h3>
+            <h3 className="text-sm font-black uppercase tracking-[0.2em] mb-8 text-[#1A140F]">{t.newsletter}</h3>
             <p className="text-[#2D241E] mb-8 font-medium leading-relaxed">
-              Fique atualizado com as últimas tendências em tecnologia solar e energia sustentável.
+              {t.newsletterDescription}
             </p>
             <form className="space-y-4">
               <div className="relative group">
                 <input 
                   type="email" 
-                  placeholder="Endereço de E-mail" 
+                  placeholder={t.emailAddress} 
                   className="w-full bg-[#FEF9F3] border border-brand-primary/40 rounded-xl px-6 py-4 text-sm focus:ring-2 focus:ring-brand-primary/30 transition-all outline-none placeholder:text-[#2D241E]/50 text-[#1A140F] font-bold"
                 />
               </div>
               <button className="w-full py-4 bg-[#1A140F] text-white rounded-xl hover:bg-[#1A140F]/90 transition-all font-black text-xs uppercase tracking-[0.2em] shadow-xl">
-                Inscrever-se Agora
+                {t.subscribeNow}
               </button>
             </form>
           </div>
@@ -151,19 +153,19 @@ export default function Footer() {
 
         <div className="pt-12 border-t border-[#1A140F]/10 flex flex-col md:flex-row justify-between items-center text-xs text-[#2D241E]/60 font-bold tracking-wider gap-6 text-center md:text-left">
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
-            <p>© {currentYear} SADC Solar. Construído com Energia.</p>
+            <p>© {currentYear} SADC Solar. {t.allRightsReserved} {t.builtWithEnergy}</p>
             <a 
               href="https://wa.me/94787676576" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-[#1A140F] transition-all duration-300"
             >
-              Website Desenvolvido por <span className="notranslate">Pixel Craft Studios</span> | +94 78 767 6576
+              {t.developedBy} <span className="notranslate">Pixel Craft Studios</span> | +94 78 767 6576
             </a>
           </div>
           <div className="flex space-x-8">
-             <Link href="/privacy" className="hover:text-[#1A140F] transition-colors" prefetch={false}>Política de Privacidade</Link>
-             <Link href="/terms" className="hover:text-[#1A140F] transition-colors" prefetch={false}>Termos de Serviço</Link>
+             <Link href="/privacy" className="hover:text-[#1A140F] transition-colors" prefetch={false}>{t.privacyPolicy}</Link>
+             <Link href="/terms" className="hover:text-[#1A140F] transition-colors" prefetch={false}>{t.termsOfService}</Link>
           </div>
         </div>
       </div>

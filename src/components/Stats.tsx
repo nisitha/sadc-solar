@@ -2,15 +2,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Counter from "./Counter";
-
-const STATS = [
-  { label: "Fundada em", value: 2013, suffix: "" },
-  { label: "Projetos Realizados", value: 57, suffix: "+" },
-  { label: "Clientes Satisfeitos", value: 54, suffix: "" },
-  { label: "Parceiros de Negócios", value: 102, suffix: "" },
-];
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Stats() {
+  const { t } = useLanguage();
+
+  const STATS = [
+    { label: t.foundedIn, value: 2013, suffix: "" },
+    { label: t.projectsRealized, value: 57, suffix: "+" },
+    { label: t.satisfiedClients, value: 54, suffix: "" },
+    { label: t.businessPartners, value: 102, suffix: "" },
+  ];
+
   return (
     <section className="py-24 bg-gray-50/50">
       <div className="max-w-7xl mx-auto px-6">
