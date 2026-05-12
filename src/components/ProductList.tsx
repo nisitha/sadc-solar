@@ -73,42 +73,48 @@ export default function ProductList({ initialProducts, categories }: { initialPr
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {filteredProducts.map((p, i) => (
-          <SectionReveal key={p.slug}>
-            <Link 
-              href={`/products/${p.slug}`}
-              className="group relative block bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full"
-              prefetch={false}
-            >
-              {/* Image Container - Fixed Aspect Ratio & Contain */}
-              <div className="relative h-64 w-full bg-slate-50 p-6 flex items-center justify-center overflow-hidden">
-                <img 
-                  src={(p.imageUrl || "/placeholder-product.webp")
-                        .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
-                  alt={language === 'pt' ? (p.title_pt || p.title) : (p.title_en || p.title)}
-                  className="max-w-full max-h-full object-contain transition-transform duration-700 ease-in-out group-hover:scale-110"
-                />
-                <div className="absolute top-4 left-4">
-                  <span className="bg-white/90 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-bold text-brand-navy border border-slate-100 uppercase tracking-widest shadow-sm">
-                    {translateCategory(p.categories[0])}
-                  </span>
-                </div>
-              </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-stretch">
+        {filteredProducts.map((p, i) => {
+          const title = language === 'pt' ? (p.title_pt || p.title) : (p.title_en || p.title);
+          const rawContent = language === 'pt' ? p.content_pt : p.content_en;
+          // Strip HTML tags for the preview
+          const plainTextDescription = rawContent ? rawContent.replace(/<[^>]*>?/gm, '').trim() : "";
 
-              {/* Info Container */}
-              <div className="p-6 flex flex-col flex-grow bg-white">
-                <div className="flex flex-col h-full">
-                  <h3 className="text-lg font-bold text-[#001f3f] mb-3 group-hover:text-brand-primary transition-colors leading-tight line-clamp-2 min-h-[3rem] notranslate">
-                    {language === 'pt' ? (p.title_pt || p.title) : (p.title_en || p.title)}
-                  </h3>
-                  
-                  {/* Dynamic Translated Content */}
-                  <div 
-                    className="text-sm text-slate-600 line-clamp-3 mb-6 flex-grow prose-custom"
-                    dangerouslySetInnerHTML={{ __html: language === 'pt' ? p.content_pt : p.content_en }}
+          return (
+            <SectionReveal key={p.slug}>
+              <Link 
+                href={`/products/${p.slug}`}
+                className="group relative flex flex-col h-full bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+                prefetch={false}
+              >
+                {/* Image Container - Strict Fixed Height */}
+                <div className="relative h-56 w-full bg-slate-50 p-6 flex items-center justify-center shrink-0">
+                  <img 
+                    src={(p.imageUrl || "/placeholder-product.webp")
+                          .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
+                    alt={title}
+                    className="max-w-full max-h-full object-contain transition-transform duration-700 ease-in-out group-hover:scale-110"
                   />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-white/90 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-bold text-brand-navy border border-slate-100 uppercase tracking-widest shadow-sm">
+                      {translateCategory(p.categories[0])}
+                    </span>
+                  </div>
+                </div>
 
+                {/* Content Container - Flex Grow to push CTA down */}
+                <div className="p-6 flex flex-col flex-grow">
+                  <div className="flex-grow">
+                    <h3 className="text-lg font-bold text-[#001f3f] mb-3 group-hover:text-brand-primary transition-colors leading-snug line-clamp-2 min-h-[3rem] notranslate">
+                      {title}
+                    </h3>
+                    
+                    <p className="text-sm text-slate-600 line-clamp-3 leading-relaxed mb-6">
+                      {plainTextDescription}
+                    </p>
+                  </div>
+
+                  {/* CTA - Anchored to Bottom */}
                   <div className="mt-auto pt-6 border-t border-slate-100 flex items-center justify-between group/cta">
                     <span className="text-[10px] font-black text-[#001f3f] uppercase tracking-[0.2em] group-hover/cta:text-brand-primary transition-colors">
                       {t.viewDetails as string}
@@ -118,10 +124,10 @@ export default function ProductList({ initialProducts, categories }: { initialPr
                     </div>
                   </div>
                 </div>
-              </div>
-            </Link>
-          </SectionReveal>
-        ))}
+              </Link>
+            </SectionReveal>
+          );
+        })}
       </div>
 
       {filteredProducts.length === 0 && (
