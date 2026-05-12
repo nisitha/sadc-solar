@@ -9,7 +9,7 @@ import { notFound } from "next/navigation";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function SolutionDetailClient({ slug, initialSolution, initialCategorySolutions }: { slug: string, initialSolution: any, initialCategorySolutions: any[] }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [solution, setSolution] = useState<any>(initialSolution);
   const [categorySolutions, setCategorySolutions] = useState<any[]>(initialCategorySolutions);
 
@@ -37,7 +37,7 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
             <h1 className="text-5xl md:text-6xl font-black text-gray-900 tracking-tight leading-tight mb-8">
               {isAggregator 
                 ? (slug === "turnkey-solutions" ? t.turnkeySolutions as string : t.otherTurnkeySolutions as string) 
-                : solution.title}
+                : (language === 'pt' ? (solution.title_pt || solution.title) : (solution.title_en || solution.title))}
             </h1>
             
             <div className="relative rounded-[3rem] overflow-hidden aspect-video mb-16 shadow-2xl group">
@@ -46,7 +46,7 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
                   .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
                 alt={isAggregator 
                   ? (slug === "turnkey-solutions" ? t.turnkeySolutions as string : t.otherTurnkeySolutions as string) 
-                  : solution.title}
+                  : (language === 'pt' ? (solution.title_pt || solution.title) : (solution.title_en || solution.title))}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -61,18 +61,20 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
                     className="group relative overflow-hidden rounded-[2rem] bg-gray-50 border border-gray-100 h-[400px] shadow-sm hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500"
                     prefetch={false}
                   >
-                    <img 
-                      src={(item.imageUrl || "/placeholder-solution.webp")
-                        .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
-                        .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1")} 
-                      alt={item.title}
-                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-colors duration-500 group-hover:from-primary/90" />
+                    <div className="absolute inset-0 z-0">
+                      <img 
+                        src={(item.imageUrl || "/placeholder-solution.webp")
+                          .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
+                          .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1")} 
+                        alt={language === 'pt' ? (item.title_pt || item.title) : (item.title_en || item.title)}
+                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      />
+                    </div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-colors duration-500 group-hover:from-brand-primary/90" />
                     
                     <div className="absolute inset-0 p-8 flex flex-col justify-end">
                       <h3 className="text-2xl font-black text-white mb-4 transition-colors duration-500">
-                        {item.title}
+                        {language === 'pt' ? (item.title_pt || item.title) : (item.title_en || item.title)}
                       </h3>
                       <div className="h-0 overflow-hidden group-hover:h-12 transition-all duration-500 opacity-0 group-hover:opacity-100">
                         <span className="inline-flex items-center text-white font-bold text-sm uppercase tracking-widest">
@@ -87,7 +89,7 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
               <>
                 <div 
                   className="text-xl text-gray-600 leading-relaxed font-medium wp-content space-y-8 prose-custom"
-                  dangerouslySetInnerHTML={{ __html: solution.content
+                  dangerouslySetInnerHTML={{ __html: (language === 'pt' ? (solution.content_pt || "") : (solution.content_en || ""))
                     .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
                     .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1") 
                   }}

@@ -30,10 +30,11 @@ export default function ProductList({ initialProducts, categories }: { initialPr
   const filteredProducts = useMemo(() => {
     return initialProducts.filter(p => {
       const matchesCategory = activeCategory === "All" || p.categories.includes(activeCategory);
-      const matchesSearch = p.title.toLowerCase().includes(searchQuery.toLowerCase());
+      const title = language === 'pt' ? (p.title_pt || p.title) : (p.title_en || p.title);
+      const matchesSearch = title.toLowerCase().includes(searchQuery.toLowerCase());
       return matchesCategory && matchesSearch;
     });
-  }, [activeCategory, searchQuery, initialProducts]);
+  }, [activeCategory, searchQuery, initialProducts, language]);
 
   return (
     <div className="space-y-12">
@@ -85,7 +86,7 @@ export default function ProductList({ initialProducts, categories }: { initialPr
                 <img 
                   src={(p.imageUrl || "/placeholder-product.webp")
                         .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
-                  alt={p.title}
+                  alt={language === 'pt' ? (p.title_pt || p.title) : (p.title_en || p.title)}
                   className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
                 />
                 <div className="absolute top-4 left-4">
@@ -102,13 +103,13 @@ export default function ProductList({ initialProducts, categories }: { initialPr
                 
                 <div className="relative z-10 flex flex-col h-full">
                   <h3 className="text-xl font-black text-brand-navy mb-4 group-hover:text-brand-primary transition-colors leading-tight line-clamp-1">
-                    {p.title}
+                    {language === 'pt' ? (p.title_pt || p.title) : (p.title_en || p.title)}
                   </h3>
                   
                   {/* Dynamic Translated Content */}
                   <div 
                     className="text-sm text-slate-500 font-medium prose-custom line-clamp-4 group-hover:text-slate-600 transition-colors mb-6"
-                    dangerouslySetInnerHTML={{ __html: language === 'pt' ? (p.content_pt || p.content_en) : p.content_en }}
+                    dangerouslySetInnerHTML={{ __html: language === 'pt' ? p.content_pt : p.content_en }}
                   />
 
                   <div className="mt-auto pt-6 border-t border-slate-100 flex items-center justify-between">

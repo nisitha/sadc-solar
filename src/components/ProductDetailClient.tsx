@@ -107,7 +107,7 @@ export default function ProductDetailClient({
                 <img
                   src={(product.imageUrl || "/placeholder-product.webp")
                     .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")}
-                  alt={product.title}
+                  alt={language === 'pt' ? (product.title_pt || product.title) : (product.title_en || product.title)}
                   className="w-full h-full object-contain p-12 transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute top-8 left-8 flex flex-col space-y-3">
@@ -127,7 +127,7 @@ export default function ProductDetailClient({
                   {t.productCategory as string}: <span className="text-slate-500 font-medium notranslate">{product.categories[0]}</span>
                 </div>
                 <h1 className="text-4xl md:text-6xl font-black text-brand-navy tracking-tight leading-none mb-8 notranslate">
-                  {product.title}
+                  {language === 'pt' ? (product.title_pt || product.title) : (product.title_en || product.title)}
                 </h1>
                 <div className="flex flex-wrap gap-4">
                   <Link href="/contact-us" className="px-10 py-5 bg-brand-primary text-white font-bold rounded-2xl hover:bg-brand-primary/90 transition-all shadow-xl shadow-brand-primary/20 flex items-center uppercase tracking-widest text-xs" prefetch={false}>
@@ -147,7 +147,7 @@ export default function ProductDetailClient({
                   <div
                     className="text-lg text-slate-600 leading-relaxed font-medium prose-custom"
                     dangerouslySetInnerHTML={{
-                      __html: language === 'pt' ? (product.content_pt || product.content_en) : product.content_en
+                      __html: language === 'pt' ? product.content_pt : product.content_en
                     }}
                   />
                 </div>

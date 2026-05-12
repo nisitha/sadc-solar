@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function GenericPageClient({ page }: { page: any }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   if (!page) return null;
 
@@ -19,7 +19,7 @@ export default function GenericPageClient({ page }: { page: any }) {
           <div className="absolute inset-0 z-0">
             <img 
               src={page.imageUrl.replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
-              alt={page.title} 
+              alt={language === 'pt' ? (page.title_pt || page.title) : (page.title_en || page.title)} 
               className="w-full h-full object-cover opacity-30"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent" />
@@ -28,7 +28,7 @@ export default function GenericPageClient({ page }: { page: any }) {
         <div className="relative z-10 max-w-7xl mx-auto px-6">
           <div className="text-primary font-bold text-xs uppercase tracking-[0.3em] mb-4">SADC Solar</div>
           <h1 className="text-5xl md:text-7xl font-black text-white tracking-tight leading-tight notranslate">
-            {page.title}
+            {language === 'pt' ? (page.title_pt || page.title) : (page.title_en || page.title)}
           </h1>
         </div>
       </section>
@@ -38,7 +38,7 @@ export default function GenericPageClient({ page }: { page: any }) {
         <div className="max-w-4xl mx-auto px-6">
           <div 
             className="text-lg text-gray-600 leading-relaxed font-medium wp-content space-y-8 prose-custom"
-            dangerouslySetInnerHTML={{ __html: page.content.replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/") }}
+            dangerouslySetInnerHTML={{ __html: (language === 'pt' ? (page.content_pt || "") : (page.content_en || "")).replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/") }}
           />
         </div>
       </section>
