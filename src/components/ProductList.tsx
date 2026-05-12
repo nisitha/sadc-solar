@@ -73,50 +73,47 @@ export default function ProductList({ initialProducts, categories }: { initialPr
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {filteredProducts.map((p, i) => (
           <SectionReveal key={p.slug}>
             <Link 
               href={`/products/${p.slug}`}
-              className="group relative block bg-white rounded-[2rem] overflow-hidden border border-slate-200 hover:border-brand-yellow/30 transition-all duration-500 hover:shadow-xl hover:shadow-slate-200/50 flex flex-col h-full"
+              className="group relative block bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full"
               prefetch={false}
             >
-              {/* Image Container */}
-              <div className="relative aspect-[4/3] overflow-hidden bg-gray-50">
+              {/* Image Container - Fixed Aspect Ratio & Contain */}
+              <div className="relative h-64 w-full bg-slate-50 p-6 flex items-center justify-center overflow-hidden">
                 <img 
                   src={(p.imageUrl || "/placeholder-product.webp")
                         .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
                   alt={language === 'pt' ? (p.title_pt || p.title) : (p.title_en || p.title)}
-                  className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
+                  className="max-w-full max-h-full object-contain transition-transform duration-700 ease-in-out group-hover:scale-110"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-white/90 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-bold text-primary uppercase tracking-widest shadow-sm">
+                  <span className="bg-white/90 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-bold text-brand-navy border border-slate-100 uppercase tracking-widest shadow-sm">
                     {translateCategory(p.categories[0])}
                   </span>
                 </div>
               </div>
 
               {/* Info Container */}
-              <div className="p-8 flex flex-col flex-grow relative overflow-hidden bg-white/80 backdrop-blur-md group-hover:bg-white transition-colors duration-500">
-                {/* Thin Yellow Top Border Gradient */}
-                <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-brand-yellow/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                
-                <div className="relative z-10 flex flex-col h-full">
-                  <h3 className="text-xl font-black text-brand-navy mb-4 group-hover:text-brand-primary transition-colors leading-tight line-clamp-1">
+              <div className="p-6 flex flex-col flex-grow bg-white">
+                <div className="flex flex-col h-full">
+                  <h3 className="text-lg font-bold text-[#001f3f] mb-3 group-hover:text-brand-primary transition-colors leading-tight line-clamp-2 min-h-[3rem] notranslate">
                     {language === 'pt' ? (p.title_pt || p.title) : (p.title_en || p.title)}
                   </h3>
                   
                   {/* Dynamic Translated Content */}
                   <div 
-                    className="text-sm text-slate-500 font-medium prose-custom line-clamp-4 group-hover:text-slate-600 transition-colors mb-6"
+                    className="text-sm text-slate-600 line-clamp-3 mb-6 flex-grow prose-custom"
                     dangerouslySetInnerHTML={{ __html: language === 'pt' ? p.content_pt : p.content_en }}
                   />
 
-                  <div className="mt-auto pt-6 border-t border-slate-100 flex items-center justify-between">
-                    <span className="text-[10px] font-black text-brand-navy uppercase tracking-[0.2em]">
+                  <div className="mt-auto pt-6 border-t border-slate-100 flex items-center justify-between group/cta">
+                    <span className="text-[10px] font-black text-[#001f3f] uppercase tracking-[0.2em] group-hover/cta:text-brand-primary transition-colors">
                       {t.viewDetails as string}
                     </span>
-                    <div className="w-10 h-10 rounded-xl bg-slate-100 flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-brand-navy transition-all duration-300">
+                    <div className="w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center group-hover:bg-brand-yellow group-hover:text-brand-navy transition-all duration-300 shadow-sm border border-slate-100">
                       <ArrowRight className="w-4 h-4" />
                     </div>
                   </div>
