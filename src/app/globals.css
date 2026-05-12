@@ -124,9 +124,16 @@ body {
 }
 
 .modern-table td {
-  padding: 1.25rem 1.5rem;
+  padding: 1rem;
   border-bottom: 1px solid #f1f5f9;
-  font-size: 0.95rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .modern-table td {
+    padding: 1.25rem 1.5rem;
+    font-size: 0.95rem;
+  }
 }
 
 .modern-table tr:last-child td {
@@ -137,9 +144,16 @@ body {
   color: var(--brand-navy);
   font-weight: 700;
   width: 40%;
+  min-width: 120px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
+}
+
+@media (min-width: 768px) {
+  .spec-key {
+    font-size: 0.75rem;
+  }
 }
 
 .spec-value {

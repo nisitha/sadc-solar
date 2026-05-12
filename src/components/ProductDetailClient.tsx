@@ -95,13 +95,13 @@ export default function ProductDetailClient({
       <Header />
 
       <div className="pt-32 pb-20">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
           <Link href="/products" className="flex items-center text-sm font-bold text-gray-500 hover:text-primary transition-colors mb-12 group" prefetch={false}>
             <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
             {t.backToCatalog as string}
           </Link>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
             <div className="sticky top-32 space-y-8">
               <div className="relative aspect-square rounded-[3rem] overflow-hidden bg-slate-50 border border-slate-100 shadow-sm group">
                 <img
@@ -126,14 +126,14 @@ export default function ProductDetailClient({
                 <div className="text-brand-navy font-bold text-xs uppercase tracking-[0.4em] mb-4">
                   {t.productCategory as string}: <span className="text-slate-500 font-medium notranslate">{translateCategory(product.categories[0])}</span>
                 </div>
-                <h1 className="text-4xl md:text-6xl font-black text-brand-navy tracking-tight leading-none mb-8 notranslate">
+                <h1 className="text-3xl md:text-6xl font-black text-brand-navy tracking-tight leading-tight mb-8 notranslate">
                   {language === 'pt' ? (product.title_pt || product.title) : (product.title_en || product.title)}
                 </h1>
                 <div className="flex flex-wrap gap-4">
-                  <Link href="/contact-us" className="px-10 py-5 bg-brand-primary text-white font-bold rounded-2xl hover:bg-brand-primary/90 transition-all shadow-xl shadow-brand-primary/20 flex items-center uppercase tracking-widest text-xs" prefetch={false}>
+                  <Link href="/contact-us" className="px-6 py-4 md:px-10 md:py-5 bg-brand-primary text-white font-bold rounded-2xl hover:bg-brand-primary/90 transition-all shadow-xl shadow-brand-primary/20 flex items-center uppercase tracking-widest text-xs" prefetch={false}>
                     {t.requestProposal as string} <ArrowRight className="ml-3 w-4 h-4" />
                   </Link>
-                  <button className="px-10 py-5 bg-gray-100 text-gray-900 font-bold rounded-2xl hover:bg-gray-200 transition-all flex items-center uppercase tracking-widest text-xs">
+                  <button className="px-6 py-4 md:px-10 md:py-5 bg-gray-100 text-gray-900 font-bold rounded-2xl hover:bg-gray-200 transition-all flex items-center uppercase tracking-widest text-xs">
                     {t.downloadDatasheet as string} <Download className="ml-3 w-4 h-4" />
                   </button>
                 </div>

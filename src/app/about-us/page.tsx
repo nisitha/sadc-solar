@@ -39,10 +39,10 @@ export default function AboutUsPage() {
           </span>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="max-w-4xl">
             <div className="text-brand-primary font-black text-xs uppercase tracking-[0.4em] mb-6">{t.established2013 as string}</div>
-            <h1 className="text-5xl md:text-7xl font-black text-gray-900 tracking-tight leading-[1.1] mb-10">
+            <h1 className="text-4xl md:text-7xl font-black text-gray-900 tracking-tight leading-[1.1] mb-10">
               {(t.aboutHeroTitle as string).split(' ').map((word, i) => i === 3 || i === 4 ? <span key={i} className="text-brand-primary">{word} </span> : word + ' ')}
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed font-medium mb-12 max-w-2xl">{t.aboutHeroText as string}</p>

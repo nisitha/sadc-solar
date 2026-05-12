@@ -120,8 +120,8 @@ export default function Home() {
         {/* Brand Fill Overlay */}
         <div className="absolute inset-0 bg-[#EA6003] opacity-0 group-hover:opacity-70 transition-opacity duration-700 ease-in-out z-0" />
 
-        <SectionReveal className="relative z-10 text-center px-6 max-w-4xl pointer-events-none">
-          <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tighter leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
+        <SectionReveal className="relative z-10 text-center px-4 md:px-6 max-w-4xl pointer-events-none">
+          <h2 className="text-3xl md:text-6xl font-bold text-white tracking-tighter leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
             {language === 'pt' ? "Padronizando Energias Renováveis na Região da SADC." : "Standardizing Renewable Energy in the SADC Region."}
           </h2>
           <div className="w-24 h-1.5 bg-white mt-8 mx-auto rounded-full transition-all duration-500 group-hover:w-48 group-hover:bg-[#EA6003] shadow-[0_0_20px_rgba(255,255,255,0.5)]" />
@@ -130,10 +130,10 @@ export default function Home() {
 
       {/* Project Gallery Section */}
       <section className="py-32 bg-gray-900">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
           <SectionReveal className="text-center max-w-3xl mx-auto mb-20">
             <div className="text-brand-accent-2 font-bold text-xs uppercase tracking-[0.3em] mb-4">{t.projectGallery}</div>
-            <h2 className="text-5xl font-black text-white tracking-tight mb-6">{t.ourImpact}</h2>
+            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight mb-6">{t.ourImpact}</h2>
             <p className="text-lg text-white/50 font-medium leading-relaxed">
               {t.galleryDescription}
             </p>

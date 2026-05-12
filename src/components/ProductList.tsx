@@ -39,7 +39,7 @@ export default function ProductList({ initialProducts, categories }: { initialPr
   return (
     <div className="space-y-12">
       {/* Filter Bar */}
-      <div className="bg-white/80 backdrop-blur-md p-6 rounded-[2rem] shadow-sm border border-slate-200 flex flex-col lg:flex-row justify-between items-center gap-8">
+      <div className="bg-white/80 backdrop-blur-md p-4 md:p-6 rounded-[2rem] shadow-sm border border-slate-200 flex flex-col lg:flex-row justify-between items-center gap-6 md:gap-8">
         <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">
           <button 
             onClick={() => setActiveCategory("All")}
@@ -73,7 +73,7 @@ export default function ProductList({ initialProducts, categories }: { initialPr
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
         {filteredProducts.map((p, i) => (
           <SectionReveal key={p.slug}>
             <Link 

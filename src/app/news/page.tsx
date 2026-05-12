@@ -45,15 +45,15 @@ export default function NewsPage() {
       <Header />
 
       <div className="pt-48 pb-32">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6">
           <SectionReveal className="max-w-3xl mb-20">
             <div className="text-[#EA6003] font-bold text-xs uppercase tracking-[0.3em] mb-4">{t.latestUpdates as string}</div>
-            <h1 className="text-5xl md:text-7xl font-black text-white tracking-tight leading-tight">
+            <h1 className="text-4xl md:text-7xl font-black text-white tracking-tight leading-tight">
               {(t.newsInsights as string).split('&')[0]} <span className="text-white/40">& {(t.newsInsights as string).split('&')[1]}</span>
             </h1>
           </SectionReveal>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {NEW_ARTICLES.map((article, i) => (
               <SectionReveal key={i} delay={i * 0.1}>
                 <a 

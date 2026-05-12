@@ -123,7 +123,7 @@ export default function Header() {
               className="fixed inset-0 bg-black/20 backdrop-blur-[2px] z-[58]"
               onClick={() => setIsSearchOpen(false)}
             />
-            <div className="max-w-7xl mx-auto px-6 relative">
+            <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6">
               <motion.div
                 initial={{ opacity: 0, y: 10, scale: 0.98 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -193,7 +193,7 @@ export default function Header() {
       {/* Main Navigation */}
       <nav 
         className={cn(
-          "w-full px-6 transition-all duration-300 border-b",
+          "w-full px-4 md:px-6 transition-all duration-300 border-b",
           isScrolled 
             ? "bg-white/95 backdrop-blur-md py-3 shadow-sm border-gray-100" 
             : "bg-white py-5 border-transparent"

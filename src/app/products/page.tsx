@@ -40,12 +40,12 @@ export default function AllProductsPage() {
       {/* Hero Section */}
       <section className="relative pt-48 pb-24 bg-gray-50/50 overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/5 -skew-x-12 transform origin-top translate-x-32" />
-        <div className="relative z-10 max-w-7xl mx-auto px-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6">
           <div className="text-primary font-bold text-xs uppercase tracking-[0.4em] mb-4">SADC Solar Energy</div>
-          <h1 className="text-6xl md:text-7xl font-black text-gray-900 tracking-tight leading-tight">
+          <h1 className="text-4xl md:text-7xl font-black text-gray-900 tracking-tight leading-tight">
             {t.ourProductsTitle as string}
           </h1>
-          <p className="text-xl text-gray-500 font-medium leading-relaxed max-w-2xl mt-8">
+          <p className="text-lg md:text-xl text-gray-500 font-medium leading-relaxed max-w-2xl mt-8">
             {t.ourProductsDescription as string}
           </p>
         </div>
@@ -53,7 +53,7 @@ export default function AllProductsPage() {
 
       {/* Grid Section */}
       <section className="py-24">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
           {!loading ? (
             <ProductList initialProducts={products} categories={categories} />
           ) : (
