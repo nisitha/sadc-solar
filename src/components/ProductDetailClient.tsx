@@ -9,18 +9,28 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
+import FeatureCard from "@/components/FeatureCard";
 
 const ICON_MAP: Record<string, any> = {
   "User Friendly": Smile,
   "Flexible": Layers,
   "Real-time Monitoring": Eye,
   "High Efficiency": Zap,
+  "Efficient": Zap,
   "Safety First": ShieldCheck,
   "Off-grid Ready": ZapOff,
   "Reliable": Activity,
+  "Robust": ShieldCheck,
   "Water Resistance": Droplet,
   "Anti-reflective": Sun,
-  "Advanced Cooling": Cpu
+  "Advanced Cooling": Cpu,
+  "Convenient": Smile,
+  "Innovative": Cpu,
+  "Highlights": Zap,
+  "Easy to Use": Smile,
+  "KEY FEATURES": Settings,
+  "Product Highlights": Zap,
+  "FEATURES": Settings
 };
 
 export default function ProductDetailClient({
@@ -138,35 +148,36 @@ export default function ProductDetailClient({
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <div className="space-y-10">
+        <div className="mt-24 space-y-16">
+              <div className="space-y-12">
                 <div className="border-l-4 border-brand-yellow pl-8">
-                  <h3 className="text-lg font-black text-brand-navy uppercase tracking-widest mb-6 bg-slate-100 px-4 py-2 rounded-lg inline-block">
+                  <h3 className="text-xl font-black text-brand-navy uppercase tracking-widest mb-8 bg-slate-100 px-6 py-3 rounded-xl inline-block shadow-sm">
                     {t.coreOverview as string}
                   </h3>
                   <div
-                    className="text-lg text-slate-600 leading-relaxed font-medium prose-custom"
+                    className="text-xl text-slate-600 leading-relaxed font-medium prose-custom max-w-5xl"
                     dangerouslySetInnerHTML={{
                       __html: language === 'pt' ? product.content_pt : product.content_en
                     }}
                   />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {product.features?.map((feature: any, i: number) => {
-                    const Icon = ICON_MAP[feature.title] || Activity;
+                    const title = language === 'pt' ? (feature.title_pt || feature.title_en || feature.title) : (feature.title_en || feature.title);
+                    const items = language === 'pt' ? (feature.items_pt || feature.items_en || feature.items || []) : (feature.items_en || feature.items || []);
+                    const Icon = ICON_MAP[feature.title_en || feature.title] || Activity;
+
                     return (
-                      <div key={i} className="p-8 bg-white rounded-[2rem] border border-slate-100 hover:border-brand-yellow/20 transition-all group shadow-sm hover:shadow-md">
-                        <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-brand-navy mb-6 shadow-sm group-hover:scale-110 group-hover:bg-brand-yellow group-hover:text-brand-navy transition-all">
-                          <Icon className="w-6 h-6" />
-                        </div>
-                        <h4 className="text-lg font-bold text-brand-navy mb-2">
-                          {language === 'pt' ? (feature.title_pt || feature.title) : feature.title}
-                        </h4>
-                        <p className="text-sm text-slate-500 font-medium leading-relaxed">
-                          {language === 'pt' ? (feature.description_pt || feature.description) : feature.description}
-                        </p>
-                      </div>
+                      <FeatureCard
+                        key={i}
+                        title={title}
+                        items={items}
+                        icon={Icon}
+                      />
                     );
                   })}
                 </div>
@@ -176,9 +187,8 @@ export default function ProductDetailClient({
             </div>
           </div>
         </div>
-      </div>
 
-      <Footer />
+        <Footer />
     </main>
   );
 }

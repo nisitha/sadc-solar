@@ -27,7 +27,7 @@ export default function RootLayout({
       <head>
         <meta name="google" content="notranslate" />
       </head>
-      <body className="min-h-full flex flex-col bg-white text-gray-900">
+      <body className="min-h-full flex flex-col bg-white text-gray-900" suppressHydrationWarning>
         <LanguageProvider>
           {children}
         </LanguageProvider>

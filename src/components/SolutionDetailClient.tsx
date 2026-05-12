@@ -30,7 +30,7 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
             {t.backToHome as string}
           </Link>
 
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="text-primary font-bold text-xs uppercase tracking-[0.3em] mb-6">
               {isAggregator ? t.strategicSolutions as string : t.expertSolarSolutions as string}
             </div>
