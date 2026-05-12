@@ -26,10 +26,12 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   if (isAggregator) {
     solution = {
       title: slug === "turnkey-solutions" ? "Turnkey Solutions" : "Other Turnkey Solutions",
-      imageUrl: slug === "turnkey-solutions" ? "/img/solutions-hero.webp" : "/img/other-solutions-hero.webp"
+      imageUrl: "/img/standardizing-bg.webp" // Using a valid existing hero background
     };
     categorySolutions = solutions.filter((s: any) => 
-      slug === "turnkey-solutions" ? s.isMainSolution : !s.isMainSolution
+      slug === "turnkey-solutions" 
+        ? s.categories?.includes("Turnkey Solutions") 
+        : s.categories?.includes("Other Turnkey Solutions")
     );
   } else {
     solution = await getPostBySlug(slug);

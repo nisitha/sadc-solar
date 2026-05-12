@@ -35,7 +35,9 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
               {isAggregator ? t.strategicSolutions as string : t.expertSolarSolutions as string}
             </div>
             <h1 className="text-5xl md:text-6xl font-black text-gray-900 tracking-tight leading-tight mb-8">
-              {solution.title}
+              {isAggregator 
+                ? (slug === "turnkey-solutions" ? t.turnkeySolutions as string : t.otherTurnkeySolutions as string) 
+                : solution.title}
             </h1>
             
             <div className="relative rounded-[3rem] overflow-hidden aspect-video mb-16 shadow-2xl group">
@@ -43,7 +45,9 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
                 src={(solution.imageUrl || "/placeholder-solution.webp")
                   .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
                   .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1")} 
-                alt={solution.title}
+                alt={isAggregator 
+                  ? (slug === "turnkey-solutions" ? t.turnkeySolutions as string : t.otherTurnkeySolutions as string) 
+                  : solution.title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
