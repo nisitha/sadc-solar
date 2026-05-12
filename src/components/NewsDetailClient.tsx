@@ -43,7 +43,7 @@ export default function NewsDetailClient({ item }: { item: any }) {
             {item.imageUrl && (
               <div className="rounded-[3rem] overflow-hidden aspect-video mb-16 shadow-2xl">
                 <img 
-                  src={item.imageUrl.replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
+                  src={item.imageUrl} 
                   alt={language === 'pt' ? item.title_pt : item.title_en}
                   className="w-full h-full object-cover"
                 />
@@ -52,7 +52,7 @@ export default function NewsDetailClient({ item }: { item: any }) {
 
             <div 
               className="text-xl text-gray-600 leading-relaxed font-medium wp-content space-y-8 prose-custom"
-              dangerouslySetInnerHTML={{ __html: (language === 'pt' ? item.content_pt : item.content_en).replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/") }}
+              dangerouslySetInnerHTML={{ __html: language === 'pt' ? item.content_pt : item.content_en }}
             />
 
             <div className="mt-24 pt-12 border-t border-gray-100 flex justify-between items-center">

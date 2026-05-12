@@ -42,8 +42,7 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
             
             <div className="relative rounded-[3rem] overflow-hidden aspect-video mb-16 shadow-2xl group">
               <img 
-                src={(solution.imageUrl || "/placeholder-solution.webp")
-                  .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
+                src={solution.imageUrl || "/placeholder-solution.webp"} 
                 alt={isAggregator 
                   ? (slug === "turnkey-solutions" ? t.turnkeySolutions as string : t.otherTurnkeySolutions as string) 
                   : (language === 'pt' ? solution.title_pt : solution.title_en)}
@@ -63,9 +62,7 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
                   >
                     <div className="absolute inset-0 z-0">
                       <img 
-                        src={(item.imageUrl || "/placeholder-solution.webp")
-                          .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
-                          .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1")} 
+                        src={item.imageUrl || "/placeholder-solution.webp"} 
                         alt={language === 'pt' ? item.title_pt : item.title_en}
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                       />
@@ -89,10 +86,7 @@ export default function SolutionDetailClient({ slug, initialSolution, initialCat
               <>
                 <div 
                   className="text-xl text-gray-600 leading-relaxed font-medium wp-content space-y-8 prose-custom"
-                  dangerouslySetInnerHTML={{ __html: (language === 'pt' ? solution.content_pt : solution.content_en)
-                    .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")
-                    .replace(/-\d+x\d+(\.[a-z]+)/gi, "$1") 
-                  }}
+                    dangerouslySetInnerHTML={{ __html: language === 'pt' ? solution.content_pt : solution.content_en }}
                 />
 
                 <div className="mt-20 p-6 md:p-12 bg-gray-50 rounded-[3rem] border border-gray-100">

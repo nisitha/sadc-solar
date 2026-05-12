@@ -8,16 +8,6 @@ interface FeatureCardProps {
 }
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ title, items, icon: Icon }) => {
-  // Simple helper to decode common HTML entities like &gt;
-  const decodeEntities = (text: string) => {
-    return text
-      .replace(/&gt;/g, '>')
-      .replace(/&lt;/g, '<')
-      .replace(/&amp;/g, '&')
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'");
-  };
-
   return (
     <div className="flex flex-col p-6 bg-white rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow h-full w-full overflow-hidden">
       <div className="flex items-center gap-3 mb-4 shrink-0">
@@ -35,7 +25,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, items, icon: Icon }) =
               <Check className="w-3 h-3 text-green-600" strokeWidth={3} />
             </div>
             <span className="flex-1 min-w-0 break-words whitespace-normal text-wrap">
-              {decodeEntities(item)}
+              {item}
             </span>
           </li>
         ))}

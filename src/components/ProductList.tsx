@@ -90,8 +90,7 @@ export default function ProductList({ initialProducts, categories }: { initialPr
                 {/* Image Container - Strict Fixed Height */}
                 <div className="relative h-56 w-full bg-slate-50 p-6 flex items-center justify-center shrink-0">
                   <img 
-                    src={(p.imageUrl || "/placeholder-product.webp")
-                          .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
+                    src={p.imageUrl || "/placeholder-product.webp"} 
                     alt={title}
                     className="max-w-full max-h-full object-contain transition-transform duration-700 ease-in-out group-hover:scale-110"
                   />

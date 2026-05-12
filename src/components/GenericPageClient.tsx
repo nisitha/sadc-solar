@@ -18,7 +18,7 @@ export default function GenericPageClient({ page }: { page: any }) {
         {page.imageUrl && (
           <div className="absolute inset-0 z-0">
             <img 
-              src={page.imageUrl.replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")} 
+              src={page.imageUrl} 
               alt={language === 'pt' ? page.title_pt : page.title_en} 
               className="w-full h-full object-cover opacity-30"
             />
@@ -38,7 +38,7 @@ export default function GenericPageClient({ page }: { page: any }) {
         <div className="max-w-4xl mx-auto px-6">
           <div 
             className="text-lg text-gray-600 leading-relaxed font-medium wp-content space-y-8 prose-custom"
-            dangerouslySetInnerHTML={{ __html: (language === 'pt' ? page.content_pt : page.content_en).replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/") }}
+            dangerouslySetInnerHTML={{ __html: language === 'pt' ? page.content_pt : page.content_en }}
           />
         </div>
       </section>

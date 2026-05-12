@@ -127,8 +127,7 @@ export default function ProductDetailClient({
             <div className="sticky top-32 space-y-8">
               <div className="relative aspect-square rounded-[3rem] overflow-hidden bg-slate-50 border border-slate-100 shadow-sm group">
                 <img
-                  src={(product.imageUrl || "/placeholder-product.webp")
-                    .replace(/https?:\/\/[^\/]+\/wp-content\/uploads\//g, "/uploads/")}
+                  src={product.imageUrl || "/placeholder-product.webp"}
                   alt={language === 'pt' ? product.title_pt : product.title_en}
                   className="w-full h-full object-contain p-12 transition-transform duration-700 group-hover:scale-110"
                 />
