@@ -129,6 +129,16 @@ export const translations = {
     power: "Power",
     efficiency: "Efficiency",
     weight: "Weight",
+    application: "Application",
+    userFriendly: "User Friendly",
+    flexible: "Flexible",
+    safeReliable: "Safe & Reliable",
+    technicalParameter: "Technical Parameter",
+    models: "Models:",
+    twoAcIO: "Two AC inputs and two AC outputs",
+    powerAssist: "PowerAssist exclusive function",
+    unlimitedPower: "Virtually unlimited power thanks to parallel operation",
+    remoteMonitoring: "Remote Monitoring and Control",
 
     // About Us Page
     aboutHeroTitle: "YOUR TRUSTED SOLAR ENERGY SPECIALIST",
@@ -328,6 +338,16 @@ export const translations = {
     power: "Potência",
     efficiency: "Eficiência",
     weight: "Peso",
+    application: "Aplicação",
+    userFriendly: "Fácil de Usar",
+    flexible: "Flexível",
+    safeReliable: "Seguro e Confiável",
+    technicalParameter: "Parâmetros Técnicos",
+    models: "Modelos:",
+    twoAcIO: "Duas entradas AC e duas saídas AC",
+    powerAssist: "Função exclusiva PowerAssist",
+    unlimitedPower: "Potência virtualmente ilimitada graças à operação paralela",
+    remoteMonitoring: "Monitorização e Controlo Remotos",
 
     // About Us Page
     aboutHeroTitle: "O SEU ESPECIALISTA EM ENERGIA SOLAR DE CONFIANÇA",
